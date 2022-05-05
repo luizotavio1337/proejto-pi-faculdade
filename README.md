@@ -1,2 +1,2 @@
-# proejto-pi-faculdade
+# projeto-pi-faculdade
 html

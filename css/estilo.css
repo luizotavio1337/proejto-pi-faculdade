@@ -1,0 +1,63 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.barranav ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #232f3e;
+    list-style-type: none;
+    border: none;
+}
+.barranav li{
+ float: left;
+}
+.barranav li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.categ{
+    font-size: 10pt;
+    font-weight: bold;
+    color: black;
+    background-color: #f2f2f2;
+    padding: 12px;
+    margin: 30px 0px 0px 15px;
+    border-radius: 10px 0px 0px 10px;
+}
+.menup{
+    padding: 30px 1px 15px 1px;
+}
+.menu{
+    padding: 35px 5px 15px 10px;
+}
+.logo{
+ margin: 20px 15px 5px 20px;
+
+}
+.menuc{
+    padding: 35px 5px 15px 10px;
+
+}
+.imgcar{
+    padding: 30px 15px 20px 0px;
+}
+.barranav li input[type=text]{
+    float: right;
+    border: none;
+    padding: 14px 300px 14px 300px;
+
+}
+.barranav .pesquisa button{
+float: right;
+margin: 30px 35px 0px 0px;
+border-radius: 0px 10px 10px 00px;
+padding: 5px;
+background: #febd69;
+border: none;
+cursor: pointer;
+}
