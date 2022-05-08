@@ -23,20 +23,41 @@
                         <div>
                             <span class="c_lista">Lista</span><br>
                             <span class="c_check">Check</span>
-                             <img src="img/fav-icon.png" alt="Icone Lista Check" width="50" height="50" class="img_logo">
+                            <img src="img/fav-icon.png" alt="Icone Lista Check" width="50" height="50" class="img_logo">
                         </div>
                     </a>
-
-
-
-                </div>
-
+                    <!--Barra de pesquisa-->
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarcollapse" style>
+                        <form action="LINKTESTE.php" method="post" class="d-flex">
+                            <input value="" class="form_search form-control ms-1 me-1" type="search"
+                                placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
+                            <button class="btn_search btn-outline-search" type="submit">
+                                <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
+                            </button>
+                        </form>
+                        <!--Login,pedidos,carrinho-->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="Login.html">Fazer<br>Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="pedidos.html">Pedidos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="carrinho.html">Carrinho</a>
+                            </li>
+                        </ul>
+                    </div>
             </nav>
         </div>
 
     </header>
-
-    <script src="bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

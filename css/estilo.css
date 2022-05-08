@@ -78,15 +78,15 @@ body {
 }
 .c_lista{
     color:white;
-    font-size:30px;
+    font-size:40px;
     font-weight: bolder;
-    line-height:1em;
+    line-height:1.3em;
 }
 .c_check {
     color:#febd69;
-    font-size:25px;
+    font-size:35px;
     font-weight: bolder;
-    line-height:0.10em;
+    line-height:0.20em;
 }
 .img_logo{
     margin-top: -1.5em;
@@ -96,3 +96,30 @@ body {
 .H_div{
     line-height: 1.2em;
 }
+.btn_search{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #febd69;
+    border: 1px solid green;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-outline-search {
+    color: #febd69;
+    border-color: #febd69;
+}
+.form_search{
+    display:block;
+}
+
