@@ -1,7 +1,8 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-.barranav ul{
+
+.barranav ul {
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -9,10 +10,12 @@ body {
     list-style-type: none;
     border: none;
 }
-.barranav li{
- float: left;
+
+.barranav li {
+    float: left;
 }
-.barranav li a{
+
+.barranav li a {
     display: block;
     color: #fff;
     text-align: center;
@@ -20,7 +23,8 @@ body {
     font-size: 15pt;
     font-weight: bold;
 }
-.categ{
+
+.categ {
     font-size: 10pt;
     font-weight: bold;
     color: black;
@@ -29,35 +33,66 @@ body {
     margin: 30px 0px 0px 15px;
     border-radius: 10px 0px 0px 10px;
 }
-.menup{
+
+.menup {
     padding: 30px 1px 15px 1px;
 }
-.menu{
+
+.menu {
     padding: 35px 5px 15px 10px;
 }
-.logo{
- margin: 20px 15px 5px 20px;
+
+.logo {
+    margin: 20px 15px 5px 20px;
 
 }
-.menuc{
+
+.menuc {
     padding: 35px 5px 15px 10px;
 
 }
-.imgcar{
+
+.imgcar {
     padding: 30px 15px 20px 0px;
 }
-.barranav li input[type=text]{
+
+.barranav li input[type=text] {
     float: right;
     border: none;
     padding: 14px 300px 14px 300px;
 
 }
-.barranav .pesquisa button{
-float: right;
-margin: 30px 35px 0px 0px;
-border-radius: 0px 10px 10px 00px;
-padding: 5px;
-background: #febd69;
-border: none;
-cursor: pointer;
+
+.barranav .pesquisa button {
+    float: right;
+    margin: 30px 35px 0px 0px;
+    border-radius: 0px 10px 10px 00px;
+    padding: 5px;
+    background: #febd69;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-header {
+    background-color: #152c3e;
+}
+.c_lista{
+    color:white;
+    font-size:30px;
+    font-weight: bolder;
+    line-height:1em;
+}
+.c_check {
+    color:#febd69;
+    font-size:25px;
+    font-weight: bolder;
+    line-height:0.10em;
+}
+.img_logo{
+    margin-top: -1.5em;
+    margin-left: -0.1em;
+    line-height:0.10em;
+}
+.H_div{
+    line-height: 1.2em;
 }
