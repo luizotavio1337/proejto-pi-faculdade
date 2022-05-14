@@ -92,13 +92,14 @@ body {
 }
 
 .img_logo {
-    margin-top: -1.5em;
+    margin-top: -2em;
     margin-left: -0.1em;
     line-height: 0.10em;
 }
 
 .H_div {
     line-height: 1.2em;
+    margin-top: -0.5em;
 }
 
 .btn_search {
