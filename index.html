@@ -9,27 +9,134 @@
     <meta name="keywords" content="Projeto PI, Papelaria, listas, vendas">
     <meta name="author" content="Grupo PI">
     <title>Lista Check</title>
-    <link rel="icon" type="image/x-icon" href="img/icon.jpg">
+    <link rel="icon" type="image/x-icon" href="img/fav-icon.png">
     <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 
 <body>
-    <div class="barranav">
-        </br>
-        <ul>
-            <li class="logo"><a href="index.html"> <img src="img/logo.png"></a></li>
-            <li class="categ">Papelaria</li>
-            <div class="pesquisa">
-                <form action="search">
-                    <li class="menup"><input type="text" placeholder="Pesquise aqui seu produto" name="pesquisa"></li>
-                    <li><button type="submit"><img src="img/pesquisa.png"></button></li>
-                </form>
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-header">
+                <div class="container-fluid">
+                    <a class="navbar-brand mt-10 mb-10" href="index.html">
+                        <div class="H_div">
+                            <span class="c_lista">Lista</span><br>
+                            <span class="c_check">Check</span>
+                            <img src="img/fav-icon.png" alt="Icone Lista Check" width="50" height="50" class="img_logo">
+                        </div>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarcollapse" style>
+
+                        <!--Barra de pesquisa-->
+                        <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
+                            <div class="dropdown">
+                                <!--Selecionar Categorias-->
+                                <button
+                                    class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0"
+                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Papelaria
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Papeis</a></li>
+                                    <li><a class="dropdown-item" href="#">Canetas</a></li>
+                                    <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
+                                </ul>
+                            </div>
+                            <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search"
+                                placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
+                            <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
+                                type="submit">
+                                <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
+                            </button>
+                        </form>
+                        <!--Login,pedidos,carrinho-->
+                        <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="Login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="pedidos.html">Pedidos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="carrinho.html">Carrinho</a>
+                            </li>
+                            <li><a class="nav-link bold" href="carrinho.html"><img src="img/carrinho.png"></a></li>
+
+                        </ul>
+
+            </nav>
+            <br><br><br>
+            <div class="container-fluid">
+                <div class="row row-cols-8">
+                    <div class="col"> <button
+                            class="d-inline btn-outline-menu-navbar btn_cor2 btn dropdown-toggle ms-0 me-0"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">Categorias
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Papeis</a></li>
+                            <li><a class="dropdown-item" href="#">Canetas</a></li>
+                            <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
+                            <li><a class="dropdown-item" href="#">Papeis</a></li>
+                            <li><a class="dropdown-item" href="#">Canetas</a></li>
+                            <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
+                            <li><a class="dropdown-item" href="#">Papeis</a></li>
+                            <li><a class="dropdown-item" href="#">Canetas</a></li>
+                            <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
+                            <li><a class="dropdown-item" href="#">Papeis</a></li>
+                            <li><a class="dropdown-item" href="#">Canetas</a></li>
+                            <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
+                        </ul>
+                    </div>
+                    <div class="col btn btn_cor2" href="#">Listas</div>
+                    <div class="col btn btn_cor2" href="#">Cadernos</div>
+                    <div class="col btn btn_cor2" href="#">Escolar</div>
+                    <div class="col btn btn_cor2" href="#">Escritório</div>
+                    <div class="col btn btn_cor2" href="#">Escrita</div>
+                    <div class="col btn btn_cor2" href="#">Papéis</div>
+                    <div class="col btn btn_cor2" href="#">Eletrônicos</div>
+                </div>
             </div>
-            <li class="menu"><a href="login.html">Faça seu Login</a></li>
-            <li class="menu"><a href="pedidos.html">Pedidos</a></li>
-            <li class="menuc"><a href="carrinho.html">Carrinho</a></li>
-            <li class="imgcar"><a href="carrinho.html"><img src="img/carrinho.png"></a></li>
-    </div>
+        </div>
+
+        <div id="carrosel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="img/banner.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/banner.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/banner.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosel1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosel1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
