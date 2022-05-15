@@ -1,63 +1,119 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+
 }
-.barranav ul{
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    background-color: #232f3e;
-    list-style-type: none;
-    border: none;
+.imgcarr{
+    padding-bottom: 5px;
 }
-.barranav li{
- float: left;
+.bg-header {
+    background-color: #152c3e;
 }
-.barranav li a{
-    display: block;
-    color: #fff;
+
+.c_lista {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 1.3em;
+}
+
+.c_check {
+    color: #febd69;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 0.20em;
+}
+
+.img_logo {
+    margin-top: -2em;
+    margin-left: -0.1em;
+    line-height: 0.10em;
+}
+
+.H_div {
+    line-height: 1.2em;
+    margin-top: -0.5em;
+}
+
+.btn_search {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
     text-align: center;
     text-decoration: none;
-    font-size: 15pt;
-    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #febd69;
+    border: 1px solid #febd69;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-.categ{
-    font-size: 10pt;
-    font-weight: bold;
-    color: black;
-    background-color: #f2f2f2;
-    padding: 12px;
-    margin: 30px 0px 0px 15px;
-    border-radius: 10px 0px 0px 10px;
+
+.form_border {
+    border-radius: 0 !important;
 }
-.menup{
-    padding: 30px 1px 15px 1px;
+
+@media (min-width: 992px) {
+    .wd-search {
+        width: 100% ;
+    }
 }
-.menu{
-    padding: 35px 5px 15px 10px;
+.btn_border {
+    border-radius: 1em !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    height: 44px;
 }
-.logo{
- margin: 20px 15px 5px 20px;
+
+.btn_border_search {
+    border-radius: 1em !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.btn_cor {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #000 !important;
+}
+
+/* Hover do fazer login,pedidos,carrinho */
+.hover_container>li>a {
+    color: #fff !important;
 
 }
-.menuc{
-    padding: 35px 5px 15px 10px;
+
+.hover_container>li>a:hover {
+    color: #febd69 !important;
 
 }
-.imgcar{
-    padding: 30px 15px 20px 0px;
+
+.btn-outline-menu-navbar:focus {
+    box-shadow: 0 0 0 0.25rem #febd697a !important;
 }
-.barranav li input[type=text]{
-    float: right;
-    border: none;
-    padding: 14px 300px 14px 300px;
+.carrosel1 {
+  margin: 5px !important;
+  margin-top: 0px !important;
+  
+}
+.row{
+    background-color:#37475a !important ;
+    color: white !important;
+    padding: 15px !important;
+    padding-top: 30px !important;
+    font-size: 15pt !important;
+    font-weight: bold !important;
 
 }
-.barranav .pesquisa button{
-float: right;
-margin: 30px 35px 0px 0px;
-border-radius: 0px 10px 10px 00px;
-padding: 5px;
-background: #febd69;
-border: none;
-cursor: pointer;
+.btn_cor2{
+    color: white !important;
+    background-color: #37475a !important;
+    font-size: 15pt !important;
+    font-weight: bold !important;
+
 }
