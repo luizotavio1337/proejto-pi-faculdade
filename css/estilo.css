@@ -117,3 +117,27 @@ body {
     font-weight: bold !important;
 
 }
+.carroselBanner .carousel .carousel-item {
+    height: 450px;
+    background-color: #f2f2f2;
+  }
+  
+  .carroselBanner .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 320px;
+  }
+  .carroselprod1 .carousel .carousel-item {
+    height: 250px;
+    background-color: #f2f2f2;
+  }
+  
+  .carroselprod1 .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 250px;
+  }
