@@ -1,0 +1,25 @@
+img{
+    width: 214px;
+    height: 132px;
+}
+.produtos{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+.produto{
+    border: 1px solid #37475a;
+    background-color: #f0ede8;
+    border-radius: 8px;
+}
+.descproduto{
+    text-align: center;
+    font-size: 10px;
+}
+.nomeproduto{
+    text-align: center;
+}
+.subtitulo{
+    text-align: center;
+}
