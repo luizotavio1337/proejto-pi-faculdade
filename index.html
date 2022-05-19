@@ -13,11 +13,9 @@
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
-
 <body>
     <header>
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-header">
                 <div class="container-fluid">
                     <a class="navbar-brand mt-10 mb-10" href="index.html">
                         <div class="H_div">
@@ -44,9 +42,9 @@
                                     Papelaria
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Papeis</a></li>
-                                    <li><a class="dropdown-item" href="#">Canetas</a></li>
-                                    <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
+                                    <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                                    <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                                    <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
                                 </ul>
                             </div>
                             <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search"
@@ -64,89 +62,139 @@
                             <li class="nav-item">
                                 <a class="nav-link bold" href="pedidos.html">Pedidos</a>
                             </li>
-
                             <li class="nav-item">
                                 <a class="nav-link bold" href="carrinho.html">Carrinho</a>
                             </li>
                             <li><a class="nav-link bold" href="carrinho.html"><img src="img/carrinho.png"></a></li>
-
                         </ul>
-
+                    </div>
+                </div>
             </nav>
-            <br><br><br>
-            <div class="container-fluid">
-                <div class="row row-cols-8">
-                    <div class="col"> <button
-                            class="d-inline btn-outline-menu-navbar btn_cor2 btn dropdown-toggle ms-0 me-0"
-                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                            aria-expanded="false">Categorias
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Papeis</a></li>
-                            <li><a class="dropdown-item" href="#">Canetas</a></li>
-                            <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
-                            <li><a class="dropdown-item" href="#">Papeis</a></li>
-                            <li><a class="dropdown-item" href="#">Canetas</a></li>
-                            <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
-                            <li><a class="dropdown-item" href="#">Papeis</a></li>
-                            <li><a class="dropdown-item" href="#">Canetas</a></li>
-                            <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
-                            <li><a class="dropdown-item" href="#">Papeis</a></li>
-                            <li><a class="dropdown-item" href="#">Canetas</a></li>
-                            <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
-                        </ul>
-                    </div>
-                    <div class="col btn btn_cor2" href="#">Listas</div>
-                    <div class="col btn btn_cor2" href="#">Cadernos</div>
-                    <div class="col btn btn_cor2" href="#">Escolar</div>
-                    <div class="col btn btn_cor2" href="#">Escritório</div>
-                    <div class="col btn btn_cor2" href="#">Escrita</div>
-                    <div class="col btn btn_cor2" href="#">Papéis</div>
-                    <div class="col btn btn_cor2" href="#">Eletrônicos</div>
-                </div>
-            </div>
-        </div>
+    </header>
+    <div class="container-fluid menucateg">
+        <ul class="nav nav-fill">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Categorias</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="cadernos.html">Cadernos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="escolar.html">Escolar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="escritorio.html">Escritório</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="escrita.html">Escrita</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="papeis.html">Papéis</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="eletronicos.html">Eletrônicos</a>
+            </li>
+        </ul>
+    </div>
+</header>
 
-        <div class="carroselBanner">
-            <div id="carrosel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="img/banner.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="img/banner.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="img/banner.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carrosel1" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carrosel1" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+    <div class="carroselBanner">
+        <div id="carrosel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="img/banner.png" class="d-block w-100" class="img-fluid" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/banner.png" class="d-block w-100" class="img-fluid" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/banner.png" class="d-block w-100" class="img-fluid" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosel1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosel1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
         </div>
+    </div>
+    <div class="Banner1">
+        <img src="img/banneranuncio.png" class="d-block w-100" alt="...">
+    </div>
+
+    </div>
+    <div class="container">
         <div class="carroselprod1">
             <div id="carrosel2" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <iframe src="carrinho.html" class="d-block w-100" alt="..."></iframe>
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
-                        <iframe src="pagina-prod.html" class="d-block w-100" alt="..."></iframe>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros2.png" class="d-block w-100" alt="...">
                     </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros3.png" class="d-block w-100" alt="...">
+                    </div>
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carrosel2" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -158,7 +206,64 @@
                 </button>
             </div>
         </div>
-    </header>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="carroselprod2">
+            <div id="carrosel3" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros3.png" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrosel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrosel3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="carroselprod3">
+            <div id="carrosel4" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/exemploprodcarros3.png" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrosel4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrosel4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="Banner2">
+        <img src="img/banneranuncio.png" class="d-block w-100" alt="...">
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
