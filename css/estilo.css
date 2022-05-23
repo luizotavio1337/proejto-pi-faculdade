@@ -16,6 +16,8 @@ body {
 
 .bg-header {
     background-color: #152c3e;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -114,16 +116,6 @@ body {
 
 }
 
-.row {
-    background-color: #37475a !important;
-    color: white !important;
-    padding: 15px !important;
-    padding-top: 30px !important;
-    font-size: 15pt !important;
-    font-weight: bold !important;
-
-}
-
 .btn_cor2 {
     color: white !important;
     background-color: #37475a !important;
@@ -148,30 +140,41 @@ body {
 .menucateg>ul>li>a:hover {
     color: #febd69 !important;
 }
-.container-fluid{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+
+.container-fluid {
+    padding: 0px !important;
 }
 
-.footer_style{
-    padding-left: 180px !important;
+.footer_style {
     text-decoration: none !important;
     font-weight: normal !important;
+    background-color: #37475a !important;
+    margin: 0px !important;
 }
-h5{
+
+h5 {
     color: #febd69 !important;
     font-weight: bold !important;
 }
-.footer_style_end
-{
+
+.footer_style_end {
     color: #febd69 !important;
     font-size: 16px !important;
 }
-.lista_footer{
+
+.lista_footer {
     color: white !important;
     text-decoration: none !important;
     font-size: 18px;
 }
-.lista_footer:hover{
+
+.lista_footer:hover {
     color: #febd69 !important;
+}
+
+.footer_end {
+    background-color: #37475a !important;
+    padding: 25px !important;
+    color: #febd69 !important;
+    padding-bottom: 15px !important;
 }
