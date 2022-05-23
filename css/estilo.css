@@ -151,7 +151,6 @@ body {
 .container-fluid{
     padding-left: 0px !important;
     padding-right: 0px !important;
-    overflow: hidden !important;
 }
 
 .footer_style{
