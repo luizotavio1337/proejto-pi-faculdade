@@ -143,9 +143,36 @@ body {
     font-size: 20px !important;
     font-weight: bold !important;
     text-decoration: none !important;
-    font
 }
 
 .menucateg>ul>li>a:hover {
+    color: #febd69 !important;
+}
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow: hidden !important;
+}
+
+.footer_style{
+    padding-left: 180px !important;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+h5{
+    color: #febd69 !important;
+    font-weight: bold !important;
+}
+.footer_style_end
+{
+    color: #febd69 !important;
+    font-size: 16px !important;
+}
+.lista_footer{
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+.lista_footer:hover{
     color: #febd69 !important;
 }
