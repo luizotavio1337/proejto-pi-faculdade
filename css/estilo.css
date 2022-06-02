@@ -136,12 +136,14 @@ body {
     font-weight: bold !important;
     text-decoration: none !important;
 }
+
 .menucateg>ul>li>button {
     color: white !important;
     font-size: 1em !important;
     font-weight: bold !important;
     text-decoration: none !important;
 }
+
 .menucateg>ul>li>a:hover {
     color: #febd69 !important;
 }
@@ -157,6 +159,7 @@ body {
     margin: 0px !important;
     max-width: 100%;
 }
+
 .footer_style>ul {
     line-height: 1em;
 }
@@ -191,51 +194,64 @@ body {
     background-color: #37475a !important;
     color: #febd69 !important;
 }
+
 .footer_end>p {
     color: #febd69 !important;
     text-align: center !important;
     line-height: 0.3em !important;
     font-weight: bold !important;
 }
-.Linha-rodape{
+
+.Linha-rodape {
     border-top: 0.1em solid #f2f2f2 !important;
     margin-top: 0.1em !important;
 }
-.bg-rodape{
+
+.bg-rodape {
     background-color: #37475a;
     align-items: justify !important;
 
 }
-.img_rodape{
+
+.img_rodape {
     padding-left: 5em;
 }
+
 .accordion-item {
     border: none !important;
     background-color: #37475a !important;
 }
+
 @media (max-width: 688px) {
-.lista_footer{
-    font-size: 0.8em !important;
-}   
-.footer_end>p{
-    font-size: 0.9em !important;
-    line-height: 1.2em !important;
-}
-.bg-rodape{
-    font-size: 0.8em !important;
-}
-.social_media{
-    width: 1em !important;
-    height: 1em !important;
-}
-.footer-title {
-    font-size: 1em !important;
-}
-.img_rodape{
-    width: 1em !important;
-    height: 1em !important;
-    padding-left: 0;
-}
-ul{
-padding-inline-start: 0em !important;
+    .lista_footer {
+        font-size: 0.8em !important;
+    }
+
+    .footer_end>p {
+        font-size: 0.9em !important;
+        line-height: 1.2em !important;
+    }
+
+    .bg-rodape {
+        font-size: 0.8em !important;
+    }
+
+    .social_media {
+        width: 1em !important;
+        height: 1em !important;
+    }
+
+    .footer-title {
+        font-size: 1em !important;
+    }
+
+    .img_rodape {
+        width: 1em !important;
+        height: 1em !important;
+        padding-left: 0;
+    }
+
+    ul {
+        padding-inline-start: 0em !important;
+    }
 }
