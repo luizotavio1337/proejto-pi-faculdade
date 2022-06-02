@@ -209,7 +209,10 @@ body {
 .img_rodape{
     padding-left: 5em;
 }
-
+.accordion-item {
+    border: none !important;
+    background-color: #37475a !important;
+}
 @media (max-width: 688px) {
 .lista_footer{
     font-size: 0.8em !important;
@@ -222,8 +225,8 @@ body {
     font-size: 0.8em !important;
 }
 .social_media{
-    width: 5% !important;
-    height: 5% !important;
+    width: 1em !important;
+    height: 1em !important;
 }
 .footer-title {
     font-size: 1em !important;
@@ -233,4 +236,6 @@ body {
     height: 1em !important;
     padding-left: 0;
 }
+ul{
+padding-inline-start: 0em !important;
 }
