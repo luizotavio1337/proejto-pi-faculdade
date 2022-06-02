@@ -1,0 +1,181 @@
+
+* {
+  font-size: 1em !important;
+}
+.menuareap{
+  padding-left: 0em !important;
+  padding-right: 0em !important;
+  border-radius: 0em !important;
+  color: #232f3e;
+}
+.menu_areap_sec{
+  background:#232f3e;
+  color: white;
+  font-weight: bold;
+  border-radius: 0em !important;
+}
+.menu_areap_sec:hover{
+  color: #febd69;
+  font-weight: bold;
+  background: #232f3e;
+}
+.menu_areap_items:hover{
+  color: #febd69;
+  background: #37475a;
+}
+.categ_ativo{
+  border-radius: 0em !important;
+  font-weight: bold !important;
+  border-bottom: 0.2em;
+  padding: 0.5em !important;
+  text-align: center;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 0.8em!important;
+  color: #232f3e;
+}
+.categ_ativo_final{
+  border-radius: 0em !important;
+  font-weight: bold !important;
+  border-bottom: 0.2em;
+  padding: 0.5em !important;
+  text-align: center;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 0.8em!important;
+  color: #232f3e;
+}
+.categ_ativo:hover{
+  background-color: white;
+  color: #febd69;
+}
+.categ_ativo_final:hover{
+  background-color: white;
+  color: #232f3e;
+}
+.categ_ativo_img{
+  border-radius: 0em !important;
+  margin-bottom: 0.2em !important;
+  border-color: #232f3e !important;
+  padding: 0.2em !important;
+  text-align: center;
+  margin: 0px;
+}
+.categ_ativo_img>img{
+  width: 0.6em;
+  height: 0.6em;
+}
+.col-md-2{
+  padding-right: 0em;
+}
+.col-md-10{
+  padding-left: 0em !important;
+}
+hr{
+  margin: 0.2em !important;
+}
+.titulo_prod{
+  font-weight: bold;
+  color: #232f3e;
+  font-size: 1.3em !important;
+  padding: 0.6em;
+  padding-bottom: 0;
+}
+.cod_prod{
+  font-weight: lighter;
+  color: grey;
+  font-size: 0.7em !important;
+  font-style: italic;
+  padding: 0.6em;
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.Slide_prod {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.number_prod{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
