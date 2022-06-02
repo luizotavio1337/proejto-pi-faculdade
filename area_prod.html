@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista Check0">
+    <meta name="keywords" content="Projeto PI, Papelaria, listas, vendas">
+    <meta name="author" content="Grupo PI">
+    <title>Lista Check</title>
+    <link rel="icon" type="image/x-icon" href="img/fav-icon.png">
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilo_area_prod.css" />
+</head>
+
+<body>
+    <!-- =================================================================== -->
+    <!--                        Navbar do site                               -->
+    <!-- =================================================================== -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-header">
+                <a class="navbar-brand mt-10 mb-10" href="index.html">
+                    <div class="H_div">
+                        <span class="c_lista">Lista</span><br>
+                        <span class="c_check">Check</span>
+                        <img src="img/fav-icon.png" alt="Icone Lista Check" width="50" height="50" class="img_logo">
+                    </div>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse"
+                    aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarcollapse" style>
+
+                    <!-- ======================================================================= -->
+                    <!--                  Barra DE PESQUISA                                      -->
+                    <!-- ======================================================================= -->
+                    <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
+                        <div class="dropdown">
+                            <!------------------------->
+                            <!--Selecionar Categorias-->
+                            <!------------------------->
+                            <button
+                                class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0"
+                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Papelaria
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                                <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                                <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                            </ul>
+                        </div>
+                        <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search"
+                            placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
+                        <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
+                            type="submit">
+                            <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
+                        </button>
+                    </form>
+                    <!-- ======================================================================= -->
+                    <!--                           LOGIN PEDIDOS CARRINHO                        -->
+                    <!-- ======================================================================= -->
+                    <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="Login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="pedidos.html">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="carrinho.html">Carrinho</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="carrinho.html"></a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
+        <!-- =============================================================== -->
+        <!--                    Barra de Categorias                          -->
+        <!-- =============================================================== -->
+        <div class="container-fluid menucateg">
+            <ul class="nav nav-fill">
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
+                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="cadernos.html">Cadernos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escolar.html">Escolar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escritorio.html">Escritório</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escrita.html">Escrita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="papeis.html">Papéis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="eletronicos.html">Eletrônicos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ======================================================================= -->
+    <!--                           Menu Lateral                                  -->
+    <!-- ======================================================================= -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="list-group menu_areap d-none d-md-block">
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="canetas_esfero_1_0.html">Canetas Esferográficas 1.0</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="canetas_hidro_0_4.html">Canetas Hidrográficas 0.4</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="canetas_luxo.html">Canetas
+                        Luxo</a>
+                    <a href="caneta_esfero_1_2.html" class="list-group-item list-group-item-action menu_areap_items"
+                        aria-current="true">Canetas Esferográficas 1.2</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="corretivos.hmtl">Corretivos</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="lapis_cor_sextavado.html">Lápis de Cor Sextavado</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="marca_texto.html">Marca
+                        Texto</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                        produtos</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                        produtos</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                        produtos</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                        produtos</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                        produtos</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                        produtos</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                        produtos</a>
+                </div>
+                <div class="list-group menu_areap d-md-none">
+                    <a class="list-group-item list-group-item-action menu_areap_sec" data-bs-toggle="collapse"
+                        data-bs-target="#collapse_menu_lat" aria-expanded="false" aria-controls="collapse_menu_lat">
+                        Seções</a>
+
+                    <div class=".collapse" id="collapse_menu_lat" style="min-height: 1em;">
+                        <div class="collapse collapse-horizontal" id="collapse_menu_lat">
+                            <a class="list-group-item list-group-item-action menu_areap_items"
+                                href="canetas_esfero_1_0.html">Canetas Esferográficas 1.0</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items"
+                                href="canetas_hidro_0_4.html">Canetas Hidrográficas 0.4</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items"
+                                href="canetas_luxo.html">Canetas Luxo</a>
+                            <a href="caneta_esfero_1_2.html"
+                                class="list-group-item list-group-item-action menu_areap_items"
+                                aria-current="true">Canetas Esferográficas 1.2</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items"
+                                href="corretivos.hmtl">Corretivos</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items"
+                                href="lapis_cor_sextavado.html">Lápis de Cor Sextavado</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items"
+                                href="marca_texto.html">Marca Texto</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                produtos</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                produtos</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                produtos</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                produtos</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                produtos</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                produtos</a>
+                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                produtos</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-10">
+                <div class="list-group list-group-horizontal lista_categ">
+                    <a class="categ_ativo" href="Escrita_corretivos.html">Escrita e
+                        Corretivos</a>
+                    <a class="categ_ativo_img"><img src="img/arrow.png"></a>
+
+                    <a class="categ_ativo" href="Canetas_esfero_1_2.html">Canetas Esferográficas 1.2</a>
+
+                    <a class="categ_ativo_img"><img src="img/arrow.png"></a>
+                    <a class="categ_ativo_final">BIC</a>
+                </div>
+                <hr>
+                <p class="titulo_prod">Caneta Esferográfica BIC Cristal Fashion, 10 Cores Vivas, Ponta Média de 1.2
+                    mm,Para
+                    Uma Escrita Divertida, 930813 - BT 10 UN</p>
+                <p class="cod_prod"> Código:xxxxx</p>
+
+                </br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="container-slide-prod">
+                            <div class="row">
+                                <img class="demo cursor" src="img/icon.png" style="width:50%" onclick="currentSlide(1)"
+                                    alt="...">
+                            </div>
+                            <div class="row">
+                                <img class="demo cursor" src="img/icon.png" style="width:50%" onclick="currentSlide(1)"
+                                    alt="...">
+                            </div>
+                            <div class="row">
+                                <img class="demo cursor" src="img/icon.png" style="width:50%" onclick="currentSlide(1)"
+                                    alt="...">
+                            </div>
+                            <div class="row">
+                                <img class="demo cursor" src="img/icon.png" style="width:50%" onclick="currentSlide(1)"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="container-slide-prod">
+                            <div class="Slide_prod">
+                                <div class="number_prod">1/4</div>
+                                <img src="img/facebook.png" style="width:100%">
+                            </div>
+                            <div class="Slide_prod">
+                                <div class="number_prod">2/4</div>
+                                <img src="img/facebook.png" style="width:100%">
+                            </div>
+                            <div class="Slide_prod">
+                                <div class="number_prod">3/4</div>
+                                <img src="img/facebook.png" style="width:100%">
+                            </div>
+                            <div class="Slide_prod">
+                                <div class="number_prod">4/4</div>
+                                <img src="img/facebook.png" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ======================================================================= -->
+    <!--                          RODAPE DO SITE                                 -->
+    <!-- ======================================================================= -->
+    <div class="container-fluid">
+        <footer class="bg-rodape">
+            <div class="d-flex justify-content-center">
+                <ul class="pr-5 pt-2 ml-5 row footer_style">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <p class="footer-title">Institucional</p>
+                        <ul class="footer-alinhamento nav flex-column">
+                            <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.hmtl">Sobre
+                                    nós</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="lista_footer" href="trabalhe_conosco.hmtl">Trabalhe
+                                    Conosco</a></li>
+                            <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
+                                    Conosco</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="lista_footer" href="mapa_do_site.html">Mapa do
+                                    Site</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="lista_footer" href="servicos_check_lista.html">Serviços
+                                    Check Lista</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <p class="footer-title">Dúvidas</p>
+                        <ul class="footer-alinhamento nav flex-column teste">
+                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Como funciona
+                                    a
+                                    loja</a></li>
+                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Cadastro e
+                                    contas</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Devolução e
+                                    trocas</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Segurança</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Política de
+                                    Privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <p class="footer-title">Redes Sociais</p>
+                        <ul class="footer-alinhamento nav flex-column">
+                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                        src="img/instagram.png">
+                                    Instagram</a></li>
+                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                        src="img/facebook.png">
+                                    Facebook</a>
+                            </li>
+                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                        src="img/twitter.png">
+                                    Twitter</a>
+                            </li>
+                            <li class="ms-1 "><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                        src="img/youtube.png">
+                                    Youtube</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <p class="footer-title">Formas de Pagamento</p>
+                        <ul class="footer-alinhamento mb-5 nav flex-column">
+                            <li class="lista_footer mb-2">Cartões de crédito</li>
+                            <li class="lista_footer mb-2">Boleto bancário</li>
+                            <li class="lista_footer mb-2">PIX</li>
+                        </ul>
+                    </div>
+                    <div class="Linha-rodape"></div>
+                    <div class="pt-3 mt-3 container footer_end">
+                        <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
+                            Caiçaras, Patos de Minas - MG</p>
+                        <br>
+                        <p>Telefone de contato: (34) 3823-0300
+                            <img class="img_rodape" src="img/icon.png" alt="...">
+                        </p>
+                    </div>
+            </div>
+    </div>
+    </ul>
+    </div>
+    </footer>
+    <!-- =================================================================== -->
+    <!--                           SCRIPTS DO SITE                           -->
+    <!-- =================================================================== -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/teste.js"></script>
+
+
+</body>
+
+</html>
