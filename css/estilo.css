@@ -155,7 +155,7 @@ body {
     font-weight: normal !important;
     background-color: #37475a !important;
     margin: 0px !important;
-    max-width: 75%;
+    max-width: 100%;
 }
 .footer_style>ul {
     line-height: 1em;
