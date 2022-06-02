@@ -24,43 +24,49 @@ h2{
     justify-content: center;
 }
 
-
-.form-pagamento{
+.form-pagamento {
     border: 1px solid #2e2e2e;
-    border-radius: 5%;
+    border-radius: 3%;
     border-width: 1px;
     width: 500px;
-    height: 220px;
+    height: 420px;
     font-family: times;
     font-size: 25px;
     font-weight: bold;
     font-style: normal;
     padding: 18px 14px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
+    display: inline-block;
+    align-items: center;
+    background-color: white;
 }
 
-.endereco{
+.pagamento{
+    font-size: 18px;
+    font-family: times;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+.endereco {
     border: 1px solid #2e2e2e;
-    border-radius: 5%;
+    border-radius: 3%;
     border-width: 1px;
     width: 500px;
-    height: 450px;
+    height: 420px;
     font-family: times;
     font-size: 15px;
     font-weight: bold;
     font-style: normal;
     padding: 18px 14px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     text-align: center;
-    margin: 0 auto;
+    background-color: white;
 }
+
 .salva-end{
     font-size: 15px;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
@@ -97,4 +103,19 @@ h2{
     text-align: center;
 }
 
+.tudo{
+    background-color: eaeded;
+}
 
+
+.formulario-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.ajust-layout {
+    margin-top: 38px;
+}
