@@ -1,9 +1,3 @@
-* {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     background-color: #fff;
@@ -217,7 +211,7 @@ body {
     padding-left: 5em;
 }
 
-.accordion-item {
+.sanfona_item {
     border: none !important;
     background-color: #37475a !important;
 }

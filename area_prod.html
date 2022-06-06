@@ -13,495 +13,684 @@
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/estilo_area_prod.css" />
+    <link rel="stylesheet" href="css/estilo-page-prod.css" />
 </head>
 
 <body>
-    <!-- =================================================================== -->
-    <!--                        Navbar do site                               -->
-    <!-- =================================================================== -->
-    <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-header">
-                <a class="navbar-brand mt-10 mb-10" href="index.html">
-                    <div class="H_div">
-                        <span class="c_lista">Lista</span><br>
-                        <span class="c_check">Check</span>
-                        <img src="img/fav-icon.png" alt="Icone Lista Check" width="50" height="50" class="img_logo">
-                    </div>
-                </a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse"
-                    aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarcollapse" style>
-
-                    <!-- ======================================================================= -->
-                    <!--                  Barra DE PESQUISA                                      -->
-                    <!-- ======================================================================= -->
-                    <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
-                        <div class="dropdown">
-                            <!------------------------->
-                            <!--Selecionar Categorias-->
-                            <!------------------------->
-                            <button
-                                class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0"
-                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Papelaria
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                                <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                                <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                            </ul>
-                        </div>
-                        <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search"
-                            placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
-                        <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
-                            type="submit">
-                            <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
-                        </button>
-                    </form>
-                    <!-- ======================================================================= -->
-                    <!--                           LOGIN PEDIDOS CARRINHO                        -->
-                    <!-- ======================================================================= -->
-                    <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
-                        <li class="nav-item">
-                            <a class="nav-link bold" href="Login.html">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bold" href="pedidos.html">Pedidos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bold" href="carrinho.html">Carrinho</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bold" href="carrinho.html"></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-        <!-- =============================================================== -->
-        <!--                    Barra de Categorias                          -->
-        <!-- =============================================================== -->
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Categorias
-                    </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="cadernos.html">Cadernos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="escolar.html">Escolar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="escritorio.html">Escritório</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="escrita.html">Escrita</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="papeis.html">Papéis</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="eletronicos.html">Eletrônicos</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-    <!-- ======================================================================= -->
-    <!--                           Menu Lateral                                  -->
-    <!-- ======================================================================= -->
     <div class="container-fluid">
-        <div class="row g-0">
-            <div class="col-md-2">
-                <div class="list-group menu_areap d-none d-md-block">
-                    <a class="list-group-item list-group-item-action menu_areap_sec">
-                        Seções</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items"
-                        href="canetas_esfero_1_0.html">Canetas Esferográficas 1.0</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items"
-                        href="canetas_hidro_0_4.html">Canetas Hidrográficas 0.4</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="canetas_luxo.html">Canetas
-                        Luxo</a>
-                    <a href="caneta_esfero_1_2.html" class="list-group-item list-group-item-action menu_areap_items"
-                        aria-current="true">Canetas Esferográficas 1.2</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items"
-                        href="corretivos.hmtl">Corretivos</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items"
-                        href="lapis_cor_sextavado.html">Lápis de Cor Sextavado</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="marca_texto.html">Marca
-                        Texto</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de produtos</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de produtos</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de produtos</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de produtos</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de produtos</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de produtos</a>
-                    <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de produtos</a>
-                </div>
-                <div class="list-group menu_areap d-md-none">
-                    <a class="list-group-item list-group-item-action menu_areap_sec" data-bs-toggle="collapse"
-                        data-bs-target="#collapse_menu_lat" aria-expanded="false"
-                        aria-controls="collapse_menu_lat">Seções</a>
-                    <div class=".collapse" id="collapse_menu_lat" style="min-height: 1em;">
-                        <div class="collapse collapse-horizontal" id="collapse_menu_lat">
-                            <a class="list-group-item list-group-item-action menu_areap_items"
-                                href="canetas_esfero_1_0.html">Canetas Esferográficas 1.0</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items"
-                                href="canetas_hidro_0_4.html">Canetas Hidrográficas 0.4</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items"
-                                href="canetas_luxo.html">Canetas Luxo</a>
-                            <a href="caneta_esfero_1_2.html"
-                                class="list-group-item list-group-item-action menu_areap_items"
-                                aria-current="true">Canetas Esferográficas 1.2</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items"
-                                href="corretivos.hmtl">Corretivos</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items"
-                                href="lapis_cor_sextavado.html">Lápis de Cor Sextavado</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items"
-                                href="marca_texto.html">Marca Texto</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
-                                produtos</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
-                                produtos</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
-                                produtos</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
-                                produtos</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
-                                produtos</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
-                                produtos</a>
-                            <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
-                                produtos</a>
+        <!-- =================================================================== -->
+        <!--                        Navbar do site                               -->
+        <!-- =================================================================== -->
+        <header>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-header">
+                    <a class="navbar-brand mt-10 mb-10" href="index.html">
+                        <div class="H_div">
+                            <span class="c_lista">Lista</span><br>
+                            <span class="c_check">Check</span>
+                            <img src="img/fav-icon.png" alt="Icone Lista Check" width="50" height="50" class="img_logo">
+                        </div>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarcollapse" style>
+
+                        <!-- ======================================================================= -->
+                        <!--                  Barra DE PESQUISA                                      -->
+                        <!-- ======================================================================= -->
+                        <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
+                            <div class="dropdown">
+                                <!------------------------->
+                                <!--Selecionar Categorias-->
+                                <!------------------------->
+                                <button
+                                    class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0"
+                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Papelaria
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                                    <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                                    <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                                </ul>
+                            </div>
+                            <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search"
+                                placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
+                            <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
+                                type="submit">
+                                <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
+                            </button>
+                        </form>
+                        <!-- ======================================================================= -->
+                        <!--                           LOGIN PEDIDOS CARRINHO                        -->
+                        <!-- ======================================================================= -->
+                        <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="Login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="pedidos.html">Pedidos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="carrinho.html">Carrinho</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bold" href="carrinho.html"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- =============================================================== -->
+            <!--                    Barra de Categorias                          -->
+            <!-- =============================================================== -->
+            <div class="container-fluid menucateg">
+                <ul class="nav nav-fill">
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
+                            <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="cadernos.html">Cadernos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="escolar.html">Escolar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="escritorio.html">Escritório</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="escrita.html">Escrita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="papeis.html">Papéis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="eletronicos.html">Eletrônicos</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- ======================================================================= -->
+        <!--                           Menu Lateral                                  -->
+        <!-- ======================================================================= -->
+        <div class="container-fluid">
+            <div class="row g-0">
+                <div class="col-md-2">
+                    <div class="list-group menu_areap d-none d-md-block">
+                        <a class="list-group-item list-group-item-action menu_areap_sec">
+                            Seções</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items"
+                            href="canetas_esfero_1_0.html">Canetas Esferográficas 1.0</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items"
+                            href="canetas_hidro_0_4.html">Canetas Hidrográficas 0.4</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items"
+                            href="canetas_luxo.html">Canetas
+                            Luxo</a>
+                        <a href="caneta_esfero_1_2.html" class="list-group-item list-group-item-action menu_areap_items"
+                            aria-current="true">Canetas Esferográficas 1.2</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items"
+                            href="corretivos.hmtl">Corretivos</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items"
+                            href="lapis_cor_sextavado.html">Lápis de Cor Sextavado</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items" href="marca_texto.html">Marca
+                            Texto</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                            produtos</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                            produtos</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                            produtos</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                            produtos</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                            produtos</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                            produtos</a>
+                        <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                            produtos</a>
+                    </div>
+                    <div class="list-group menu_areap d-md-none">
+                        <a class="list-group-item list-group-item-action menu_areap_sec" data-bs-toggle="collapse"
+                            data-bs-target="#collapse_menu_lat" aria-expanded="false"
+                            aria-controls="collapse_menu_lat">Seções</a>
+                        <div class=".collapse" id="collapse_menu_lat" style="min-height: 1em;">
+                            <div class="collapse collapse-horizontal" id="collapse_menu_lat">
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="canetas_esfero_1_0.html">Canetas Esferográficas 1.0</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="canetas_hidro_0_4.html">Canetas Hidrográficas 0.4</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="canetas_luxo.html">Canetas Luxo</a>
+                                <a href="caneta_esfero_1_2.html"
+                                    class="list-group-item list-group-item-action menu_areap_items"
+                                    aria-current="true">Canetas Esferográficas 1.2</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="corretivos.hmtl">Corretivos</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="lapis_cor_sextavado.html">Lápis de Cor Sextavado</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="marca_texto.html">Marca Texto</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                    produtos</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                    produtos</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                    produtos</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                    produtos</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                    produtos</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                    produtos</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items" href="#">Exemplo de
+                                    produtos</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-10">
-                <div class="container-fluid">
-                    <div class="list-group list-group-horizontal lista_categ">
-                        <a class="categ_ativo" href="Escrita_corretivos.html">Escrita e
-                            Corretivos</a>
-                        <a class="categ_ativo_img"><img src="img/arrow.png"></a>
+                <!--Sub menu pagina atual-->
 
-                        <a class="categ_ativo" href="Canetas_esfero_1_2.html">Canetas Esferográficas 1.2</a>
+                <div class="col-md-10 area_prod_minus_menu">
+                    <div class="container-fluid">
+                        <div class="list-group list-group-horizontal lista_categ">
+                            <a class="categ_ativo" href="Escrita_corretivos.html">Escrita e
+                                Corretivos</a>
+                            <a class="categ_ativo_img"><img src="img/arrow.png"></a>
 
-                        <a class="categ_ativo_img"><img src="img/arrow.png"></a>
-                        <a class="categ_ativo_final">BIC</a>
-                    </div>
-                    <hr>
-                    <p class="titulo_prod">Caneta Esferográfica BIC Cristal Fashion, 10 Cores Vivas, Ponta Média de 1.2
-                        mm,Para
-                        Uma Escrita Divertida, 930813 - BT 10 UN</p>
-                    <p class="cod_prod"> Código:xxxxx</p>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="container-fluid justify-content-center">
-                                <div id="carousel-pag-prod" class="carousel carousel-dark slide"
-                                    data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="container">
-                                            <img src="img/emprenssora.jpg" class="img_carousel_area_prod" alt="...">
+                            <a class="categ_ativo" href="Canetas_esfero_1_2.html">Canetas Esferográficas 1.2</a>
+
+                            <a class="categ_ativo_img"><img src="img/arrow.png"></a>
+                            <a class="categ_ativo_final">BIC</a>
+                        </div>
+                        <hr>
+                        <!--Titulo Produto-->
+                        <p class="titulo_prod">Caneta Esferográfica BIC Cristal Fashion, 10 Cores Vivas, Ponta Média de
+                            1.2
+                            mm,Para
+                            Uma Escrita Divertida, 930813 - BT 10 UN</p>
+                        <p class="cod_prod"> Código:xxxxx</p>
+                        <!--Carrousel imagem produto-->
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="container-fluid justify-content-center">
+                                    <div id="carousel-pag-prod" class="carousel carousel-dark slide"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="container">
+                                                    <img src="img/emprenssora.jpg" class="img_carousel_area_prod"
+                                                        alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="container">
+                                                    <img src="img/cartucho.png" class="img_carousel_area_prod"
+                                                        alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="container">
+                                                    <img src="img/calculadora.png" class="img_carousel_area_prod"
+                                                        alt="...">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="container">
-                                            <img src="img/cartucho.png" class="img_carousel_area_prod" alt="...">
-                                            </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carousel-pag-prod" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carousel-pag-prod" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card frete e quantidade-->
+                            <div class="col-md-5">
+                                <div class="container-fluid justify-content-center">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">R$ 17,50</h5>
+                                            <form action="enviar.php" method="post" enctype="multipart/form-data">
+                                                <label for="numero_prod">Selecione a quantidade</label>
+                                                <input type="number" id="numero_prod" name="numero_prod" step="1"
+                                                    value="1" style="width: 2.5rem;">
+                                                <button type="submit">Comprar</button>
+                                            </form>
+                                            <br>
+                                            <hr>
+                                            <br>
+                                            <form action="enviar.php" method="post" enctype="multipart/form-data"
+                                                autocomplete="on">
+                                                <label for="frete_prod">Calcular Frete e prazo de entrega</label> </br>
+                                                <input type="text" id="frete_prod" name="frete_prod"
+                                                    placeholder="digite seu CEP" maxlength="8" value="">
+                                                <button type="submit">Calcular</button>
+                                                <br>
+                                            </form>
+
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="container">
-                                            <img src="img/calculadora.png" class="img_carousel_area_prod" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Cards compre junto-->
+                        <div class="container-fluid">
+                            <p>Compre Junto</p>
+                            <hr>
+                            </br>
+                            <div class="row">
+                                <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="card card_prod">
+                                        <div class="card-body">
+                                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod">
+                                            <h5 class="card-title mb-12">Caderno simples</h5>
+                                            <p class="card-text">Descrição produtos </p>
+                                            <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="card card_prod">
+                                        <div class="card-body">
+                                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod">
+                                            <h5 class="card-title mb-12">Caderno simples</h5>
+                                            <p class="card-text">Descrição produtos </p>
+                                            <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="card card_prod">
+                                        <div class="card-body">
+                                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod">
+                                            <h5 class="card-title mb-12">Caderno simples</h5>
+                                            <p class="card-text">Descrição produtos </p>
+                                            <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="card card_prod">
+                                        <div class="card-body">
+                                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod">
+                                            <h5 class="card-title mb-12">Caderno simples</h5>
+                                            <p class="card-text">Descrição produtos </p>
+                                            <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>Descrição</p>
+                        <div class="container-fluid">
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>Caracteristicas do produto</p>
+                                    <ul>
+                                        <li>Caneta Esferográfica BIC Cristal Fashion com Ponta média 1.2 mm vem em
+                                            uma cartela com 10 cores vivas: Preto, azul, azul turquesa, verde claro,
+                                            verde menta, roxa, pink, laranja, dourado e marrom. Ideal para deixar as
+                                            tarefas diárias mais leves e sua escrita mais colorida.Com a BIC você
+                                            garante toda a qualidade necessária para realizar suas tarefas diárias e
+                                            trabalhos impecáveis</li>
+                                    </ul>
+                                    <p>Diferenciadores</p>
+                                    <ul>
+                                        <li>Caneta Esferográfica ponta média 1.2mm.</li>
+                                        <li>10 cores vivas para uma escrita colorida e vibrante.</li>
+                                        <li> Tampa ventilada.</li>
+                                        <li> Tampa e corpo acompanham a cor da tinta.</li>
+                                        <li>Qualidade BIC</li>
+                                    </ul>
+
+                                    <p>Especificações</p>
+                                    <ul>
+                                        <li>Cor: 10 cores fashion</li>
+                                        <li>Indicações: Para escrever</li>
+                                        <li>Volume: Blister 10 unidades</li>
+                                        <li>Modo de Usar: Não se aplica</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <br>
+                        <!--Avaliação e comentario-->
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p>Avaliação do produto</p>
+                                <a href="javascript:void(0)" onclick="Avaliar(1)">
+                                    <img src="img/star0.png" id="s1" class="stars"></a>
+
+                                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                                    <img src="img/star0.png" id="s2" class="stars"></a>
+
+                                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                                    <img src="img/star0.png" id="s3" class="stars"></a>
+
+                                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                                    <img src="img/star0.png" id="s4" class="stars"></a>
+
+                                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                                    <img src="img/star0.png" id="s5" class="stars"></a>
+                                <br>
+                                <span id="rating">0</span><span> de 5 estrelas</span>
+                                <br>
+                            </div>
+                            <div class="col-md-5">
+                                <p>Confira as opiniões dos clientes sobre este produto.</p>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p>Titulo avaliação</p>
+                                        <q>Avaliação em texto do cliente..........................................</q>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="img/star1.png"><img src="img/star1.png"><img
+                                                    src="img/star1.png"><img src="img/star1.png"><img
+                                                    src="img/star1.png">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p>Nome do cliente</p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p>XX/XX/XXXX</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carousel-pag-prod" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carousel-pag-prod" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="container-fluid justify-content-center">
-                                <div class="card" style="width: 18rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title">R$ 17,50</h5>
-
-                                </div>
-                            </div>
-                        </div>
+                        <br>
                     </div>
                 </div>
-                </br>
-            </div>
-        </div>
-        <!-- ======================================================================= -->
-        <!--                          RODAPE DO SITE                                 -->
-        <!-- ======================================================================= -->
-        <div class="container-fluid bg-rodape d-none d-md-block">
-            <br>
-                <ul class="pr-5 pt-2 ml-5 row footer_style">
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <p class="footer-title">Institucional</p>
-                        <ul class="footer-alinhamento nav flex-column">
-                            <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.hmtl">Sobre
-                                    nós</a>
-                            </li>
-                            <li class="nav-item mb-2"><a class="lista_footer" href="trabalhe_conosco.hmtl">Trabalhe
-                                    Conosco</a></li>
-                            <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
-                                    Conosco</a>
-                            </li>
-                            <li class="nav-item mb-2"><a class="lista_footer" href="mapa_do_site.html">Mapa do
-                                    Site</a>
-                            </li>
-                            <li class="nav-item mb-2"><a class="lista_footer" href="servicos_check_lista.html">Serviços
-                                    Check Lista</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <p class="footer-title">Dúvidas</p>
-                        <ul class="footer-alinhamento nav flex-column">
-                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Como funciona
-                                    a
-                                    loja</a></li>
-                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Cadastro e
-                                    contas</a>
-                            </li>
-                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Devolução e
-                                    trocas</a>
-                            </li>
-                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Segurança</a>
-                            </li>
-                            <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Política de
-                                    Privacidade</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <p class="footer-title">Redes Sociais</p>
-                        <ul class="footer-alinhamento nav flex-column">
-                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                        src="img/instagram.png">
-                                    Instagram</a></li>
-                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                        src="img/facebook.png">
-                                    Facebook</a>
-                            </li>
-                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                        src="img/twitter.png">
-                                    Twitter</a>
-                            </li>
-                            <li class="ms-1 "><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                        src="img/youtube.png">
-                                    Youtube</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <p class="footer-title">Formas de Pagamento</p>
-                        <ul class="footer-alinhamento mb-5 nav flex-column">
-                            <li class="lista_footer mb-2">Cartões de crédito</li>
-                            <li class="lista_footer mb-2">Boleto bancário</li>
-                            <li class="lista_footer mb-2">PIX</li>
-                        </ul>
-                    </div>
-                </ul>
-            
-            <div class="Linha-rodape"></div>
-            <div class="pt-3 mt-3 container footer_end">
-                <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
-                    Caiçaras, Patos de Minas - MG</p>
-                <br>
-                <p>Telefone de contato: (34) 3823-0300
-                    <img class="img_rodape" src="img/icon.png" alt="...">
-                </p>
-            </div>
 
-            </footer>
-        </div>
-        <div class="container-fluid bg-rodape d-md-none">
-            <br>
-            <div class="d-flex justify-content-center">
-                <footer>
-                    <div class="accordion" id="sanfona_rodape">
-                        <div class="footer_style">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sanfona-1">
-                                    <p class="footer-title" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse_rodape_1" aria-expanded="true"
-                                        aria-controls="collapse_rodape_1">Institucional</p>
-                                    <ul id="collapse_rodape_1" class="accordion-collapse collapse"
-                                        aria-labelledby="sanfona-1" data-bs-parent="sanfona_rodape">
-                                        <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.hmtl">Sobre
-                                                nós</a>
-                                        </li>
-                                        <li class="nav-item mb-2"><a class="lista_footer"
-                                                href="trabalhe_conosco.hmtl">Trabalhe
-                                                Conosco</a></li>
-                                        <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
-                                                Conosco</a>
-                                        </li>
-                                        <li class="nav-item mb-2"><a class="lista_footer" href="mapa_do_site.html">Mapa
-                                                do
-                                                Site</a>
-                                        </li>
-                                        <li class="nav-item mb-2"><a class="lista_footer"
-                                                href="servicos_check_lista.html">Serviços
-                                                Check Lista</a></li>
-                                    </ul>
-                                </h2>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sanfona-2">
-                                    <p class="footer-title" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse_rodape_2" aria-expanded="true"
-                                        aria-controls="collapse_rodape_2">Dúvidas</p>
-                                    <ul id="collapse_rodape_2" class="accordion-collapse collapse"
-                                        aria-labelledby="sanfona-2" data-bs-parent="sanfona_rodape">
-                                        <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Como
-                                                funciona
-                                                a
-                                                loja</a></li>
-                                        <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Cadastro e
-                                                contas</a>
-                                        </li>
-                                        <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Devolução
-                                                e
-                                                trocas</a>
-                                        </li>
-                                        <li class="nav-item mb-2"><a class="lista_footer"
-                                                href="duvidas.html">Segurança</a>
-                                        </li>
-                                        <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Política
-                                                de
-                                                Privacidade</a></li>
-                                    </ul>
-                                </h2>
-
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sanfona-3">
-                                    <p class="footer-title" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse_rodape_3" aria-expanded="true"
-                                        aria-controls="collapse_rodape_3">Redes Sociais</p>
-                                    <ul id="collapse_rodape_3" class="accordion-collapse collapse"
-                                        aria-labelledby="sanfona-3" data-bs-parent="sanfona_rodape">
-                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                                    src="img/instagram.png">
-                                                Instagram</a></li>
-                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                                    src="img/facebook.png">
-                                                Facebook</a>
-                                        </li>
-                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                                    src="img/twitter.png">
-                                                Twitter</a>
-                                        </li>
-                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                                    src="img/youtube.png">
-                                                Youtube</a>
-                                        </li>
-                                    </ul>
-
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sanfona-4">
-                                    <p class="footer-title" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse_rodape_4" aria-expanded="true"
-                                        aria-controls="collapse_rodape_4">Formas de Pagamento</p>
-                                    <ul id="collapse_rodape_4" class="accordion-collapse collapse"
-                                        aria-labelledby="sanfona-4" data-bs-parent="sanfona_rodape">
-                                        <li class="lista_footer mb-2">Cartões de crédito</li>
-                                        <li class="lista_footer mb-2">Boleto bancário</li>
-                                        <li class="lista_footer mb-2">PIX</li>
-                                    </ul>
-                            </div>
-
+                <!-- ======================================================================= -->
+                <!--                          RODAPE DO SITE                                 -->
+                <!-- ======================================================================= -->
+                <div class="container-fluid bg-rodape d-none d-md-block">
+                    <br>
+                    <ul class="pr-5 pt-2 ml-5 row footer_style">
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <p class="footer-title">Institucional</p>
+                            <ul class="footer-alinhamento nav flex-column">
+                                <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.hmtl">Sobre
+                                        nós</a>
+                                </li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="trabalhe_conosco.hmtl">Trabalhe
+                                        Conosco</a></li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
+                                        Conosco</a>
+                                </li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="mapa_do_site.html">Mapa do
+                                        Site</a>
+                                </li>
+                                <li class="nav-item mb-2"><a class="lista_footer"
+                                        href="servicos_check_lista.html">Serviços
+                                        Check Lista</a></li>
+                            </ul>
                         </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <p class="footer-title">Dúvidas</p>
+                            <ul class="footer-alinhamento nav flex-column">
+                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Como funciona
+                                        a
+                                        loja</a></li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Cadastro e
+                                        contas</a>
+                                </li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Devolução e
+                                        trocas</a>
+                                </li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Segurança</a>
+                                </li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Política de
+                                        Privacidade</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <p class="footer-title">Redes Sociais</p>
+                            <ul class="footer-alinhamento nav flex-column">
+                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                            src="img/instagram.png">
+                                        Instagram</a></li>
+                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                            src="img/facebook.png">
+                                        Facebook</a>
+                                </li>
+                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                            src="img/twitter.png">
+                                        Twitter</a>
+                                </li>
+                                <li class="ms-1 "><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                            src="img/youtube.png">
+                                        Youtube</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <p class="footer-title">Formas de Pagamento</p>
+                            <ul class="footer-alinhamento mb-5 nav flex-column">
+                                <li class="lista_footer mb-2">Cartões de crédito</li>
+                                <li class="lista_footer mb-2">Boleto bancário</li>
+                                <li class="lista_footer mb-2">PIX</li>
+                            </ul>
+                        </div>
+                    </ul>
+
+                    <div class="Linha-rodape"></div>
+                    <div class="pt-3 mt-3 container footer_end">
+                        <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
+                            Caiçaras, Patos de Minas - MG</p>
+                        <br>
+                        <p>Telefone de contato: (34) 3823-0300
+                            <img class="img_rodape" src="img/icon.png" alt="...">
+                        </p>
                     </div>
-            </div>
-            <div class="Linha-rodape"></div>
-            <div class="pt-3 mt-3 container footer_end">
-                <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
-                    Caiçaras, Patos de Minas - MG</p>
-                <br>
-                <p>Telefone de contato: (34) 3823-0300
-                    <img class="img_rodape" src="img/icon.png" alt="...">
-                </p>
-                </footer>
 
-            </div>
+                    </footer>
+                </div>
+                <div class="container-fluid bg-rodape d-md-none">
+                    <br>
+                    <div class="d-flex justify-content-center">
+                        <footer>
+                            <div class="accordion" id="sanfona_rodape">
+                                <div class="footer_style">
+                                    <div class="accordion-item sanfona_item">
+                                        <h2 class="accordion-header" id="sanfona-1">
+                                            <p class="footer-title" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapse_rodape_1" aria-expanded="true"
+                                                aria-controls="collapse_rodape_1">Institucional</p>
+                                            <ul id="collapse_rodape_1" class="accordion-collapse collapse"
+                                                aria-labelledby="sanfona-1" data-bs-parent="sanfona_rodape">
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="sobre_nos.hmtl">Sobre
+                                                        nós</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="trabalhe_conosco.hmtl">Trabalhe
+                                                        Conosco</a></li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="fale_conosco.html">Fale
+                                                        Conosco</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="mapa_do_site.html">Mapa
+                                                        do
+                                                        Site</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="servicos_check_lista.html">Serviços
+                                                        Check Lista</a></li>
+                                            </ul>
+                                        </h2>
+                                    </div>
+                                    <div class="accordion-item sanfona_item">
+                                        <h2 class="accordion-header" id="sanfona-2">
+                                            <p class="footer-title" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapse_rodape_2" aria-expanded="true"
+                                                aria-controls="collapse_rodape_2">Dúvidas</p>
+                                            <ul id="collapse_rodape_2" class="accordion-collapse collapse"
+                                                aria-labelledby="sanfona-2" data-bs-parent="sanfona_rodape">
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="duvidas.html">Como
+                                                        funciona
+                                                        a
+                                                        loja</a></li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="duvidas.html">Cadastro e
+                                                        contas</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="duvidas.html">Devolução
+                                                        e
+                                                        trocas</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="duvidas.html">Segurança</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="duvidas.html">Política
+                                                        de
+                                                        Privacidade</a></li>
+                                            </ul>
+                                        </h2>
+
+                                    </div>
+                                    <div class="accordion-item sanfona_item">
+                                        <h2 class="accordion-header" id="sanfona-3">
+                                            <p class="footer-title" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapse_rodape_3" aria-expanded="true"
+                                                aria-controls="collapse_rodape_3">Redes Sociais</p>
+                                            <ul id="collapse_rodape_3" class="accordion-collapse collapse"
+                                                aria-labelledby="sanfona-3" data-bs-parent="sanfona_rodape">
+                                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                            class="social_media" src="img/instagram.png">
+                                                        Instagram</a></li>
+                                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                            class="social_media" src="img/facebook.png">
+                                                        Facebook</a>
+                                                </li>
+                                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                            class="social_media" src="img/twitter.png">
+                                                        Twitter</a>
+                                                </li>
+                                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                            class="social_media" src="img/youtube.png">
+                                                        Youtube</a>
+                                                </li>
+                                            </ul>
+
+                                    </div>
+                                    <div class="accordion-item sanfona_item">
+                                        <h2 class="accordion-header" id="sanfona-4">
+                                            <p class="footer-title" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapse_rodape_4" aria-expanded="true"
+                                                aria-controls="collapse_rodape_4">Formas de Pagamento</p>
+                                            <ul id="collapse_rodape_4" class="accordion-collapse collapse"
+                                                aria-labelledby="sanfona-4" data-bs-parent="sanfona_rodape">
+                                                <li class="lista_footer mb-2">Cartões de crédito</li>
+                                                <li class="lista_footer mb-2">Boleto bancário</li>
+                                                <li class="lista_footer mb-2">PIX</li>
+                                            </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                    <div class="Linha-rodape"></div>
+                    <div class="pt-3 mt-3 container footer_end">
+                        <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
+                            Caiçaras, Patos de Minas - MG</p>
+                        <br>
+                        <p>Telefone de contato: (34) 3823-0300
+                            <img class="img_rodape" src="img/icon.png" alt="...">
+                        </p>
+                        </footer>
+
+                    </div>
+                </div>
 
 
 
-
-            <!-- =================================================================== -->
-            <!--                           SCRIPTS DO SITE                           -->
-            <!-- =================================================================== -->
-            <script src="js/bootstrap.bundle.min.js"></script>
+                <!-- =================================================================== -->
+                <!--                           SCRIPTS DO SITE                           -->
+                <!-- =================================================================== -->
+                <script src="js/bootstrap.bundle.min.js"></script>
+                <script src="js/funcoes.js"></script>
 
 
 
