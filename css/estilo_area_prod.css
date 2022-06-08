@@ -115,8 +115,8 @@ hr {
 }
 
 .imagem-prod {
-  width: 7.5em;
-  height: 5em;
+  width: 10.75em;
+  height: 7.5em;
   display: flex;
   margin: 0 auto;
   object-fit: contain;
@@ -139,7 +139,7 @@ hr {
 }
 
 
-.card_prod:hover .btn-buy {
+.btn-buy:hover {
   position: absolute;
   display: block;
   background-color: #febd69;
