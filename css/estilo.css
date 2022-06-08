@@ -1,6 +1,6 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background-color: #fff;
+    background-color: #f2f2f2;
 
 }
 
@@ -85,7 +85,7 @@ body {
 
 .btn_cor {
     color: #000 !important;
-    background-color: #fff !important;
+    background-color: #f2f2f2 !important;
     border-color: #000 !important;
 }
 
@@ -151,11 +151,10 @@ body {
     font-weight: normal !important;
     background-color: #37475a !important;
     margin: 0px !important;
-    max-width: 100%;
 }
 
 .footer_style>ul {
-    line-height: 1em;
+
 }
 
 .footer-title {
@@ -192,7 +191,7 @@ body {
 .footer_end>p {
     color: #febd69 !important;
     text-align: center !important;
-    line-height: 0.3em !important;
+    line-height: 1em !important;
     font-weight: bold !important;
 }
 
@@ -203,8 +202,6 @@ body {
 
 .bg-rodape {
     background-color: #37475a;
-    align-items: justify !important;
-
 }
 
 .img_rodape {

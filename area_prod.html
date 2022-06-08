@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/estilo_area_prod.css" />
-    <link rel="stylesheet" href="css/estilo-page-prod.css" />
 </head>
 
 <body>
@@ -306,25 +305,34 @@
                             </div>
                             <!--Card frete e quantidade-->
                             <div class="col-md-5">
-                                <div class="container-fluid justify-content-center">
-                                    <div class="card">
+                                <div class="container-fluid">
+                                    <div class="card card_preço_compra">
                                         <div class="card-body">
-                                            <h5 class="card-title">R$ 17,50</h5>
+                                            <br>
+                                            <h5 class="card-title" id="preco_prod">R$ 17,50</h5>
+                                            <br>
                                             <form action="enviar.php" method="post" enctype="multipart/form-data">
-                                                <label for="numero_prod">Selecione a quantidade</label>
+                                                <label for="numero_prod">
+                                                    <p>Selecione a quantidade:</p>
+                                                </label>
                                                 <input type="number" id="numero_prod" name="numero_prod" step="1"
-                                                    value="1" style="width: 2.5rem;">
-                                                <button type="submit">Comprar</button>
+                                                    value="1" autofocus>
+                                                <button class="btn_comprar" type="submit">Comprar</button>
                                             </form>
+                                            <br>
                                             <br>
                                             <hr>
                                             <br>
+                                            <br>
                                             <form action="enviar.php" method="post" enctype="multipart/form-data"
                                                 autocomplete="on">
-                                                <label for="frete_prod">Calcular Frete e prazo de entrega</label> </br>
+                                                <label for="frete_prod">
+                                                    <p>Calcular Frete e prazo de entrega</p>
+                                                </label> </br>
                                                 <input type="text" id="frete_prod" name="frete_prod"
                                                     placeholder="digite seu CEP" maxlength="8" value="">
-                                                <button type="submit">Calcular</button>
+                                                <button class="btn_frete" type="submit">Calcular</button>
+                                                <br>
                                                 <br>
                                             </form>
 
@@ -335,7 +343,7 @@
                         </div>
                         <!--Cards compre junto-->
                         <div class="container-fluid">
-                            <p>Compre Junto</p>
+                            <p class="titulos_areaprod">Compre Junto</p>
                             <hr>
                             </br>
                             <div class="row">
@@ -394,13 +402,15 @@
                             </div>
                         </div>
                         <br><br><br>
-                        <p>Descrição</p>
+                        <p class="titulos_areaprod">Descrição</p>
+                        <hr>
+                        <br>
                         <div class="container-fluid">
 
                             <div class="card">
                                 <div class="card-body">
-                                    <p>Caracteristicas do produto</p>
-                                    <ul>
+                                    <p class="subtitulo_prod">Caracteristicas do produto</p>
+                                    <ul class="descricao_prod">
                                         <li>Caneta Esferográfica BIC Cristal Fashion com Ponta média 1.2 mm vem em
                                             uma cartela com 10 cores vivas: Preto, azul, azul turquesa, verde claro,
                                             verde menta, roxa, pink, laranja, dourado e marrom. Ideal para deixar as
@@ -408,8 +418,8 @@
                                             garante toda a qualidade necessária para realizar suas tarefas diárias e
                                             trabalhos impecáveis</li>
                                     </ul>
-                                    <p>Diferenciadores</p>
-                                    <ul>
+                                    <p class="subtitulo_prod">Diferenciadores</p>
+                                    <ul class="descricao_prod">
                                         <li>Caneta Esferográfica ponta média 1.2mm.</li>
                                         <li>10 cores vivas para uma escrita colorida e vibrante.</li>
                                         <li> Tampa ventilada.</li>
@@ -417,8 +427,8 @@
                                         <li>Qualidade BIC</li>
                                     </ul>
 
-                                    <p>Especificações</p>
-                                    <ul>
+                                    <p class="subtitulo_prod">Especificações</p>
+                                    <ul class="descricao_prod">
                                         <li>Cor: 10 cores fashion</li>
                                         <li>Indicações: Para escrever</li>
                                         <li>Volume: Blister 10 unidades</li>
@@ -430,33 +440,43 @@
                         </div>
                         <br>
                         <!--Avaliação e comentario-->
+                        <hr>
+                        <br>
                         <div class="row">
                             <div class="col-md-5">
-                                <p>Avaliação do produto</p>
-                                <a href="javascript:void(0)" onclick="Avaliar(1)">
-                                    <img src="img/star0.png" id="s1" class="stars"></a>
+                                <p class="titulos_areaprod">Avaliação do produto</p>
+                                <div class="card card_bottom">
+                                    <div class="card-body">
 
-                                <a href="javascript:void(0)" onclick="Avaliar(2)">
-                                    <img src="img/star0.png" id="s2" class="stars"></a>
+                                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                                            <img src="img/star0.png" id="s1" class="stars"></a>
 
-                                <a href="javascript:void(0)" onclick="Avaliar(3)">
-                                    <img src="img/star0.png" id="s3" class="stars"></a>
+                                        <a href="javascript:void(0)" onclick="Avaliar(2)">
+                                            <img src="img/star0.png" id="s2" class="stars"></a>
 
-                                <a href="javascript:void(0)" onclick="Avaliar(4)">
-                                    <img src="img/star0.png" id="s4" class="stars"></a>
+                                        <a href="javascript:void(0)" onclick="Avaliar(3)">
+                                            <img src="img/star0.png" id="s3" class="stars"></a>
 
-                                <a href="javascript:void(0)" onclick="Avaliar(5)">
-                                    <img src="img/star0.png" id="s5" class="stars"></a>
-                                <br>
-                                <span id="rating">0</span><span> de 5 estrelas</span>
-                                <br>
+                                        <a href="javascript:void(0)" onclick="Avaliar(4)">
+                                            <img src="img/star0.png" id="s4" class="stars"></a>
+
+                                        <a href="javascript:void(0)" onclick="Avaliar(5)">
+                                            <img src="img/star0.png" id="s5" class="stars"></a>
+                                        <br>
+                                        <br>
+                                        <span class="titulos_areaprod" id="rating">0</span><span
+                                            class="titulos_areaprod"> de 5 estrelas</span>
+                                        <br>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-md-5">
-                                <p>Confira as opiniões dos clientes sobre este produto.</p>
-                                <div class="card">
+                                <p class="titulos_areaprod">Confira as opiniões dos clientes sobre este produto.</p>
+                                <div class="card card_bottom">
                                     <div class="card-body">
-                                        <p>Titulo avaliação</p>
-                                        <q>Avaliação em texto do cliente..........................................</q>
+                                        <p class="subtitulo_prod">Titulo avaliação</p>
+                                        <q class="descricao_prod">Avaliação em texto do
+                                            cliente..........................................</q>
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <img src="img/star1.png"><img src="img/star1.png"><img
@@ -464,10 +484,10 @@
                                                     src="img/star1.png">
                                             </div>
                                             <div class="col-md-4">
-                                                <p>Nome do cliente</p>
+                                                <p class="subtitulo_prod">Nome do cliente</p>
                                             </div>
                                             <div class="col-md-4">
-                                                <p>XX/XX/XXXX</p>
+                                                <p class="descricao_prod">XX/XX/XXXX</p>
                                             </div>
                                         </div>
                                     </div>
@@ -483,76 +503,90 @@
                 <!-- ======================================================================= -->
                 <div class="container-fluid bg-rodape d-none d-md-block">
                     <br>
-                    <ul class="pr-5 pt-2 ml-5 row footer_style">
-                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <p class="footer-title">Institucional</p>
-                            <ul class="footer-alinhamento nav flex-column">
-                                <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.hmtl">Sobre
-                                        nós</a>
-                                </li>
-                                <li class="nav-item mb-2"><a class="lista_footer" href="trabalhe_conosco.hmtl">Trabalhe
-                                        Conosco</a></li>
-                                <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
-                                        Conosco</a>
-                                </li>
-                                <li class="nav-item mb-2"><a class="lista_footer" href="mapa_do_site.html">Mapa do
-                                        Site</a>
-                                </li>
-                                <li class="nav-item mb-2"><a class="lista_footer"
-                                        href="servicos_check_lista.html">Serviços
-                                        Check Lista</a></li>
-                            </ul>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-2">
                         </div>
-                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <p class="footer-title">Dúvidas</p>
-                            <ul class="footer-alinhamento nav flex-column">
-                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Como funciona
-                                        a
-                                        loja</a></li>
-                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Cadastro e
-                                        contas</a>
-                                </li>
-                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Devolução e
-                                        trocas</a>
-                                </li>
-                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Segurança</a>
-                                </li>
-                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Política de
-                                        Privacidade</a></li>
-                            </ul>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <p class="footer-title">Institucional</p>
+                                    <ul class="footer-alinhamento nav flex-column">
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.hmtl">Sobre
+                                                nós</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="trabalhe_conosco.hmtl">Trabalhe
+                                                Conosco</a></li>
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
+                                                Conosco</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="mapa_do_site.html">Mapa
+                                                do
+                                                Site</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="servicos_check_lista.html">Serviços
+                                                Check Lista</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="footer-title">Dúvidas</p>
+                                    <ul class="footer-alinhamento nav flex-column">
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Como
+                                                funciona
+                                                a
+                                                loja</a></li>
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Cadastro e
+                                                contas</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Devolução
+                                                e
+                                                trocas</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="duvidas.html">Segurança</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Política
+                                                de
+                                                Privacidade</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="footer-title">Redes Sociais</p>
+                                    <ul class="footer-alinhamento nav flex-column">
+                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                    src="img/instagram.png">
+                                                Instagram</a></li>
+                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                    src="img/facebook.png">
+                                                Facebook</a>
+                                        </li>
+                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                    src="img/twitter.png">
+                                                Twitter</a>
+                                        </li>
+                                        <li class="ms-1 "><a class="lista_footer mb-2" href="#"><img
+                                                    class="social_media" src="img/youtube.png">
+                                                Youtube</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="footer-title">Formas de Pagamento</p>
+                                    <ul class="footer-alinhamento mb-5 nav flex-column">
+                                        <li class="lista_footer mb-2">Cartões de crédito</li>
+                                        <li class="lista_footer mb-2">Boleto bancário</li>
+                                        <li class="lista_footer mb-2">PIX</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <p class="footer-title">Redes Sociais</p>
-                            <ul class="footer-alinhamento nav flex-column">
-                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                            src="img/instagram.png">
-                                        Instagram</a></li>
-                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                            src="img/facebook.png">
-                                        Facebook</a>
-                                </li>
-                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                            src="img/twitter.png">
-                                        Twitter</a>
-                                </li>
-                                <li class="ms-1 "><a class="lista_footer mb-2" href="#"><img class="social_media"
-                                            src="img/youtube.png">
-                                        Youtube</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <p class="footer-title">Formas de Pagamento</p>
-                            <ul class="footer-alinhamento mb-5 nav flex-column">
-                                <li class="lista_footer mb-2">Cartões de crédito</li>
-                                <li class="lista_footer mb-2">Boleto bancário</li>
-                                <li class="lista_footer mb-2">PIX</li>
-                            </ul>
-                        </div>
-                    </ul>
-
+                    </div>
+                    <br>
                     <div class="Linha-rodape"></div>
-                    <div class="pt-3 mt-3 container footer_end">
+                    <div class="container footer_end">
+                        <br>
                         <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
                             Caiçaras, Patos de Minas - MG</p>
                         <br>
@@ -563,6 +597,7 @@
 
                     </footer>
                 </div>
+                <!--Rodapé para telas menores-->
                 <div class="container-fluid bg-rodape d-md-none">
                     <br>
                     <div class="d-flex justify-content-center">
