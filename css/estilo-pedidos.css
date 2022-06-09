@@ -8,11 +8,15 @@
 }
 .titulo-item{
     font-weight: bold;
-    color: black;
+    color: black !important;
 }
 .texto-interno{
-    display: inline-block;
+    position: relative;
+    top: auto;
+    left: 20%;
     font-size: large;
+    margin: 0px;
+    display: inline-block;
 }
 .imagem-produto{
     width: 180px;
@@ -31,4 +35,12 @@
 }
 .accordion-body{
     width: inherit;
+}
+.conteudo{
+    width: inherit;
+}
+.codigo{
+    font-size: small;
+    font-style: italic;
+    font-weight: lighter;
 }
