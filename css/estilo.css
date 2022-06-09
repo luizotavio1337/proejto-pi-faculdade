@@ -153,9 +153,6 @@ body {
     margin: 0px !important;
 }
 
-.footer_style>ul {
-
-}
 
 .footer-title {
     color: #febd69 !important;
@@ -211,6 +208,7 @@ body {
 .sanfona_item {
     border: none !important;
     background-color: #37475a !important;
+    list-style: none;
 }
 
 @media (max-width: 688px) {
@@ -242,6 +240,12 @@ body {
         padding-left: 0;
     }
 
-    ul {
+    .sanfona_item>h2>ul {
         padding-inline-start: 0em !important;
+        list-style: none;
+    }
+
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }

@@ -236,3 +236,8 @@ hr {
 .card_bottom{
   height:8em !important;
 }
+@media (max-width: 688px) {
+  .card_bottom{
+    height: 13em !important;
+  }
+}

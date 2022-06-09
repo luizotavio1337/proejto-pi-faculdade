@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +10,7 @@
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/estilo_area_prod.css" />
+    <link rel="stylesheet" href="css/estilo_trocaedev.css" />
 </head>
 
 <body>
@@ -243,261 +241,129 @@
                         </div>
                     </div>
                 </div>
-                <!--Sub menu pagina atual-->
-
-                <div class="col-md-10 area_prod_minus_menu">
-                    <div class="container-fluid">
-                        <div class="list-group list-group-horizontal lista_categ">
-                            <a class="categ_ativo" href="Escrita_corretivos.html">Escrita e
-                                Corretivos</a>
-                            <a class="categ_ativo_img"><img src="img/arrow.png"></a>
-
-                            <a class="categ_ativo" href="Canetas_esfero_1_2.html">Canetas Esferográficas 1.2</a>
-
-                            <a class="categ_ativo_img"><img src="img/arrow.png"></a>
-                            <a class="categ_ativo_final">BIC</a>
-                        </div>
-                        <hr>
-                        <!--Titulo Produto-->
-                        <p class="titulo_prod">Caneta Esferográfica BIC Cristal Fashion, 10 Cores Vivas, Ponta Média de
-                            1.2
-                            mm,Para
-                            Uma Escrita Divertida, 930813 - BT 10 UN</p>
-                        <p class="cod_prod"> Código:xxxxx</p>
-                        <!--Carrousel imagem produto-->
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="container-fluid justify-content-center">
-                                    <div id="carousel-pag-prod" class="carousel carousel-dark slide"
-                                        data-bs-ride="carousel">
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <div class="container">
-                                                    <img src="img/emprenssora.jpg" class="img_carousel_area_prod"
-                                                        alt="...">
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="container">
-                                                    <img src="img/cartucho.png" class="img_carousel_area_prod"
-                                                        alt="...">
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="container">
-                                                    <img src="img/calculadora.png" class="img_carousel_area_prod"
-                                                        alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button class="carousel-control-prev" type="button"
-                                            data-bs-target="#carousel-pag-prod" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="carousel-control-next" type="button"
-                                            data-bs-target="#carousel-pag-prod" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Card frete e quantidade-->
-                            <div class="col-md-5">
-                                <div class="container-fluid">
-                                    <div class="card card_preço_compra">
-                                        <div class="card-body">
-                                            <br>
-                                            <h5 class="card-title" id="preco_prod">R$ 17,50</h5>
-                                            <br>
-                                            <form action="enviar.php" method="post" enctype="multipart/form-data">
-                                                <label for="numero_prod">
-                                                    <p>Selecione a quantidade:</p>
-                                                </label>
-                                                <input type="number" id="numero_prod" name="numero_prod" step="1"
-                                                    value="1" autofocus>
-                                                <button class="btn_comprar" type="submit">Comprar</button>
-                                            </form>
-                                            <br>
-                                            <br>
-                                            <hr>
-                                            <br>
-                                            <br>
-                                            <form action="enviar.php" method="post" enctype="multipart/form-data"
-                                                autocomplete="on">
-                                                <label for="frete_prod">
-                                                    <p>Calcular Frete e prazo de entrega</p>
-                                                </label> </br>
-                                                <input type="text" id="frete_prod" name="frete_prod"
-                                                    placeholder="digite seu CEP" maxlength="8" value="">
-                                                <button class="btn_frete" type="submit">Calcular</button>
-                                                <br>
-                                                <br>
-                                            </form>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Cards compre junto-->
-                        <div class="container-fluid">
-                            <p class="titulos_areaprod">Compre Junto</p>
-                            <hr>
-                            </br>
-                            <div class="row">
-                                <div class="col-xl-3 col-md-6 col-sm-12">
-                                    <div class="card card_prod">
-                                        <div class="card-body">
-                                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod">
-                                            <h5 class="card-title mb-12">Caderno simples</h5>
-                                            <p class="card-text">Descrição produtos </p>
-                                            <p class="card-text"><strong>R$ 19,99</strong> </p>
-                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-3 col-md-6 col-sm-12">
-                                    <div class="card card_prod">
-                                        <div class="card-body">
-                                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod">
-                                            <h5 class="card-title mb-12">Caderno simples</h5>
-                                            <p class="card-text">Descrição produtos </p>
-                                            <p class="card-text"><strong>R$ 19,99</strong> </p>
-                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-3 col-md-6 col-sm-12">
-                                    <div class="card card_prod">
-                                        <div class="card-body">
-                                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod">
-                                            <h5 class="card-title mb-12">Caderno simples</h5>
-                                            <p class="card-text">Descrição produtos </p>
-                                            <p class="card-text"><strong>R$ 19,99</strong> </p>
-                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-3 col-md-6 col-sm-12">
-                                    <div class="card card_prod">
-                                        <div class="card-body">
-                                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod">
-                                            <h5 class="card-title mb-12">Caderno simples</h5>
-                                            <p class="card-text">Descrição produtos </p>
-                                            <p class="card-text"><strong>R$ 19,99</strong> </p>
-                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <br><br><br>
-                        <p class="titulos_areaprod">Descrição</p>
-                        <hr>
-                        <br>
-                        <div class="container-fluid">
-
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="subtitulo_prod">Caracteristicas do produto</p>
-                                    <ul class="descricao_prod">
-                                        <li>Caneta Esferográfica BIC Cristal Fashion com Ponta média 1.2 mm vem em
-                                            uma cartela com 10 cores vivas: Preto, azul, azul turquesa, verde claro,
-                                            verde menta, roxa, pink, laranja, dourado e marrom. Ideal para deixar as
-                                            tarefas diárias mais leves e sua escrita mais colorida.Com a BIC você
-                                            garante toda a qualidade necessária para realizar suas tarefas diárias e
-                                            trabalhos impecáveis</li>
-                                    </ul>
-                                    <p class="subtitulo_prod">Diferenciadores</p>
-                                    <ul class="descricao_prod">
-                                        <li>Caneta Esferográfica ponta média 1.2mm.</li>
-                                        <li>10 cores vivas para uma escrita colorida e vibrante.</li>
-                                        <li> Tampa ventilada.</li>
-                                        <li> Tampa e corpo acompanham a cor da tinta.</li>
-                                        <li>Qualidade BIC</li>
-                                    </ul>
-
-                                    <p class="subtitulo_prod">Especificações</p>
-                                    <ul class="descricao_prod">
-                                        <li>Cor: 10 cores fashion</li>
-                                        <li>Indicações: Para escrever</li>
-                                        <li>Volume: Blister 10 unidades</li>
-                                        <li>Modo de Usar: Não se aplica</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                        <br>
-                        <!--Avaliação e comentario-->
-                        <hr>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-5">
-                                <p class="titulos_areaprod">Avaliação do produto</p>
-                                <div class="card card_bottom">
-                                    <div class="card-body">
-
-                                        <a href="javascript:void(0)" onclick="Avaliar(1)">
-                                            <img src="img/star0.png" id="s1" class="stars"></a>
-
-                                        <a href="javascript:void(0)" onclick="Avaliar(2)">
-                                            <img src="img/star0.png" id="s2" class="stars"></a>
-
-                                        <a href="javascript:void(0)" onclick="Avaliar(3)">
-                                            <img src="img/star0.png" id="s3" class="stars"></a>
-
-                                        <a href="javascript:void(0)" onclick="Avaliar(4)">
-                                            <img src="img/star0.png" id="s4" class="stars"></a>
-
-                                        <a href="javascript:void(0)" onclick="Avaliar(5)">
-                                            <img src="img/star0.png" id="s5" class="stars"></a>
+                <!--Troca e devolução-->
+                <div class="col-md-10">
+                    <p class="titulo_geral"> Troca e devolução</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10">
+                            <div class="accordion" id="sanfona_troca_dev">
+                                <div class="accordion-item troca_dev_item">
+                                    <h2 class="accordion-header" id="sanfona-troca1">
+                                        <p class="trocaed-title" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse_troca_1" aria-expanded="true"
+                                            aria-controls="collapse_troca_1">Estou insatisfeito com o produto que
+                                            comprei pelo
+                                            site. Como devolver?</p>
+                                        <ul id="collapse_troca_1" class="accordion-collapse collapse.show lista_troca"
+                                            aria-labelledby="sanfona-troca1" data-bs-parent="sanfona_troca_dev">
+                                            <li class="nav-item mb-2">
+                                                <p>Você deverá solicitar o cancelamento da compra em até <bold>7 (sete)
+                                                        dias
+                                                        úteis</bold>, a partir da data do recebimento da mercadoria, nos
+                                                    termos
+                                                    do Artigo 49 do Código de Defesa do Consumidor.</p>
+                                                <p>Não deverá haver violação do lacre da embalagem ou do equipamento se
+                                                    for o
+                                                    caso, ou qualquer indício que o mesmo foi usado, caso contrário o
+                                                    mesmo não
+                                                    será aceito.</p>
+                                                <p>O material deverá estar acompanhado da nota fiscal de compra.</p>
+                                                <p>O Custo da postagem ou coleta da mercadoria será de responsabilidade
+                                                    da Lista
+                                                    Check.</p>
+                                                <p>A restituição do valor do produto será em nome do comprador no caso
+                                                    do
+                                                    pagamento através de boleto ou transferência eletrônica, e o
+                                                    procedimento
+                                                    bancário pode levar até 10 dias úteis. No caso do pagamento com
+                                                    cartão de
+                                                    crédito, o estorno que poderá ser visualizado em em sua próxima
+                                                    fatura ou,
+                                                    dependendo da data do vencimento, na fatura seguinte.</p>
+                                                <p>A restituição do valor pago somente será contada após o reenvio do(s)
+                                                    produto(s) a nossa Central de Distribuição e efetuarmos a análise de
+                                                    suas
+                                                    Condições.</p>
+                                                <p>A devolução não será aceita caso constatemos indícios de uso do(s)
+                                                    produto(s)
+                                                    ou se o mesmo não retornar na embalagem original, por esta razão não
+                                                    rasgue
+                                                    ou danifique a embalagem, manuais e acessórios.</p>
+                                                <p>No caso de eventual atraso na restituição do valor do produto,
+                                                    levando em
+                                                    consideração a política de prazos e condições de reembolso
+                                                    estabelecidas
+                                                    neste site, a Lista Check se compromete a indenizar o consumidor no
+                                                    montante
+                                                    de 2% do valor, além de juros legais de 1% ao mês.</p>
+                                            </li>
+                                        </ul>
                                         <br>
-                                        <br>
-                                        <span class="titulos_areaprod" id="rating">0</span><span
-                                            class="titulos_areaprod"> de 5 estrelas</span>
-                                        <br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <p class="titulos_areaprod">Confira as opiniões dos clientes sobre este produto.</p>
-                                <div class="card card_bottom">
-                                    <div class="card-body">
-                                        <p class="subtitulo_prod">Titulo avaliação</p>
-                                        <q class="descricao_prod">Avaliação em texto do
-                                            cliente..........................................</q>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <img src="img/star1.png"><img src="img/star1.png"><img
-                                                    src="img/star1.png"><img src="img/star1.png"><img
-                                                    src="img/star1.png">
-                                            </div>
-                                            <div class="col-md-4">
-                                                <p class="subtitulo_prod">Nome do cliente</p>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <p class="descricao_prod">XX/XX/XXXX</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        <p class="trocaed-title" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse_troca_2" aria-expanded="true"
+                                            aria-controls="collapse_troca_2">Como faço para trocar um produto
+                                            defeituoso?</p>
+                                        <ul id="collapse_troca_2" class="accordion-collapse collapse lista_troca"
+                                            aria-labelledby="sanfona-troca2" data-bs-parent="sanfona_troca_dev">
+                                            <li class="nav-item mb-2">
+                                                <p>Se, no ato da entrega do produto, você perceber que a embalagem do
+                                                    produto
+                                                    está danificada, sem a fita lacre, para que seja evitado problemas
+                                                    futuros,
+                                                    recuse o recebimento e nos avise imediatamente.</p>
+                                                <p>Não deverá haver violação do lacre da embalagem ou do equipamento se
+                                                    for o
+                                                    caso, ou qualquer indício que o mesmo foi usado, caso contrário o
+                                                    mesmo não
+                                                    será aceito.</p>
+                                                <p>Para produtos que apresentarem defeito técnico ou de fabricação e
+                                                    sendo
+                                                    comunicado em até 7 (sete) dias úteis a partir da data do
+                                                    recebimento da
+                                                    mercadoria, faremos a troca imediata, observando os procedimentos
+                                                    abaixo.
+                                                </p>
+                                                <p>Para que a troca ou a devolução do produto seja feita, deverá estar
+                                                    nas
+                                                    seguintes condições:</p>
+
+                                                <p>- O material deverá estar acompanhado da nota fiscal.</p>
+                                                <p>- Só aceitaremos devolução se a mercadoria estiver perfeitamente
+                                                    acondicionada na embalagem original, e que estiver devidamente
+                                                    acompanhada
+                                                    de seus manuais e acessórios e certificados de garantia.</p>
+                                                <p>- A troca por outro produto semelhante somente será contada após o
+                                                    reenvio
+                                                    do(s) produto(s) a nossa Central de Distribuição e efetuarmos a
+                                                    análise de
+                                                    suas condições.</p>
+                                                <p>- A retirada da mercadoria será de responsabilidade Lista Check.</p>
+                                                <p>A troca somente será efetuada caso não constatemos indícios de mal
+                                                    uso do(s)
+                                                    produto(s) ou se o mesmo retornar na embalagem original, por este
+                                                    motivo
+                                                    solicitamos que não seja rasgada nem danificada. Caso isto ocorra,
+                                                    enviaremos o(s) produto(s) para o endereço de entrega, e neste caso
+                                                    teremos
+                                                    o direito de nova cobrança de frete.</p>
+
+
+                                            </li>
+
+                                        </ul>
+                                    </h2>
                                 </div>
                             </div>
                         </div>
-                        <br>
                     </div>
                 </div>
-
+                <br>
+                <br>
                 <!-- ======================================================================= -->
                 <!--                          RODAPE DO SITE                                 -->
                 <!-- ======================================================================= -->
