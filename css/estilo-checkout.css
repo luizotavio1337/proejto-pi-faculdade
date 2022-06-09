@@ -119,3 +119,34 @@ h2{
 .ajust-layout {
     margin-top: 38px;
 }
+
+@media (max-width: 1150px){
+    .formulario-box{
+        display: grid;
+    }
+}
+
+@media (max-width: 600px){
+    .form-pagamento{
+        width: 450px;
+        height: 380px;
+    }
+    .endereco{
+        width: 450px;
+        height: 395px;
+    }
+    
+}
+
+@media (max-width: 580px){
+    .form-pagamento{
+        width: 360px;
+        height: 395px;
+    }
+    .endereco{
+        width: 360px;
+        height: 395px;
+    }
+
+}
+
