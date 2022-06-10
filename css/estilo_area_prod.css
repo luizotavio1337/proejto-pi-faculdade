@@ -14,8 +14,6 @@ body{
   color: white;
   font-weight: bold;
   border-radius: 0em !important;
-  padding-left: 1em;
-  padding-right: 0em;
 }
 
 .menu_areap_sec:hover {
@@ -88,6 +86,11 @@ body{
 
 hr {
   margin: 0.2em !important;
+}
+.menulat_item{
+  border: none !important;
+  border-width: 0 !important;
+  box-shadow: none !important;
 }
 
 .titulo_prod {
@@ -204,6 +207,7 @@ hr {
   height: 2em;
   border: solid black 0.1em!important;
   margin-left: 1em;
+  margin: 1px;
 }
 .btn_frete:hover{
   background-color: #febd69 !important;
@@ -229,7 +233,7 @@ hr {
 }
 .subtitulo_prod{
   color: #37475a;
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: left;
   font-weight: bold;
 }
