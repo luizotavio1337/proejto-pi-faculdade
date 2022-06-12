@@ -1,0 +1,48 @@
+body
+{
+background-color: #f2f2f2;
+}
+.menufaleconosco{
+    background-color:  #febd69;
+}
+.list-group-item-menu_fale{
+    background-color: #febd69 !important;
+    color:white !important;
+}
+.faleconosco-borda-off
+{
+    border:none
+}
+.faleconosco-linha-esquerda
+{
+    border-right: 0.01em solid white !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+}
+.faleconosco-btnmenu button ~ .active,.nav-link.active
+{
+    color:#febd69 !important;
+    background-color: #212529 !important;
+    font-size: 1.01em !important;
+    font-weight: bold;
+}
+.faleconosco-estilobtn
+{
+    color:black !important;
+    font-size: 0.8em !important;
+    font-weight: bold !important;
+}
+.bg-faleconosco-menu
+{
+background-color: #37475ae7;
+}
+.tamanhoautomatico
+{
+    width: 100%;
+    height: auto;
+}
+.faleconosco-menufonte
+{
+    color:white;
+}
