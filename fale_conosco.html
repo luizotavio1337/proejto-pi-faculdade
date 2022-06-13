@@ -159,12 +159,14 @@
                     </li>
                 </ul>
             </div>
-            <!--*******************************************-->
-            <img src="img/banneranuncio.png" alt="BANNER SITE" class="tamanhoautomatico">
-            <!--*******************************************-->
-            <div class="container-fluid faleconosco-btnmenu">
-                <div class="d-flex align-items-start bg-faleconosco-menu">
-                    <div class="nav flex-column nav-pills col-md-2 ps-1 pt-1 me-3" id="v-pills-tab" role="tablist"
+        </div>
+        <!--*******************************************-->
+        <img src="img/banneranuncio.png" alt="BANNER SITE" class="tamanhoautomatico">
+        <!--*******************************************-->
+        <div class="row fale-conosco-estilo-menu pt-5 ps-3">
+            <div class="col-4 col-md-3 fale-conosco-botoesestilo">
+                <div class="container">
+                    <div class="nav flex-column nav-pills ps-1 pt-1 me-3" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
                         <button class="nav-link active faleconosco-estilobtn" id="v-pills-lista-tab"
                             data-bs-toggle="pill" data-bs-target="#v-pills-lista" type="button" role="tab"
@@ -176,19 +178,56 @@
                             data-bs-target="#v-pills-fale" type="button" role="tab" aria-controls="v-pills-fale"
                             aria-selected="false">Fale Conosco</button>
                     </div>
-                    <div class="tab-content pt-2 col-md-10" id="v-pills-tabContent">
+                </div>
+            </div>
+            <div class="col-8 col-md-9">
+                <div class="container">
+                    <div class="tab-content pt-2" id="v-pills-tabContent">
                         <div class="tab-pane fade show active faleconosco-menufonte" id="v-pills-lista" role="tabpanel"
                             aria-labelledby="v-pills-lista-tab" tabindex="0">Bem vindo, Selecione no menu lateral oque
                             voce deseja saber!!</div>
                         <div class="tab-pane fade faleconosco-menufonte" id="v-pills-duvida" role="tabpanel"
-                            aria-labelledby="v-pills-duvida-tab" tabindex="0">TEXTO AQUI</div>
-                        <div class="tab-pane fade faleconosco-menufonte" id="v-pills-fale" role="tabpanel" aria-labelledby="v-pills-fale-tab"
-                            tabindex="0">TEXTO AQUI @@#@#<div>
+                            aria-labelledby="v-pills-duvida-tab" tabindex="0">TEXTO AQUI
+                        </div>
+                        <div class="tab-pane fade faleconosco-menufonte" id="v-pills-fale" role="tabpanel"
+                            aria-labelledby="v-pills-fale-tab" tabindex="0">
+                            <div>
+                                <p>Olá,</p>
+                                <p>Para podermos te ajuda da melhor maneira possivel porfavor, preencha o formulario
+                                    abaixo
+                                    a assim que possivel contactaremos você!!</p>
+                                <form method="post" action="#" class="row">
+                                    <div class="col-md-6">
+                                        <label for="faleconosco-nome">Nome: </label>
+                                        <input type="text" value="" id="faleconosconome" placeholder="Insira seu nome"
+                                            size="" class="faleconosco-formulario">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="faleconosco-email">Email: </label>
+                                        <input type="email" value="" id="faleconosco-email"
+                                            placeholder="Insira seu email" size="" class="faleconosco-formulario">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="faleconosco-texto">Mensagem: </label>
+                                        <textarea id="faleconosco-texto" rows="3"
+                                            class="faleconosco-formulario" placeholder="Digite a sua mensagem aqui"></textarea>
+                                    </div>
+                                    <div class="pt-3">
+                                        <button type="submit" class="faleconosco-formulario-enviar">Enviar</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <script src=" js/bootstrap.bundle.min.js">
-                    </script>
+                </div>
+            </div>
+        </div>
+
+        <!-- TESTE  -->
+        </div>
+    </header>
+
+    <script src=" js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

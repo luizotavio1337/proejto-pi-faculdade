@@ -1,48 +1,85 @@
-body
-{
-background-color: #f2f2f2;
+body {
+    background-color: #f2f2f2;
 }
-.menufaleconosco{
-    background-color:  #febd69;
+
+.menufaleconosco {
+    background-color: #febd69;
 }
-.list-group-item-menu_fale{
+
+.list-group-item-menu_fale {
     background-color: #febd69 !important;
-    color:white !important;
+    color: white !important;
 }
-.faleconosco-borda-off
-{
-    border:none
+
+.faleconosco-borda-off {
+    border: none
 }
-.faleconosco-linha-esquerda
-{
+
+.faleconosco-linha-esquerda {
     border-right: 0.01em solid white !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none !important;
 }
-.faleconosco-btnmenu button ~ .active,.nav-link.active
-{
-    color:#febd69 !important;
+
+.faleconosco-btnmenu button~.active,
+.nav-link.active {
+    color: #febd69 !important;
     background-color: #212529 !important;
     font-size: 1.01em !important;
     font-weight: bold;
 }
-.faleconosco-estilobtn
-{
-    color:black !important;
+
+.faleconosco-estilobtn {
+    color: black !important;
     font-size: 0.8em !important;
     font-weight: bold !important;
 }
-.bg-faleconosco-menu
-{
-background-color: #37475ae7;
+
+.bg-faleconosco-menu {
+    background-color: #37475ae7;
 }
-.tamanhoautomatico
-{
+
+.tamanhoautomatico {
     width: 100%;
     height: auto;
 }
-.faleconosco-menufonte
-{
-    color:white;
+
+.faleconosco-menufonte {
+    color: #212529;
+    font-weight: bold;
+}
+
+.fale-conosco-estilo-menu {
+    margin: 0px !important;
+}
+
+.fale-conosco-botoesestilo {
+    border-right: 1px solid black;
+}
+
+.faleconosco-formulario {
+    display: block;
+    width: 100%;
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    appearance: none;
+    border: 1px solid #21252933;
+    background-color: #fcfcfc;
+    resize: none;
+}
+
+.faleconosco-formulario:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #212529;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #21252933;
+    transition: all 0.2s ease 0s;
+}
+
+.faleconosco-formulario-enviar {
+    padding-top:2em;
+    appearance: none;
+    padding: 0.1rem 1.5rem;
 }
