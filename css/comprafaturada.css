@@ -1,0 +1,47 @@
+    .h05 {
+        font-family: times new roman;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        text-align: initial;
+        border: 100px;
+        padding: 20px;
+        margin: auto;
+        background-color: rgb(230, 150, 53);
+    }
+    
+    .img01 {
+        text-align: left;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    
+    .h06 {
+        font-family: times new roman;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        text-align: initial;
+        border: 100px;
+        padding: 20px;
+        margin: auto;
+        background-color: #37475a;
+    }
+    
+    .img02 {
+        text-align: end;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    
+    .p01 {
+        font-size: 18px;
+        font-family: times new roman;
+        color: white;
+    }

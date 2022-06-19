@@ -1,0 +1,22 @@
+.h1 {
+    font-family: times new roman;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+}
+
+.center2 {
+    font-family: times new roman;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #153052;
+    padding: auto;
+    margin: auto;
+}
+
+.img2 {
+    text-align: center;
+}
