@@ -46,10 +46,6 @@ body {
     margin: 0px !important;
 }
 
-.fale-conosco-botoesestilo {
-    border-right: 1px solid black;
-}
-
 .faleconosco-formulario {
     display: block;
     width: 100%;
@@ -244,4 +240,19 @@ h5 {
 }
 .accordion {
     --bs-accordion-btn-icon-width: 0rem !important;
+}
+.fale-conosco-botoesestilo {
+    border-right: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .fale-conosco-botoesestilo {
+        padding-bottom: 1em;
+        padding-top: 1em;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .fale-conosco-estilo-menu{
+        text-align: center;
+    }
 }
