@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finalizar Pedido</title>
-    <link rel="stylesheet" href="css/estilo-checkout.css">
+    <title>Pedido Finalizado</title>
+    <link rel="stylesheet" href="css/realizada.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- Tag para adicionar favicon(Logo ao lado do título da página) -->
     <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
 </head>
 <body>
-    <!-- =================================================================== -->
+    
+        <!-- =================================================================== -->
     <!--                        Navbar do site                               -->
     <!-- =================================================================== -->
     <header>
@@ -157,72 +157,14 @@
         </div>
         </div>
     </header>
-<br>
-<div class="tudo">
-    <div class="titulos">
-        <img style="width: 50px;" src="img/fav-icon.png" alt="">
-        <h1>Finalizar Pedido</h1>
-    </div>
-    <hr>
-   
-    <div class="formulario-box">
-        <div class="form-pagamento">
-            <form>
-                <div class="pagamento">
-                    <h2>Selecione uma forma de pagamento:</h2>
-                    <hr>
-                    <div class="ajust-layout">
-                        <h3 style="font-size: 20px; text-align: left;">Pix</h3>
-                    <input type="radio" name="formas">
-                    <label for="form-pagamento"><img width="30px" src="img/pix.png" alt="">  Mais rápido e fácil!</label>
-                    <br>
-                    <hr>
-                    <h3 style="font-size: 20px; text-align: left;">Cartão</h3>
-                    <input type="radio" name="formas">
-                    <label for="form-pagamento"><img width="30px" src="img/cartao.png" alt="">  Parcele sua compra sem juros!</label>
-                    <br>
-                    <hr>
-                    <h3 style="font-size: 20px; text-align: left;">Boleto</h3>
-                    <input type="radio" name="formas">
-                    <label for="form-pagamento"><img width="55px" src="img/boleto-pagamento.png" alt="">Pague sua compra no dinheiro.</label>
-                    <br>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="endereco">
-                <div class="infos">
-                    <h2>Endereço da entrega:</h2>
-                    <hr>
-                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Cidade">
-                    <br> <br>
-                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Bairro">
-                    <br> <br>
-                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Rua">
-                    <br> <br>
-                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="number" placeholder="Número">
-                    <br> <br>
-                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Cep" required pattern="\d{5}-\d{3}">
-                    <br> <br>
-                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Complemento(opcional)">
-                    <br>
-                    <br>
-                    <div class="salva-end">
-                        <input type="checkbox" name="end">
-                        <label for="endereco">Salvar endereço</label>
-                    </div>
-                </div>
-        </div>
-    </div>
-    
-    <br> <br>
+    <br>
 
-    <div class="botao">
-
-        <a href="compra-realizada.html" class="myButton">Finalizar pedido</a>
-
+    <div class="mensagem">
+    <h1>Parabéns!!! Seu pedido foi realizado com sucesso!</h1>
+    <h2>Lista Check, sempre por você!!</h2>
+    <p><img src="img/fav-icon.png" alt=""></p>
     </div>
-    <br> <br> <br> <br>
+
 
     <footer>
         <div class="container-fluid">
@@ -443,6 +385,6 @@
         </div>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
-</div>
+
 </body>
 </html>

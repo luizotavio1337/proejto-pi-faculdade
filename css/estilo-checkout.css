@@ -4,35 +4,15 @@
     justify-content: center;
 }
 
-h1{
-    font-family:times;
-    font-size:40px;
-    font-weight:bold;
-    font-style: normal;
-    color:black;
-    display: flex;
-    justify-content: center;
-}
-
-h2{
-    font-family:times;
-    font-size:30px;
-    font-weight:bold;
-    font-style: normal;
-    color:black;
-    display: flex;
-    justify-content: center;
-}
-
 .form-pagamento {
     border: 1px solid #2e2e2e;
     border-radius: 3%;
     border-width: 1px;
     width: 500px;
     height: 420px;
-    font-family: times;
+    font-family: helvetica;
     font-size: 25px;
-    font-weight: bold;
+    
     font-style: normal;
     padding: 18px 14px;
     display: inline-block;
@@ -42,8 +22,8 @@ h2{
 
 .pagamento{
     font-size: 18px;
-    font-family: times;
-    font-weight: bold;
+    font-family: helvetica;
+    
     font-style: normal;
     
 }
@@ -54,7 +34,7 @@ h2{
     border-width: 1px;
     width: 500px;
     height: 420px;
-    font-family: times;
+    font-family: helvetica;
     font-size: 15px;
     font-weight: bold;
     font-style: normal;
@@ -78,7 +58,7 @@ h2{
 	display:inline-block;
 	cursor:pointer;
 	color:#333333;
-	font-family:Arial;
+	font-family: helvetica;
 	font-size:15px;
 	font-weight:bold;
 	padding:7px 22px;
@@ -105,6 +85,7 @@ h2{
 
 .tudo{
     background-color: eaeded;
+    font-family: helvetica;
 }
 
 
@@ -129,7 +110,7 @@ h2{
 @media (max-width: 600px){
     .form-pagamento{
         width: 450px;
-        height: 380px;
+        height: 400px;
     }
     .endereco{
         width: 450px;
