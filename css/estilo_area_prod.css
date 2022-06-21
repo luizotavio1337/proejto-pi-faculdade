@@ -1,6 +1,7 @@
-body{
-  background-color:#f2f2f2 ;
+body {
+  background-color: #f2f2f2;
 }
+
 .menuareap {
   padding-left: 0em !important;
   padding-right: 0em !important;
@@ -25,6 +26,11 @@ body{
 .menu_areap_items:hover {
   color: #febd69;
   background-color: #37475a;
+}
+
+.menu_ativo {
+  color: #febd69 !important;
+  background-color: #37475a !important;
 }
 
 .categ_ativo {
@@ -87,7 +93,8 @@ body{
 hr {
   margin: 0.2em !important;
 }
-.menulat_item{
+
+.menulat_item {
   border: none !important;
   border-width: 0 !important;
   box-shadow: none !important;
@@ -162,85 +169,102 @@ hr {
   background-color: #37475a;
   border: #37475a;
 }
-.area_prod_minus_menu{
-  padding: 1em!important;
+
+.area_prod_minus_menu {
+  padding: 1em !important;
 }
-.stars{
-  padding:0.5em;
+
+.stars {
+  padding: 0.5em;
 }
-#preco_prod{
-  font-size: 1.7em!important;
+
+#preco_prod {
+  font-size: 1.7em !important;
   text-align: center;
 }
-.btn_comprar{
+
+.btn_comprar {
   background-color: #febd69 !important;
   border-radius: 0.6em !important;
   text-align: center !important;
   color: white;
   width: 12em;
   height: 2em;
-  border: solid black 0.1em!important;
+  border: solid black 0.1em !important;
   margin-left: 2.25em;
 }
-#numero_prod{
+
+#numero_prod {
   width: 3em;
   border-radius: 0.6em;
   margin: 0.1em;
 }
-.card_preço_compra{
+
+.card_preço_compra {
   border-radius: 0.5em;
   background-color: white;
   text-align: center;
 }
-#frete_prod{
+
+#frete_prod {
   border: #232f3e solid 0.1em;
   border-radius: 0.5em;
   text-align: center;
   background-color: white;
 }
-.btn_frete{
+
+.btn_frete {
   background-color: #37475a !important;
   border-radius: 0.6em !important;
   text-align: center !important;
   color: white;
   width: 6em;
   height: 2em;
-  border: solid black 0.1em!important;
+  border: solid black 0.1em !important;
   margin-left: 1em;
   margin: 1px;
 }
-.btn_frete:hover{
+
+.btn_frete:hover {
   background-color: #febd69 !important;
 }
-.btn_comprar:hover{
+
+.btn_comprar:hover {
   background-color: #37475a !important;
 }
-.card-body>form>label>p{
+
+.card-body>form>label>p {
   color: #232f3e !important;
   font-size: 1.15em;
 }
-.titulos_areaprod{
+
+.titulos_areaprod {
   color: #37475a;
   font-size: 1.3em;
   text-align: left;
   font-weight: bold;
 }
-.descricao_prod{
+
+.descricao_prod {
   list-style: none;
   font-size: 1em;
   color: #37475a;
   text-align: justify;
 }
-.subtitulo_prod{
+
+.subtitulo_prod {
   color: #37475a;
   font-size: 1em;
   text-align: left;
   font-weight: bold;
 }
-.preco-card{
+
+.preco-card {
   text-align: center !important;
 }
-@media (max-width: 688px) {
 
-
+.card_prod {
+  height: 23em !important;
 }
+
+@media (max-width: 688px) {}
