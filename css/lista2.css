@@ -151,3 +151,9 @@ body {
 .navbar{
     padding-bottom: 1rem !important;
 }
+
+.container{
+    background-color:#152c3e;
+    color:#fff;
+
+}
