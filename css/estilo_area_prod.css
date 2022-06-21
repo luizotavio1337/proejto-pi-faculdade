@@ -237,11 +237,10 @@ hr {
   text-align: left;
   font-weight: bold;
 }
-.card_bottom{
-  height:8em !important;
+.preco-card{
+  text-align: center !important;
 }
 @media (max-width: 688px) {
-  .card_bottom{
-    height: 13em !important;
-  }
+
+
 }
