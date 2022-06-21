@@ -207,7 +207,13 @@ body {
     text-align: center;
     font-weight: bold;
   }
-
+.menu_categ_fix{
+    color: #febd69 !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    margin: 0em!important;
+}
 @media (max-width: 688px) {
     .lista_footer {
         font-size: 0.8em !important;

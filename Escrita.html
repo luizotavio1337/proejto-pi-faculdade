@@ -14,7 +14,9 @@
 </head>
 
 <body>
-
+    <!-- =================================================================== -->
+    <!--                        Navbar do site                               -->
+    <!-- =================================================================== -->
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark bg-header">
@@ -31,29 +33,30 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarcollapse" style>
 
-                    <!--Barra de pesquisa-->
+                    <!-- ======================================================================= -->
+                    <!--                  Barra DE PESQUISA                                      -->
+                    <!-- ======================================================================= -->
                     <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
                         <div class="dropdown">
+                            <!------------------------->
                             <!--Selecionar Categorias-->
+                            <!------------------------->
                             <button
-                                class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0"
-                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Papelaria
+                                class="d-inline btn-outline-menu-navbar btn_cor btn_border btn ms-0 me-0"
+                                type="button" aria-expanded="false">
+                                Escrita
                             </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                                <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                                <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                            </ul>
                         </div>
-                        <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search"
+                        <input value="" class="btn-outline-menu-navbar form_border form-control" type="search"
                             placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
                         <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
                             type="submit">
                             <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
                         </button>
                     </form>
-                    <!--Login,pedidos,carrinho-->
+                    <!-- ======================================================================= -->
+                    <!--                           LOGIN PEDIDOS CARRINHO                        -->
+                    <!-- ======================================================================= -->
                     <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
                         <li class="nav-item">
                             <a class="nav-link bold" href="Login.html">Login</a>
@@ -65,60 +68,19 @@
                             <a class="nav-link bold" href="carrinho.html">Carrinho</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bold" href="carrinho.html"><img src="img/carrinho.png"></a>
+                            <a class="nav-link bold" href="carrinho.html"></a>
                         </li>
                     </ul>
                 </div>
+            </nav>
         </div>
-        </nav>
-        <div class="container-fluid menucateg">
+        <!-- =============================================================== -->
+        <!--                    Barra de Categorias                          -->
+        <!-- =============================================================== -->
+        <div class="menucateg">
             <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                        aria-expanded="false">Categorias</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                    </ul>
+                <li class="nav-item ">
+                        <p class="nav-link menu_categ_fix">Categorias</p>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
@@ -138,10 +100,8 @@
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="papeis.html">Papéis</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="eletronicos.html">Eletrônicos</a>
-                </li>
             </ul>
+        </div>
         </div>
     </header>
     <!-- ======================================================================= -->
@@ -165,6 +125,14 @@
                     <a class="list-group-item list-group-item-action menu_areap_items"
                         href="caneta-hidrografica-0-4mm.html">Caneta hidrográfica 3 cores 0,4mm Point 88/3 Stabilo BT 3
                         UN</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="canetinha-colors-12-cores.html">Canetinha Colors 12 Cores Faber-Castell BT 1
+                        UN</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="lapis-de-cor-ecolapis.html">Lápis de Cor EcoLápis SuperSoft 24 Cores
+                        Faber-Castell BT 1 UN</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="pincel-quadro-branco.html">Pincel quadro branco WBM-7</a>
                 </div>
 
                 <!-- Menu Lateral tela pequena-->
@@ -192,6 +160,14 @@
                                 <a class="list-group-item list-group-item-action menu_areap_items"
                                     href="caneta-hidrografica-0-4mm.html">Caneta hidrográfica 3 cores 0,4mm Point 88/3
                                     Stabilo BT 3 UN</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="canetinha-colors-12-cores.html">Canetinha Colors 12 Cores Faber-Castell BT 1
+                                    UN</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="lapis-de-cor-ecolapis.html">Lápis de Cor EcoLápis SuperSoft 24 Cores
+                                    Faber-Castell BT 1 UN</a>
+                                <a class="list-group-item list-group-item-action menu_areap_items"
+                                    href="pincel-quadro-branco.html">Pincel quadro branco WBM-7</a>
                             </div>
                         </div>
                     </div>
@@ -280,8 +256,7 @@
                             <div class="card card_prod">
                                 <div class="card-body">
                                     <a href="marca-texto-grifpen.html">
-                                        <img src="img/619206z.jpg" alt="marca texto Grifpen"
-                                            class="imagem-prod"></a>
+                                        <img src="img/619206z.jpg" alt="marca texto Grifpen" class="imagem-prod"></a>
                                     <h5 class="card-title mb-12 preco-card">Marca Texto Grifpen</h5>
                                     <p class="card-text">Eles são resistentes, feitos com materiais ecológicos e
                                         ainda tem vários modelos de acordo com o seu estilo ou trabalho.</p>
@@ -293,12 +268,14 @@
                         </div>
 
                         <div class="col-xl-3 col-md-6 col-sm-12">
-                            <div class="card">
+                            <div class="card card_prod">
                                 <div class="card-body">
-                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
-                                    <h5 class="card-title mb-12">Carderno simples</h5>
-                                    <p class="card-text">Descrição produtos </p>
-                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="canetinha-colors-12-cores.html">
+                                        <img src="img/191068d.jpg" alt="canetinha colors" class="imagem-prod"> </a>
+                                    <h5 class="card-title mb-12 preco-card">Canetinha Colors 12 Cores Faber-Castell BT 1
+                                        UN</h5>
+                                    <p class="card-text">Estimule a criatividade com cores vivas. </p>
+                                    <p class="card-text preco-card"><strong>R$ 12,10</strong> </p>
                                     <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
                                 </div>
@@ -306,12 +283,13 @@
                         </div>
 
                         <div class="col-xl-3 col-md-6 col-sm-12">
-                            <div class="card">
+                            <div class="card card_prod">
                                 <div class="card-body">
-                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
-                                    <h5 class="card-title mb-12">Carderno simples</h5>
-                                    <p class="card-text">Descrição produtos </p>
-                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="lapis-de-cor-ecolapis.html">
+                                    <img src="img/389590z.jpg" alt="lapis de cor ecolapis" class="imagem-prod"></a>
+                                    <h5 class="card-title mb-12 preco-card">Lápis de Cor EcoLápis SuperSoft 24 Cores</h5>
+                                    <p class="card-text"> Eles são resistentes, feitos com materiais ecológicos e ainda tem vários modelos de acordo com o seu estilo ou trabalho.</p>
+                                    <p class="card-text preco-card"><strong>R$ 51,30</strong> </p>
                                     <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
                                 </div>
@@ -320,12 +298,13 @@
 
 
                         <div class="col-xl-3 col-md-6 col-sm-12">
-                            <div class="card">
+                            <div class="card card_prod">
                                 <div class="card-body">
-                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
-                                    <h5 class="card-title mb-12">Carderno simples</h5>
-                                    <p class="card-text">Descrição produtos </p>
-                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="pincel-quadro-branco.html">
+                                    <img src="img/623412z.jpg" alt="pincel quadro branco" class="imagem-prod"></a>
+                                    <h5 class="card-title mb-12 preco-card">Pincel quadro branco WBM-7</h5>
+                                    <p class="card-text"> Desenvolvido para o uso em quadro branco,possui ponta de acrílico que não danifica o quadro.</p>
+                                    <p class="card-text preco-card"><strong>R$ 86,50</strong> </p>
                                     <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
                                 </div>
@@ -341,12 +320,12 @@
 
                     <div class="row">
                         <div class="col-xl-3 col-md-6 col-sm-12">
-                            <div class="card">
+                            <div class="card card_prod">
                                 <div class="card-body">
                                     <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
-                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <h5 class="card-title mb-12 preco-card">Carderno simples</h5>
                                     <p class="card-text">Descrição produtos </p>
-                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <p class="card-text preco-card"><strong>R$ 19,99</strong> </p>
                                     <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
                                 </div>
@@ -354,12 +333,12 @@
                         </div>
 
                         <div class="col-xl-3 col-md-6 col-sm-12">
-                            <div class="card">
+                            <div class="card card_prod">
                                 <div class="card-body">
                                     <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
-                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <h5 class="card-title mb-12 preco-card">Carderno simples</h5>
                                     <p class="card-text">Descrição produtos </p>
-                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <p class="card-text preco-card"><strong>R$ 19,99</strong> </p>
                                     <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
                                 </div>
@@ -367,12 +346,12 @@
                         </div>
 
                         <div class="col-xl-3 col-md-6 col-sm-12">
-                            <div class="card">
+                            <div class="card card_prod">
                                 <div class="card-body">
                                     <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
-                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <h5 class="card-title mb-12 preco-card">Carderno simples</h5>
                                     <p class="card-text">Descrição produtos </p>
-                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <p class="card-text preco-card"><strong>R$ 19,99</strong> </p>
                                     <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
                                 </div>
@@ -380,12 +359,12 @@
                         </div>
 
                         <div class="col-xl-3 col-md-6 col-sm-12">
-                            <div class="card">
+                            <div class="card card_prod">
                                 <div class="card-body">
                                     <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
-                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <h5 class="card-title mb-12 preco-card">Carderno simples</h5>
                                     <p class="card-text">Descrição produtos </p>
-                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <p class="card-text preco-card"><strong>R$ 19,99</strong> </p>
                                     <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
                                 </div>
