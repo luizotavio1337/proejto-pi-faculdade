@@ -1,0 +1,57 @@
+html {
+    overflow-x: hidden;
+}
+
+.imagem-prod{
+    width: 120px;
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.card{
+    align-items: center !important;
+    border-radius: 10%;
+    padding: 1px !important;
+    font-size: 12px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 24px;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover .btn-buy {
+    position: absolute;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.subtituloprod {
+    margin-top: 24px !important;
+    padding: auto !important;
+}
+
+
+
+h5{
+    color: #37457a !important;
+}
+.titulopagprod{
+    text-align: center;
+    margin-top: 24px;
+}
+.list-group-item.active{
+    background-color: #37457a !important;
+}
+
+.btn-primary{
+    background-color: #37457a;
+   
+}
+.bg-rodape{
+    margin-top: 5% !important;
+}
