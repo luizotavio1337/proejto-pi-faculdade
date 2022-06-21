@@ -5,20 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lista Check0">
-    <meta name="keywords" content="Papelaria, listas, vendas">
-    <meta name="author" content="Henrique">
-    <title>Lista Check</title>
     <link rel="icon" type="image/x-icon" href="img/fav-icon.png">
-    <link rel="stylesheet" href="css/estilo.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/estilo_area_prod.css" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo-page-prod.css">
+    <link rel="stylesheet" href="css/estilo_area_prod.css">
+    <title>Pagina de produtos</title>
 </head>
 
 <body>
-    <!-- =================================================================== -->
-    <!--                        Navbar do site                               -->
-    <!-- =================================================================== -->
+
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark bg-header">
@@ -35,14 +31,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarcollapse" style>
 
-                    <!-- ======================================================================= -->
-                    <!--                  Barra DE PESQUISA                                      -->
-                    <!-- ======================================================================= -->
+                    <!--Barra de pesquisa-->
                     <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
                         <div class="dropdown">
-                            <!------------------------->
                             <!--Selecionar Categorias-->
-                            <!------------------------->
                             <button
                                 class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0"
                                 type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,16 +46,14 @@
                                 <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
                             </ul>
                         </div>
-                        <input value="" class="btn-outline-menu-navbar form_border form-control" type="search"
+                        <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search"
                             placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
                         <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
                             type="submit">
                             <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
                         </button>
                     </form>
-                    <!-- ======================================================================= -->
-                    <!--                           LOGIN PEDIDOS CARRINHO                        -->
-                    <!-- ======================================================================= -->
+                    <!--Login,pedidos,carrinho-->
                     <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
                         <li class="nav-item">
                             <a class="nav-link bold" href="Login.html">Login</a>
@@ -75,24 +65,18 @@
                             <a class="nav-link bold" href="carrinho.html">Carrinho</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bold" href="carrinho.html"></a>
+                            <a class="nav-link bold" href="carrinho.html"><img src="img/carrinho.png"></a>
                         </li>
                     </ul>
                 </div>
-            </nav>
         </div>
-        <!-- =============================================================== -->
-        <!--                    Barra de Categorias                          -->
-        <!-- =============================================================== -->
-        <div class="menucateg">
+        </nav>
+        <div class="container-fluid menucateg">
             <ul class="nav nav-fill">
                 <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Categorias
-                    </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Categorias</a>
+                    <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
                         <li>
                             <hr class="dropdown-divider">
@@ -159,9 +143,7 @@
                 </li>
             </ul>
         </div>
-        </div>
     </header>
-
     <!-- ======================================================================= -->
     <!--                           Menu Lateral                                  -->
     <!-- ======================================================================= -->
@@ -173,7 +155,7 @@
                         Seções</a>
                     <a class="list-group-item list-group-item-action menu_areap_items"
                         href="caneta-esferografica-bic-1-0mm.html">Canetas Esferográfica 1.0 BIC</a>
-                    <a class="list-group-item list-group-item-action menu_ativo menu_areap_items"
+                    <a class="list-group-item list-group-item-action menu_areap_items"
                         href="marca-texto-grifpen.html">Marca Texto Grifpen 4 Cores Faber-Castell BT 1 UN</a>
                     <a class="list-group-item list-group-item-action menu_areap_items"
                         href="corretivo-em-fita-5mm-oval.html">Corretivo em fita 5mmx6m folha Oval BT 1 UN</a>
@@ -198,7 +180,7 @@
                                 data-bs-parent="collapse_menu_lateral">
                                 <a class="list-group-item list-group-item-action menu_areap_items"
                                     href="caneta-esferografica-bic-1-0mm.html">Canetas Esferográfica 1.0 BIC</a>
-                                <a class="list-group-item list-group-item-action menu_ativo menu_areap_items"
+                                <a class="list-group-item list-group-item-action menu_areap_items"
                                     href="marca-texto-grifpen.html">Marca Texto Grifpen 4 Cores Faber-Castell BT 1
                                     UN</a>
                                 <a class="list-group-item list-group-item-action menu_areap_items"
@@ -215,256 +197,220 @@
                     </div>
                 </div>
             </div>
-            <!--Sub menu pagina atual-->
-            <div class="col-md-10 area_prod_minus_menu">
-                <div class="container-fluid">
-                    <div class="list-group list-group-horizontal lista_categ">
-                        <a class="categ_ativo" href="escrita.html">Escrita</a>
-                        <a class="categ_ativo_img"><img src="img/arrow.png"></a>
-                        <a class="categ_ativo" href="marca-texto-grifpen.html">Marca Texto Grifpen 4 Cores Faber-Castell
-                            BT 1 UN</a>
-                        <a class="categ_ativo_img"><img src="img/arrow.png"></a>
-                        <a class="categ_ativo_final">Faber-Castell</a>
-                    </div>
-                    <hr>
-                    <!--Titulo Produto-->
-                    <p class="titulo_prod">Marca Texto Grifpen 4 Cores Faber-Castell BT 1 UN</p>
-                    <p class="cod_prod"> Código:00002</p>
-                    <!--Carrousel imagem produto-->
+            <!--Pagina produto-->
+            <div class="col-sm-10">
+                <div class="row">
+                    <h1 class="titulopagprod">Escrita</h1>
+                    <!--Mais vendidos-->
+                    <h2 class="subtituloprod">Mais vendidos</h2>
+
                     <div class="row">
-                        <div class="col-md-7">
-                            <div class="container-fluid justify-content-center">
-                                <div id="carousel-pag-prod" class="carousel carousel-dark slide"
-                                    data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="container">
-                                                <img src="img/619206z.jpg" class="img_carousel_area_prod"
-                                                    alt="marca texto em caixa quatro cores">
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="container">
-                                                <img src="img/619206z_1.jpg" class="img_carousel_area_prod"
-                                                    alt="marca textos fora da caixa quatro cores">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carousel-pag-prod" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carousel-pag-prod" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card card_prod">
+                                <div class="card-body">
+                                    <a href="caneta-esferografica-bic-1-0mm.html">
+                                        <img src="img/176072z.jpg" alt="caneta esferográfica bic caixa"
+                                            class="imagem-prod"></a>
+                                    <h5 class="card-title mb-12 preco-card">Caneta Esferográfica BIC CX 50 UN</h5>
+                                    <p class="card-text">Caneta esferográfica clássica e favorita em milhares de
+                                        lares, escritórios e escolas no mundo. </p>
+                                    <p class="card-text preco-card"><strong>R$ 45,80</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
                                 </div>
                             </div>
                         </div>
-                        <!--Card frete e quantidade-->
-                        <div class="col-md-5">
-                            <div class="container-fluid">
-                                <div class="card card_preço_compra">
-                                    <div class="card-body">
-                                        <br>
-                                        <h5 class="card-title" id="preco_prod">R$ 9,90</h5>
-                                        <br>
-                                        <form action="enviar.php" method="post" enctype="multipart/form-data">
-                                            <label for="numero_prod">
-                                                <p>Selecione a quantidade:</p>
-                                            </label>
-                                            <input type="number" id="numero_prod" name="numero_prod" step="1" value="1"
-                                                autofocus>
-                                            <button class="btn_comprar" type="submit">Comprar</button>
-                                        </form>
-                                        <br>
-                                        <br>
-                                        <hr>
-                                        <br>
-                                        <br>
-                                        <form action="enviar.php" method="post" enctype="multipart/form-data"
-                                            autocomplete="on">
-                                            <label for="frete_prod">
-                                                <p>Calcular Frete e prazo de entrega</p>
-                                            </label> </br>
-                                            <input type="text" id="frete_prod" name="frete_prod"
-                                                placeholder="digite seu CEP" maxlength="8" value="">
-                                            <button class="btn_frete" type="submit">Calcular</button>
-                                            <br>
-                                            <br>
-                                        </form>
 
-                                    </div>
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card card_prod">
+                                <div class="card-body">
+                                    <a href="corretivo-em-fita-5mm-oval.html">
+                                        <img src="img/237611z.jpg" alt="corretivo em fita" class="imagem-prod"></a>
+                                    <h5 class="card-title mb-12 preco-card">Corretivo em fita 5mmx6m folha Oval BT 1
+                                        UN</h5>
+                                    <p class="card-text">O corretivo em fita OVAL possui excelente aderência e pode
+                                        ser usado em qualquer tipo de papel.</p>
+                                    <p class="card-text preco-card"><strong>R$ 12,90</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card card_prod">
+                                <div class="card-body">
+                                    <a href="pincel-marcador-permanente-bic.html">
+                                        <img src="img/616979z.jpg" alt="Pincel Marcador Permanente"
+                                            class="imagem-prod"></a>
+                                    <h5 class="card-title mb-12 preco-card">Pincel Marcador Permanente</h5>
+                                    <p class="card-text">Marca tudo, desde papel, madeira, plástico, vidro até metal
+                                        e sua tinta à base de álcool tem secagem rápida e por isso não borra </p>
+                                    <p class="card-text preco-card"><strong>R$ 21,60</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card card_prod">
+                                <div class="card-body">
+                                    <a href="caneta-hidrografica-0-4mm.html">
+                                        <img src="img/174942z.jpg" class="imagem-prod" alt="caneta hidrográfica"></a>
+                                    <h5 class="card-title mb-12 preco-card">Caneta hidrográfica 0,4mm - Stabilo
+                                    </h5>
+                                    <p class="card-text">Dê mais cor aos seus trabalhos com as canetas Stabilo. Elas
+                                        são leves e proporcionam um ótimo contorno e escrita.</p>
+                                    <p class="card-text preco-card"><strong>R$ 33,00</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--Cards compre junto-->
-                    <div class="container-fluid">
-                        <p class="titulos_areaprod">Compre Junto</p>
-                        <hr>
-                        </br>
-                        <div class="row">
-                            <div class="col-xl-3 col-md-6 col-sm-12">
-                                <div class="card card_prod">
-                                    <div class="card-body">
-                                        <a href="caneta-esferografica-bic-1-0mm.html">
-                                            <img src="img/176072z.jpg" alt="caneta esferográfica bic caixa"
-                                                class="imagem-prod"></a>
-                                        <h5 class="card-title mb-12 preco-card">Caneta Esferográfica BIC CX 50 UN</h5>
-                                        <p class="card-text">Caneta esferográfica clássica e favorita em milhares de
-                                            lares, escritórios e escolas no mundo. </p>
-                                        <p class="card-text preco-card"><strong>R$ 45,80</strong> </p>
-                                        <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-md-6 col-sm-12">
-                                <div class="card card_prod">
-                                    <div class="card-body">
-                                        <a href="corretivo-em-fita-5mm-oval.html">
-                                            <img src="img/237611z.jpg" alt="corretivo em fita" class="imagem-prod"></a>
-                                        <h5 class="card-title mb-12 preco-card">Corretivo em fita 5mmx6m folha Oval BT 1
-                                            UN</h5>
-                                        <p class="card-text">O corretivo em fita OVAL possui excelente aderência e pode
-                                            ser usado em qualquer tipo de papel.</p>
-                                        <p class="card-text preco-card"><strong>R$ 12,90</strong> </p>
-                                        <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-md-6 col-sm-12">
-                                <div class="card card_prod">
-                                    <div class="card-body">
-                                        <a href="pincel-marcador-permanente-bic.html">
-                                            <img src="img/616979z.jpg" alt="Pincel Marcador Permanente"
-                                                class="imagem-prod"></a>
-                                        <h5 class="card-title mb-12 preco-card">Pincel Marcador Permanente</h5>
-                                        <p class="card-text">Marca tudo, desde papel, madeira, plástico, vidro até metal
-                                            e sua tinta à base de álcool tem secagem rápida e por isso não borra </p>
-                                        <p class="card-text preco-card"><strong>R$ 21,60</strong> </p>
-                                        <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-md-6 col-sm-12">
-                                <div class="card card_prod">
-                                    <div class="card-body">
-                                        <a href="caneta-hidrografica-0-4mm.html">
-                                            <img src="img/174942z.jpg" class="imagem-prod"
-                                                alt="caneta hidrográfica"></a>
-                                        <h5 class="card-title mb-12 preco-card">Caneta hidrográfica 0,4mm - Stabilo
-                                        </h5>
-                                        <p class="card-text">Dê mais cor aos seus trabalhos com as canetas Stabilo. Elas
-                                            são leves e proporcionam um ótimo contorno e escrita. </p>
-                                        <p class="card-text preco-card"><strong>R$ 33,00</strong> </p>
-                                        <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <br><br><br>
-                    <p class="titulos_areaprod">Descrição</p>
-                    <hr>
                     <br>
-                    <div class="container-fluid">
-
-                        <div class="card">
-                            <div class="card-body">
-                                <p class="subtitulo_prod">Caracteristicas do produto</p>
-                                <ul class="descricao_prod">
-                                    <li>Com os produtos da Faber Castell você da mais cor aos seus trabalhos e volta
-                                        para a escola equipado com materiais de qualidade. Eles são resistentes, feitos
-                                        com materiais ecológicos e ainda tem vários modelos de acordo com o seu estilo
-                                        ou trabalho.</li>
-                                </ul>
-
-
-                                <p class="subtitulo_prod">Especificações</p>
-                                <ul class="descricao_prod">
-                                    <li>Tinta superfluorescente, de máxima durabilidade.</li>
-                                    <li>Formato triangular ergonômico: garantia de conforto e melhor escrita.</li>
-                                    <li>3 Espessuras de traço.</li>
-                                    <li>Escreve até 2x mais.</li>
-                                    <li>Espessura do traço: 0,4 - 3,5mm</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
                     <br>
-                    <!--Avaliação e comentario-->
-                    <hr>
-                    <br>
+                    <!-- Mais Avaliados -->
+
+                    <h2 class="subtituloprod">Mais avaliados</h2>
+
                     <div class="row">
-                        <div class="col-md-5">
-                            <p class="titulos_areaprod">Avaliação do produto</p>
-                            <div class="card card_bottom">
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card card_prod">
                                 <div class="card-body">
+                                    <a href="marca-texto-grifpen.html">
+                                        <img src="img/619206z.jpg" alt="marca texto Grifpen"
+                                            class="imagem-prod"></a>
+                                    <h5 class="card-title mb-12 preco-card">Marca Texto Grifpen</h5>
+                                    <p class="card-text">Eles são resistentes, feitos com materiais ecológicos e
+                                        ainda tem vários modelos de acordo com o seu estilo ou trabalho.</p>
+                                    <p class="card-text preco-card"><strong>R$ 9,90</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
 
-                                    <a href="javascript:void(0)" onclick="Avaliar(1)">
-                                        <img src="img/star0.png" id="s1" class="stars"></a>
-
-                                    <a href="javascript:void(0)" onclick="Avaliar(2)">
-                                        <img src="img/star0.png" id="s2" class="stars"></a>
-
-                                    <a href="javascript:void(0)" onclick="Avaliar(3)">
-                                        <img src="img/star0.png" id="s3" class="stars"></a>
-
-                                    <a href="javascript:void(0)" onclick="Avaliar(4)">
-                                        <img src="img/star0.png" id="s4" class="stars"></a>
-
-                                    <a href="javascript:void(0)" onclick="Avaliar(5)">
-                                        <img src="img/star0.png" id="s5" class="stars"></a>
-                                    <br>
-                                    <br>
-                                    <span class="titulos_areaprod" id="rating">0</span><span class="titulos_areaprod">
-                                        de 5 estrelas</span>
-                                    <br>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-5">
-                            <p class="titulos_areaprod">Confira as opiniões dos clientes sobre este produto.</p>
-                            <div class="card card_bottom">
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card">
                                 <div class="card-body">
-                                    <p class="subtitulo_prod">Cores Lindas e Vibrantes!</p>
-                                    <q class="descricao_prod">Eu amei essas canetas marca texto, são cores lindas..me
-                                        ajuda muito..Super Recomendo!</q>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <img src="img/star1.png"><img src="img/star1.png"><img
-                                                src="img/star1.png"><img src="img/star1.png"><img src="img/star1.png">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <p class="subtitulo_prod">Henrique Oliveira</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <p class="descricao_prod">09/02/2022</p>
-                                        </div>
-                                    </div>
+                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
+                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <p class="card-text">Descrição produtos </p>
+                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
+                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <p class="card-text">Descrição produtos </p>
+                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
+                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <p class="card-text">Descrição produtos </p>
+                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- Ofertas em destaque -->
+                    <h2 class="subtituloprod">Ofertas em Destaque</h2>
+
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
+                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <p class="card-text">Descrição produtos </p>
+                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
+                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <p class="card-text">Descrição produtos </p>
+                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
+                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <p class="card-text">Descrição produtos </p>
+                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/caderno.jpg" alt="carderno" class="imagem-prod">
+                                    <h5 class="card-title mb-12">Carderno simples</h5>
+                                    <p class="card-text">Descrição produtos </p>
+                                    <p class="card-text"><strong>R$ 19,99</strong> </p>
+                                    <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <br>
+
+
                 </div>
             </div>
         </div>
     </div>
-    <!-- ======================================================================= -->
-    <!--                          RODAPE DO SITE                                 -->
-    <!-- ======================================================================= -->
+
+
+
+
+
+
+
+
+
+
+
+    <!--Roda pé-->
+
     <footer>
         <div class="container-fluid">
             <div class="bg-rodape d-none d-md-block">
@@ -563,6 +509,7 @@
             </div>
         </div>
         </div>
+
     </footer>
     <!--Rodape para telas menores-->
     <footer>
@@ -687,12 +634,6 @@
         </div>
     </footer>
 
-
-
-
-    <!-- =================================================================== -->
-    <!--                           SCRIPTS DO SITE                           -->
-    <!-- =================================================================== -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/funcoes.js"></script>
 </body>
