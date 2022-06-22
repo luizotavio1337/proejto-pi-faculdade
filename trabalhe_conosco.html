@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lista Check0">
-    <meta name="keywords" content="Projeto PI, Papelaria, listas, vendas">
-    <meta name="author" content="Grupo PI">
+    <meta name="description" content="Lista Check">
+    <meta name="keywords" content="Papelaria, listas, vendas">
+    <meta name="author" content="grupo pi">
     <title>Lista Check</title>
     <link rel="icon" type="image/x-icon" href="img/fav-icon.png">
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilo_area_prod.css" />
     <link rel="stylesheet" href="css/trabalheconosco.css" />
 </head>
 
 <body>
+    <!-- =================================================================== -->
+    <!--                        Navbar do site                               -->
+    <!-- =================================================================== -->
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark bg-header">
@@ -26,30 +30,35 @@
                         <img src="img/fav-icon.png" alt="Icone Lista Check" width="50" height="50" class="img_logo">
                     </div>
                 </a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse"
+                    aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarcollapse" style>
 
-                    <!--Barra de pesquisa-->
+                    <!-- ======================================================================= -->
+                    <!--                  Barra DE PESQUISA                                      -->
+                    <!-- ======================================================================= -->
                     <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
                         <div class="dropdown">
+                            <!------------------------->
                             <!--Selecionar Categorias-->
-                            <button class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Papelaria
+                            <!------------------------->
+                            <button class="d-inline btn-outline-menu-navbar btn_cor btn_border btn ms-0 me-0"
+                                type="button" aria-expanded="false">
+                                Escrita
                             </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                                <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                                <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                            </ul>
                         </div>
-                        <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search" placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
-                        <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search" type="submit">
+                        <input value="" class="btn-outline-menu-navbar form_border form-control" type="search"
+                            placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
+                        <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
+                            type="submit">
                             <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
                         </button>
                     </form>
-                    <!--Login,pedidos,carrinho-->
+                    <!-- ======================================================================= -->
+                    <!--                           LOGIN PEDIDOS CARRINHO                        -->
+                    <!-- ======================================================================= -->
                     <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
                         <li class="nav-item">
                             <a class="nav-link bold" href="Login.html">Login</a>
@@ -61,62 +70,19 @@
                             <a class="nav-link bold" href="carrinho.html">Carrinho</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bold" href="carrinho.html"><img src="img/carrinho.png"></a>
+                            <a class="nav-link bold" href="carrinho.html"></a>
                         </li>
                     </ul>
                 </div>
+            </nav>
         </div>
-        </nav>
-        <div class="container-fluid menucateg">
+        <!-- =============================================================== -->
+        <!--                    Barra de Categorias                          -->
+        <!-- =============================================================== -->
+        <div class="menucateg">
             <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Categorias
-                    </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="papeis.html">Papeis</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="canetas.html">Canetas</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="lapiseiras.html">Lapiseiras</a></li>
-                    </ul>
+                <li class="nav-item ">
+                    <p class="nav-link menu_categ_fix">Categorias</p>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
@@ -136,226 +102,9 @@
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="papeis.html">Papéis</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="eletronicos.html">Eletrônicos</a>
-                </li>
             </ul>
         </div>
-
-        <img src="img/Trabalhe Cnosco.png" height="50%" width="100%">
-        <h1>
-            <center>Nosso Negócio📙
-        </h1>
-        <p>
-            <center>
-                Comercializamos mais de mil itens das <br> melhores marcas e diversas categorias <br> como Escolar, Escritório, Organização, <br> Informática, Escrita,</p>
-        <h2>Missão</h2>
-        <p>Oferecer produtos de qualidade,<br> economizar o maior tempo possivel <br> e respeito ao cliente.</p>
-        <h2>Visão</h2>
-        <p>Ser uma empresa com compromisso em oferecer o melhor produto,<br> e o maior desempenho possivel, para economizar seu tempo. <br>
-        </p>
-        </center>
-        <div class="h1">
-            <h1>Onde você quer trabalhar? </h1>
-
         </div>
-        <p class="center">A Lista Check oferece diversas formas de começar uma carreira, sendo que todas elas oferecem grandes oportunidades de crescimento e desenvolvimento profissional. Encontre a posição que mais combina com você e cadastre seu currículo</p>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="img/minipc.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Loja física</h5>
-                        <p class="card-text">São diversas vaga em 1 endereço<br></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/escritorio.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Escritório central</h5>
-                        <p class="card-text">Vagas em diversas áreas em nosso escritório em Patos de Minas, no bairro Caiçaras..</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/distribuição.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Centro de distribuição</h5>
-                        <p class="card-text">Confira vagas em nossos centros de distribuição, localizados na cidade de Patos de Minas.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/fabrica.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Fábrica Lista Check em breve</h5>
-                        <p class="card-text">Faça parte da equipe de produção da fábrica.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h1 class="h1">Tire suas duvidas</h1>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Não consigo concluir meu cadastro, podem me ajudar?
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li>Para que você consiga concluir o cadastro em nosso site é necessário que realize o preenchimento de todos os dados obrigatórios. Essas informações são imprescindíveis para a sua sequência no processo seletivo.</li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    O que fazer para me candidatar às oportunidades no Trabalhe Conosco?
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li> Realize o seu cadastro e inscreva-se nas vagas disponíveis "lista de vagas". </li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Depois que efetuei o primeiro cadastro no Trabalhe Conosco, posso alterar meus dados de cadastro? 
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li> Sim. Basta realizar o login e acessar o menu "portal do candidato". Depois de alteradas as informações, é importante salvar as alterações. </li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Como fico sabendo das vagas existentes? 
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li> Através do "lista de vagas", você pode pesquisar as vagas de acordo com o cargo e a região. </li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Existe a possibilidade de anexar o meu currículo ao Trabalhe Conosco? 
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li> Sim, existe essa possibilidade, porém, existem alguns campos cujo preenchimento serão obrigatórios para a conclusão do seu cadastro. </li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Por quanto tempo meu currículo ficará ativo no Banco de Talentos do Trabalhe Conosco? 
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li> Por tempo indeterminado. É importante que você não se esqueça de manter seus dados sempre atualizados! </li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Como fico sabendo se o meu currículo foi selecionado para participar de um processo seletivo? 
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li> Após a triagem dos currículos existentes no banco de talentos e análise com relação às oportunidades da instituição, entraremos em contato com os candidatos de perfil mais adequado às oportunidades através dos números de telefones
-                            e/ou e-mail informado no cadastro. </li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Não encontrei nenhuma vaga com meu perfil. Posso deixar meu currículo? 
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li>Sim, você pode! Que tal já fazer o seu cadastro?</li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Há vagas para pessoas com deficiência? 
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li> Sim, temos várias oportunidades exclusivas em todas as lojas e áreas administrativa, Centro de Distribuição e Spiral. Estamos esperando por você! </li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid menucateg">
-            <ul class="nav nav-fill">
-                <li class="nav-item dropdown">
-                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Existe alguma outra forma de enviar o meu currículo? 
-                </button>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
-                        <li>Não, a única forma é cadastrando seu currículo no nosso Trabalhe Conosco!</li>
-
-                    </ul>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-
-
-
-
-
     </header>
     <br>
     <section>
@@ -373,94 +122,227 @@
         <!-- ======================================================================= -->
         <!--                          RODAPE DO SITE                                 -->
         <!-- ======================================================================= -->
-        </div>
-        <div class="container-fluid ">
-            <footer class="bg-rodape ">
-                <div class=" ">
-                    <div class="d-flex justify-content-center ">
-                        <ul class="pr-5 pt-2 ml-5 row footer_style ">
-                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-                                <h5>Institucional</h5>
-                                <ul class="footer-alinhamento nav flex-column ">
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="sobre_nos.hmtl ">Sobre nós</a>
-                                    </li>
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="trabalhe_conosco.hmtl ">Trabalhe
-                                        Conosco</a></li>
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="fale_conosco.html ">Fale
-                                        Conosco</a>
-                                    </li>
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="mapa_do_site.html ">Mapa do
-                                        Site</a>
-                                    </li>
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="servicos_check_lista.html ">Serviços
-                                        Check Lista</a></li>
-                                </ul>
+        <footer>
+            <div class="container-fluid">
+                <div class="bg-rodape d-none d-md-block">
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <p class="footer-title">Institucional</p>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.html">Sobre
+                                                nós</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="trabalhe_conosco.html">Trabalhe
+                                                Conosco</a></li>
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
+                                                Conosco</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="servicos_check_lista.html">Serviços
+                                                Check Lista</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="footer-title">Dúvidas</p>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Como
+                                                funciona
+                                                a
+                                                loja</a></li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="fale_conosco.html">Cadastro e
+                                                contas</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="fale_conosco.html">Devolução
+                                                e
+                                                trocas</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="fale_conosco.html">Segurança</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a class="lista_footer"
+                                                href="fale_conosco.html">Política
+                                                de
+                                                Privacidade</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="footer-title">Redes Sociais</p>
+                                    <ul class="nav flex-column">
+                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                    src="img/instagram.png">
+                                                Instagram</a></li>
+                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                    src="img/facebook.png">
+                                                Facebook</a>
+                                        </li>
+                                        <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                    src="img/twitter.png">
+                                                Twitter</a>
+                                        </li>
+                                        <li class="ms-1 "><a class="lista_footer mb-2" href="#"><img
+                                                    class="social_media" src="img/youtube.png">
+                                                Youtube</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="footer-title">Formas de Pagamento</p>
+                                    <ul class="mb-5 nav flex-column">
+                                        <li class="lista_footer mb-2">Cartões de crédito</li>
+                                        <li class="lista_footer mb-2">Boleto bancário</li>
+                                        <li class="lista_footer mb-2">PIX</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-                                <h5>Dúvidas</h5>
-                                <ul class="footer-alinhamento nav flex-column teste ">
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="duvidas.html ">Como funciona a
-                                        loja</a></li>
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="duvidas.html ">Cadastro e
-                                        contas</a>
-                                    </li>
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="duvidas.html ">Devolução e
-                                        trocas</a>
-                                    </li>
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="duvidas.html ">Segurança</a></li>
-                                    <li class="nav-item mb-2 "><a class="lista_footer " href="duvidas.html ">Política de
-                                        Privacidade</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-                                <h5>Redes Sociais</h5>
-                                <ul class="footer-alinhamento nav flex-column ">
-                                    <li class="ms-1 ">
-                                        <a class="lista_footer mb-2 " href="# "><img src="img/instagram.png "> Instagram
-                                        </a>
-                                    </li>
-                                    <li class="ms-1 ">
-                                        <a class="lista_footer mb-2 " href="# "><img src="img/facebook.png "> Facebook
-                                        </a>
-                                    </li>
-                                    <li class="ms-1 ">
-                                        <a class="lista_footer mb-2 " href="# "><img src="img/twitter.png "> Twitter
-                                        </a>
-                                    </li>
-                                    <li class="ms-1 ">
-                                        <a class="lista_footer mb-2 " href="# "><img src="img/youtube.png "> Youtube
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-                                <h5>Formas de Pagamento</h5>
-                                <ul class="footer-alinhamento mb-5 nav flex-column ">
-                                    <li class="lista_footer mb-2 ">Cartões de crédito</li>
-                                    <li class="lista_footer mb-2 ">Boleto bancário</li>
-                                    <li class="lista_footer mb-2 ">PIX</li>
-                                </ul>
-                            </div>
-                            <div class="Linha-rodape "></div>
-                            <div class="pt-3 mt-3 container footer_end ">
-                                <h6>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 - Caiçaras, Patos de Minas - MG</h6>
-                                <br>
-                                <h6>Telefone de contato: (34) 3823-0300</h6>
-                                <span class="d-flex justify-content-end "><img src="img/icon.png " width="50 " height="50 "
-                                    alt="... "></span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="Linha-rodape"></div>
+                    <div class="footer_end">
+                        <br>
+                        <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
+                            Caiçaras, Patos de Minas - MG</p>
+                        <br>
+                        <p>Telefone de contato: (34) 3823-0300
+                            <img class="img_rodape" src="img/icon.png" alt="...">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+        <!--Rodape para telas menores-->
+        <footer>
+            <div class="container-fluid">
+                <div class="bg-rodape d-md-none">
+                    <br>
+                    <div class="d-flex justify-content-center">
+                        <footer>
+                            <div class="accordion" id="sanfona_rodape">
+                                <div class="footer_style">
+                                    <div class="accordion-item sanfona_item">
+                                        <h2 class="accordion-header" id="sanfona-1">
+                                            <button class="footer-title accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse_rodape_1"
+                                                aria-expanded="true"
+                                                aria-controls="collapse_rodape_1">Institucional</button>
+                                            <ul id="collapse_rodape_1" class="accordion-collapse collapse"
+                                                aria-labelledby="sanfona-1" data-bs-parent="sanfona_rodape">
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="sobre_nos.html">Sobre
+                                                        nós</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="trabalhe_conosco.html">Trabalhe
+                                                        Conosco</a></li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="fale_conosco.html">Fale
+                                                        Conosco</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="servicos_check_lista.html">Serviços
+                                                        Check Lista</a></li>
+                                            </ul>
+                                        </h2>
+                                    </div>
+                                    <div class="accordion-item sanfona_item">
+                                        <h2 class="accordion-header" id="sanfona-2">
+                                            <button class="footer-title accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse_rodape_2"
+                                                aria-expanded="true" aria-controls="collapse_rodape_2">Dúvidas</button>
+                                            <ul id="collapse_rodape_2" class="accordion-collapse collapse"
+                                                aria-labelledby="sanfona-2" data-bs-parent="sanfona_rodape">
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="fale_conosco.html">Como
+                                                        funciona
+                                                        a
+                                                        loja</a></li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="fale_conosco.html">Cadastro e
+                                                        contas</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="fale_conosco.html">Devolução
+                                                        e
+                                                        trocas</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="fale_conosco.html">Segurança</a>
+                                                </li>
+                                                <li class="nav-item mb-2"><a class="lista_footer"
+                                                        href="fale_conosco.html">Política
+                                                        de
+                                                        Privacidade</a></li>
+                                            </ul>
+                                        </h2>
+                                    </div>
+                                    <div class="accordion-item sanfona_item">
+                                        <h2 class="accordion-header" id="sanfona-3">
+                                            <button class="footer-title accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse_rodape_3"
+                                                aria-expanded="true" aria-controls="collapse_rodape_3">Redes
+                                                Sociais</button>
+                                            <ul id="collapse_rodape_3" class="accordion-collapse collapse"
+                                                aria-labelledby="sanfona-3" data-bs-parent="sanfona_rodape">
+                                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                            class="social_media" src="img/instagram.png">
+                                                        Instagram</a></li>
+                                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                            class="social_media" src="img/facebook.png">
+                                                        Facebook</a>
+                                                </li>
+                                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                            class="social_media" src="img/twitter.png">
+                                                        Twitter</a>
+                                                </li>
+                                                <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                            class="social_media" src="img/youtube.png">
+                                                        Youtube</a>
+                                                </li>
+                                            </ul>
+                                    </div>
+                                    <div class="accordion-item sanfona_item">
+                                        <h2 class="accordion-header" id="sanfona-4">
+                                            <button class="footer-title accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse_rodape_4"
+                                                aria-expanded="true" aria-controls="collapse_rodape_4">Formas de
+                                                Pagamento</button>
+                                            <ul id="collapse_rodape_4" class="accordion-collapse collapse"
+                                                aria-labelledby="sanfona-4" data-bs-parent="sanfona_rodape">
+                                                <li class="lista_footer mb-2">Cartões de crédito</li>
+                                                <li class="lista_footer mb-2">Boleto bancário</li>
+                                                <li class="lista_footer mb-2">PIX</li>
+                                            </ul>
+                                    </div>
+                                </div>
                             </div>
                     </div>
-                    </ul>
+                    <div class="Linha-rodape"></div>
+                    <div class="pt-3 mt-3 footer_end">
+                        <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
+                            Caiçaras, Patos de Minas - MG</p>
+                        <br>
+                        <p>Telefone de contato: (34) 3823-0300
+                            <img class="img_rodape" src="img/icon.png" alt="...">
+                        </p>
+                    </div>
                 </div>
-            </footer>
-            <!-- =================================================================== -->
-            <!--                           SCRIPTS DO SITE                           -->
-            <!-- =================================================================== -->
-            <script src="js/bootstrap.bundle.min.js "></script>
-
-
+            </div>
+        </footer>
+        <!-- =================================================================== -->
+        <!--                           SCRIPTS DO SITE                           -->
+        <!-- =================================================================== -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/funcoes.js"></script>
 </body>
-
-</html>
 
 </html>
