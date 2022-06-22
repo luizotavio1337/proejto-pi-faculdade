@@ -1,0 +1,133 @@
+.titulos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-pagamento {
+    border: 1px solid #2e2e2e;
+    border-radius: 3%;
+    border-width: 1px;
+    width: 500px;
+    height: 420px;
+    font-family: helvetica;
+    font-size: 25px;
+    
+    font-style: normal;
+    padding: 18px 14px;
+    display: inline-block;
+    align-items: center;
+    background-color: white;
+}
+
+.pagamento{
+    font-size: 18px;
+    font-family: helvetica;
+    
+    font-style: normal;
+    
+}
+
+.endereco {
+    border: 1px solid #2e2e2e;
+    border-radius: 3%;
+    border-width: 1px;
+    width: 500px;
+    height: 420px;
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    padding: 18px 14px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+}
+
+.salva-end{
+    font-size: 15px;
+    display: block;
+    justify-content: center;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family: helvetica;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    position: relative;
+    
+}
+
+.myButton:hover {
+    background: #37475a;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.botao{
+    text-align: center;
+}
+
+.tudo{
+    background-color: eaeded;
+    font-family: helvetica;
+}
+
+
+.formulario-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.ajust-layout {
+    margin-top: 38px;
+}
+
+@media (max-width: 1150px){
+    .formulario-box{
+        display: grid;
+    }
+}
+
+@media (max-width: 600px){
+    .form-pagamento{
+        width: 450px;
+        height: 400px;
+    }
+    .endereco{
+        width: 450px;
+        height: 395px;
+    }
+    
+}
+
+@media (max-width: 580px){
+    .form-pagamento{
+        width: 360px;
+        height: 395px;
+    }
+    .endereco{
+        width: 360px;
+        height: 395px;
+    }
+
+}
+

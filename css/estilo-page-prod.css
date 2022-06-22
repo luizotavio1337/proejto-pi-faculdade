@@ -1,0 +1,85 @@
+html {
+    overflow-x: hidden;
+}
+
+.imagem-prod {
+    width: 7.5em;
+    height: 5em;
+    display: flex;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.card {
+    align-items: center !important;
+    border-radius: 10%;
+    padding: 0.0625em !important;
+    font-size: 0.75em !important;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);
+    margin-top: 1.5em;
+}
+
+
+.card:hover {
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .btn-buy {
+    position: absolute;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.subtituloprod {
+    margin-top: 1.5em !important;
+    padding: auto !important;
+}
+
+
+
+h5 {
+    color: #37457a !important;
+}
+
+.titulopagprod {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.list-group-item.active {
+    background-color: #37457a !important;
+}
+
+.btn-primary {
+    background-color: #37457a;
+
+}
+
+.bg-rodape {
+    margin-top: 5% !important;
+}
+
+.card_prod {
+    height: 25em !important;
+}
+
+.preco-card {
+    text-align: center !important;
+}
+
+.btn-buy {
+    position: absolute;
+    bottom: -1.25em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+
+.btn-buy:hover {
+    position: absolute;
+    display: block;
+    background-color: #febd69;
+    border: #febd69;
+}

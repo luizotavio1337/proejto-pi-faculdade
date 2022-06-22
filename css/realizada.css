@@ -1,0 +1,22 @@
+.mensagem{
+    color: green;
+    text-align: center;
+    font-family: helvetica;
+    margin-top: 100px;
+    
+}
+
+.mensagem h1{
+    font-size: 40px;
+}
+
+.mensagem h2{
+    font-size: 30px;
+}
+
+.mensagem img{
+    margin-top: 50px;
+    margin-bottom: 250px;
+    height: 100px;
+}
+
