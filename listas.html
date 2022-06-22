@@ -13,10 +13,14 @@
     <link rel="stylesheet" href="css/lista2.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
-<header>
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-header">
-            <div class="container-fluid">
+
+<body>
+    <!-- =================================================================== -->
+    <!--                        Navbar do site                               -->
+    <!-- =================================================================== -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-header">
                 <a class="navbar-brand mt-10 mb-10" href="index.html">
                     <div class="H_div">
                         <span class="c_lista">Lista</span><br>
@@ -30,29 +34,29 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarcollapse" style>
 
-                    <!--Barra de pesquisa-->
+                    <!-- ======================================================================= -->
+                    <!--                  Barra DE PESQUISA                                      -->
+                    <!-- ======================================================================= -->
                     <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
                         <div class="dropdown">
+                            <!------------------------->
                             <!--Selecionar Categorias-->
-                            <button
-                                class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0"
-                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Papelaria
+                            <!------------------------->
+                            <button class="d-inline btn-outline-menu-navbar btn_cor btn_border btn ms-0 me-0"
+                                type="button" aria-expanded="false">
+                                Escrita
                             </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#">Papeis</a></li>
-                                <li><a class="dropdown-item" href="#">Canetas</a></li>
-                                <li><a class="dropdown-item" href="#">Lapiseiras</a></li>
-                            </ul>
                         </div>
-                        <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search"
+                        <input value="" class="btn-outline-menu-navbar form_border form-control" type="search"
                             placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
                         <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
                             type="submit">
                             <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
                         </button>
                     </form>
-                    <!--Login,pedidos,carrinho-->
+                    <!-- ======================================================================= -->
+                    <!--                           LOGIN PEDIDOS CARRINHO                        -->
+                    <!-- ======================================================================= -->
                     <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
                         <li class="nav-item">
                             <a class="nav-link bold" href="Login.html">Login</a>
@@ -63,42 +67,49 @@
                         <li class="nav-item">
                             <a class="nav-link bold" href="carrinho.html">Carrinho</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="carrinho.html"></a>
+                        </li>
                     </ul>
                 </div>
-        </nav>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Listas de Escolas</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Escolas
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Escolas Check</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            </nav>
         </div>
-    </nav>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/lista2.css">
-    <title>Lista Marista</title>
+        <!-- =============================================================== -->
+        <!--                    Barra de Categorias                          -->
+        <!-- =============================================================== -->
+        <div class="menucateg">
+            <ul class="nav nav-fill">
+                <li class="nav-item ">
+                    <p class="nav-link menu_categ_fix">Categorias</p>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="cadernos.html">Cadernos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escolar.html">Escolar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escritorio.html">Escritório</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escrita.html">Escrita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="papeis.html">Papéis</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </header>
+
     </head>
 
     <body>
         <div class="container">
+            <title>Lista Marista</title>
             <div class="accordion" id="listamaristamartenal">
                 <div class="nameList">
                     <h6>Lista marista maternal Maternal II</h6>
