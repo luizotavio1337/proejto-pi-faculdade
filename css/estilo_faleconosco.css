@@ -1,0 +1,258 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.menufaleconosco {
+    background-color: #febd69;
+}
+
+.list-group-item-menu_fale {
+    background-color: #febd69 !important;
+    color: white !important;
+}
+
+.faleconosco-linha-esquerda {
+    border-right: 0.01em solid white !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+}
+
+.faleconosco-btnmenu button~.active,
+.nav-link.active {
+    color: #febd69 !important;
+    background-color: #212529 !important;
+    font-size: 1.01em !important;
+    font-weight: bold;
+}
+
+.faleconosco-estilobtn {
+    color: black !important;
+    font-size: 0.8em !important;
+    font-weight: bold !important;
+}
+
+.tamanhoautomatico {
+    width: 100%;
+    height: auto;
+}
+
+.faleconosco-menufonte {
+    color: #212529;
+    font-weight: bold;
+}
+
+.fale-conosco-estilo-menu {
+    margin: 0px !important;
+}
+
+.faleconosco-formulario {
+    display: block;
+    width: 100%;
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    appearance: none;
+    border: 1px solid #21252933;
+    background-color: #fcfcfc;
+    resize: none;
+}
+
+.faleconosco-formulario:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #212529;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #21252933;
+    transition: all 0.2s ease 0s;
+}
+
+.faleconosco-formulario-enviar {
+    background-color: #febd69;
+    color: black;
+    border: 2px solid black;
+    appearance: none;
+    padding: 0.1rem 1.5rem;
+    border-radius: 0.375rem;
+}
+
+.faleconosco-formulario-enviar:hover {
+    background-color: rgb(55, 71, 90);
+    color: white;
+}
+
+.faleconosco-formulario-enviar:focus {
+    background-color: rgb(55, 71, 90);
+    color: white;
+    box-shadow: 0 0 0 0.25em #21252933;
+    transition: all 1s ease 0s;
+}
+
+/*Duvidas */
+
+.form_border {
+    border-radius: 0 !important;
+}
+
+@media (min-width: 992px) {
+    .wd-search {
+        width: 100%;
+    }
+}
+
+.btn_border {
+    border-radius: 1em !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    height: 44px;
+}
+
+.btn_border_search {
+    border-radius: 1em !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.btn_cor {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #000 !important;
+}
+
+/* Hover do fazer login,pedidos,carrinho */
+.hover_container>li>a {
+    color: #fff !important;
+
+}
+
+.hover_container>li>a:hover {
+    color: #febd69 !important;
+
+}
+
+.btn-outline-menu-navbar:focus {
+    box-shadow: 0 0 0 0.25rem #febd697a !important;
+}
+
+.carrosel1 {
+    margin: 5px !important;
+    margin-top: 0px !important;
+
+}
+
+.btn_cor2 {
+    color: white !important;
+    background-color: #37475a !important;
+    font-size: 15pt !important;
+    font-weight: bold !important;
+
+}
+
+.menucateg {
+    background-color: #37475a !important;
+    padding: 5px;
+    box-shadow: none !important;
+}
+
+.menucateg>ul>li>a {
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.menucateg>ul>li>button {
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.menucateg>ul>li>a:hover {
+    color: #febd69 !important;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+.footer_style {
+    text-decoration: none !important;
+    font-weight: normal !important;
+    background-color: #37475a !important;
+    margin: 0px !important;
+}
+
+h5 {
+    color: #febd69 !important;
+    font-weight: bold !important;
+}
+
+.footer_style_end {
+    color: #febd69 !important;
+    font-size: 16px !important;
+}
+
+.lista_footer {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+
+.lista_footer:hover {
+    color: #febd69 !important;
+}
+
+.footer_end {
+    background-color: #37475a !important;
+    padding: 25px !important;
+    color: #febd69 !important;
+    padding-bottom: 15px !important;
+}
+
+.accordion-flush {
+    margin: 20px;
+    font-size: rem;
+    border-radius: 20px;
+
+}
+
+.accordion-button-1 {
+    position:relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    display:inline !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 1.5rem 1rem !important;
+    font-size: 1.5rem !important;
+    color: #000 !important;
+    text-align: left !important;
+    background-color: #fff !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    overflow-anchor: none !important;
+    font-weight: bold !important;
+    border-style: initial #37475a !important;
+    
+}
+.container {
+    position: relative !important;
+}
+.accordion {
+    --bs-accordion-btn-icon-width: 0rem !important;
+}
+.fale-conosco-botoesestilo {
+    border-right: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .fale-conosco-botoesestilo {
+        padding-bottom: 1em;
+        padding-top: 1em;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .fale-conosco-estilo-menu{
+        text-align: center;
+    }
+}

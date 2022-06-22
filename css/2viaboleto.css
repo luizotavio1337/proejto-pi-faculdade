@@ -1,0 +1,27 @@
+.via {
+    color: orange;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 8px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    text-align: left;
+}
+
+.h03 {
+    font-family: times new roman;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+}
+
+.h04 {
+    font-family: times new roman;
+    font-size: 10px;
+    font-weight: bold;
+}

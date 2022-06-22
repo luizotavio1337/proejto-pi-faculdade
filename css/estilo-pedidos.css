@@ -1,0 +1,56 @@
+.titulo-central{
+    background-color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: #fdbd69;
+}
+.titulo-item{
+    font-weight: bold;
+    color: black !important;
+}
+.texto-interno{
+    position: relative;
+    top: auto;
+    left: 20%;
+    font-size: large;
+    margin: 0px;
+    display: inline-block;
+}
+.imagem-produto{
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+}
+#accordion1{
+    position: inherit;
+    width: inherit;
+}
+.button{
+    background-color: #fdbd69;
+}
+.accordion-body{
+    width: inherit;
+}
+.conteudo{
+    width: inherit;
+}
+.codigo{
+    position: absolute;
+    right: 3%;
+    top: 75%;
+    font-size: small;
+    font-style: italic;
+    font-weight: lighter;
+    display: inline-block;
+    
+}
+.nome_prod{
+    width: 50%;
+    display: inline-block;
+}
+

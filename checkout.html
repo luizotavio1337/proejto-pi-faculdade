@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lista Check0">
-    <meta name="keywords" content="Papelaria, listas, vendas">
-    <meta name="author" content="Henrique">
-    <title>Lista Check</title>
-    <link rel="icon" type="image/x-icon" href="img/fav-icon.png">
-    <link rel="stylesheet" href="css/estilo.css" />
+    <title>Finalizar Pedido</title>
+    <link rel="stylesheet" href="css/estilo-checkout.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/estilo_area_prod.css" />
+    <!-- Tag para adicionar favicon(Logo ao lado do título da página) -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
 </head>
-
 <body>
     <!-- =================================================================== -->
     <!--                        Navbar do site                               -->
@@ -106,210 +102,73 @@
         </div>
         </div>
     </header>
-    <!-- ======================================================================= -->
-    <!--             Carrossel                                                   -->
-    <!-- ======================================================================= -->
-    <div class="container-fluid">
-        <div class="carroselBanner">
-            <div id="carrosel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="img/banner.png" class="d-block w-100" class="img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="img/banner2.jpeg" class="d-block w-100" class="img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="img/banner.png" class="d-block w-100" class="img-fluid" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carrosel1" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carrosel1" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-        <img src="img/banneranuncio.png" class="d-block w-100" alt="...">
-        <br>
-        <p class="titulos_index">Mais vendidos</p>
-        <hr>
-        <div class="row">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="estojo.html">
-                            <img src="img/estojo-comprejunto-cadernos.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Estojo Básico</h5>
-                        <p class="card-text">Cor: Preto</p>
-                        <p class="card-text"><strong>R$ 9,99</strong> </p>
-                        <a href="estojo.html" class="btn btn-primary btn-buy">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="caderno-inteligente.html">
-                            <img src="img/caderno-inteligente-frente.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Caderno Inteligente</h5>
-                        <p class="card-text">Elástico para caneta e divisórias</p>
-                        <p class="card-text"><strong>R$ 79,90</strong> </p>
-                        <a href="caderno-inteligente.html" class="btn btn-primary btn-buy">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="caderno-simples.html">
-                            <img src="img/caderno.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Caderno simples</h5>
-                        <p class="card-text">Descrição produtos </p>
-                        <p class="card-text"><strong>R$ 12,00</strong> </p>
-                        <a href="caderno-simples.html" class="btn btn-primary btn-buy">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="marca-texto-grifpen.html">
-                            <img src="img/marcatexto-comprejunto-cadernos.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Canetas Marca Texto</h5>
-                        <p class="card-text">04 cores</p>
-                        <p class="card-text"><strong>R$ 9,00</strong> </p>
-                        <a href="marca-texto-grifpen.html" class="btn btn-primary btn-buy">Comprar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <img src="img/banneranuncio.png" class="d-block w-100" alt="...">
-        <br>
-        <p class="titulos_index">Promoções</p>
-        <hr>
-        <div class="row">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="caneta-esferografica-bic-1-0mm.html">
-                            <img src="img/176072z.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Caneta Esferográfica BIC CX 50 UN</h5>
-                        <p class="card-text">Caneta esferográfica clássica e favorita em milhares de lares, escritórios e escolas no mundo.</p>
-                        <p class="card-text"><strong>R$ 45,80</strong> </p>
-                        <a href="caneta-esferografica-bic-1-0mm.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="corretivo-em-fita-5mm-oval.html">
-                            <img src="img/237611z.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Corretivo em fita 5mmx6m folha Oval BT 1 UN</h5>
-                        <p class="card-text">O corretivo em fita OVAL possui excelente aderência e pode ser usado em qualquer tipo de papel.</p>
-                        <p class="card-text"><strong>R$ 12,90</strong> </p>
-                        <a href="corretivo-em-fita-5mm-oval.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="caderno-anotacoes.html">
-                            <img src="img/caderno-de-anotacoes-azul.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Caderno de anotações</h5>
-                        <p class="card-text">Caderno de anotações TopGet, capa de alta qualidade com amarração, que protege ainda mais o seu caderno.</p>
-                        <p class="card-text"><strong>R$ 32,00</strong> </p>
-                        <a href="caderno-anotacoes.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="pincel-quadro-branco.html">
-                            <img src="img/623412z.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Pincel quadro branco WBM-7</h5>
-                        <p class="card-text">Desenvolvido para o uso em quadro branco,possui ponta de acrílico que não danifica o quadro.</p>
-                        <p class="card-text"><strong>R$ 86,50</strong> </p>
-                        <a href="pincel-quadro-branco.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <br>
-        <img src="img/banneranuncio.png" class="d-block w-100" alt="...">
-        <br>
-        <p class="titulos_index">Volta às aulas</p>
-        <hr>
-        <div class="row">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="caderno-executivo.html">
-                            <img src="img/caderno-executivo-frente.jpg" alt="caderno" class="imagem-prod"> </a>
-                        <h5 class="card-title mb-12">Caderno Executivo</h5>
-                        <p class="card-text">Caderno Executivo removível com 80 folhas sem pauta, fecho magnético de alta qualidade.</p>
-                        <p class="card-text"><strong>R$ 75,50</strong> </p>
-                        <a href="caderno-executivo.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="caneta-hidrografica-0-4mm.html">
-                            <img src="img/174942z.jpg" alt="caderno" class="imagem-prod"></a>
-                        <h5 class="card-title mb-12">Caneta hidrográfica 0,4mm - Stabilo</h5>
-                        <p class="card-text">Dê mais cor aos seus trabalhos com as canetas Stabilo. Elas são leves e proporcionam um ótimo contorno e escrita.</p>
-                        <p class="card-text"><strong>R$ 33,00</strong> </p>
-                        <a href="caneta-hidrografica-0-4mm.html" class="btn btn-primary btn-buy">Comprar</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="caderno-tilibra.html">
-                            <img src="img/caderno-tilibra-frente.jpg" alt="caderno" class="imagem-prod"></a>
-                        <h5 class="card-title mb-12">Caderno Tilibra Girl Gang</h5>
-                        <p class="card-text">Caderno Tilibra, capa dura de alta qualidade, espiral com 80 folhas. Perfeito para o seu melhor desempnho nos estudos.</p>
-                        <p class="card-text"><strong>R$ 18,00</strong> </p>
-                        <a href="caderno-tilibra.html" class="btn btn-primary btn-buy">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card card_prod">
-                    <div class="card-body">
-                        <a href="area_prod.html">
-                            <img src="img/tesoura-comprejunto-cadernos.jpg" alt="caderno" class="imagem-prod"></a>
-                        <h5 class="card-title mb-12">Tesoura Escolar</h5>
-                        <p class="card-text">Preta|132mm|Tilibra</p>
-                        <p class="card-text"><strong>R$ 10,90</strong> </p>
-                        <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Banner 2-->
-        <br><br>
+<br>
+<div class="tudo">
+    <div class="titulos">
+        <img style="width: 50px;" src="img/fav-icon.png" alt="">
+        <h1>Finalizar Pedido</h1>
     </div>
-    <!-- ======================================================================= -->
-    <!--                          RODAPE DO SITE                                 -->
-    <!-- ======================================================================= -->
+    <hr>
+   
+    <div class="formulario-box">
+        <div class="form-pagamento">
+            <form>
+                <div class="pagamento">
+                    <h2>Selecione uma forma de pagamento:</h2>
+                    <hr>
+                    <div class="ajust-layout">
+                        <h3 style="font-size: 20px; text-align: left;">Pix</h3>
+                    <input type="radio" name="formas">
+                    <label for="form-pagamento"><img width="30px" src="img/pix.png" alt="">  Mais rápido e fácil!</label>
+                    <br>
+                    <hr>
+                    <h3 style="font-size: 20px; text-align: left;">Cartão</h3>
+                    <input type="radio" name="formas">
+                    <label for="form-pagamento"><img width="30px" src="img/cartao.png" alt="">  Parcele sua compra sem juros!</label>
+                    <br>
+                    <hr>
+                    <h3 style="font-size: 20px; text-align: left;">Boleto</h3>
+                    <input type="radio" name="formas">
+                    <label for="form-pagamento"><img width="55px" src="img/boleto-pagamento.png" alt="">Pague sua compra no dinheiro.</label>
+                    <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="endereco">
+                <div class="infos">
+                    <h2>Endereço da entrega:</h2>
+                    <hr>
+                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Cidade">
+                    <br> <br>
+                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Bairro">
+                    <br> <br>
+                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Rua">
+                    <br> <br>
+                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="number" placeholder="Número">
+                    <br> <br>
+                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Cep" required pattern="\d{5}-\d{3}">
+                    <br> <br>
+                    <input style="border-top: 0px; border-left: 0px; border-right: 0px;" type="text" placeholder="Complemento(opcional)">
+                    <br>
+                    <br>
+                    <div class="salva-end">
+                        <input type="checkbox" name="end">
+                        <label for="endereco">Salvar endereço</label>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <br> <br>
+
+    <div class="botao">
+
+        <a href="compra-realizada.html" class="myButton">Finalizar pedido</a>
+
+    </div>
+    <br> <br> <br> <br>
+
     <footer>
         <div class="container-fluid">
             <div class="bg-rodape d-none d-md-block">
@@ -528,10 +387,7 @@
             </div>
         </div>
     </footer>
-    <!-- =================================================================== -->
-    <!--                           SCRIPTS DO SITE                           -->
-    <!-- =================================================================== -->
     <script src="js/bootstrap.bundle.min.js"></script>
+</div>
 </body>
-
 </html>
