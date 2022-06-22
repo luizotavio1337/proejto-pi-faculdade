@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lista Check0">
-    <meta name="keywords" content="Projeto PI, Papelaria, listas, vendas">
-    <meta name="author" content="Grupo PI">
-    <title>Pedidos</title>
+    <meta name="keywords" content="Papelaria, listas, vendas">
+    <meta name="author" content="Henrique">
+    <title>Lista Check</title>
     <link rel="icon" type="image/x-icon" href="img/fav-icon.png">
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/estilo-pedidos.css">
+    <link rel="stylesheet" href="css/estilo_area_prod.css" />
 </head>
 
 <body>
@@ -161,79 +161,300 @@
         </div>
         </div>
     </header>
-    <h4 class="titulo-central">Seus Pedidos</h4>
-    <div class="accordion" id="accordion1">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button titulo-item" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <p class="container-fluid">Mochila TPU Jojo Siwa Shine Pacific 1UN</p>
-                    <p class="codigo">Código-00019</p>
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse teste" aria-labelledby="headingOne"
-                data-bs-parent="#accordion1">
-                <div class="accordion-body">
-                    <div class="container-fluid conteudo">
-                        <span class="imagem-produto">
-                            <img src="img/mochila.webp" width="180" height="180" alt="imagem-do-produto">
-                        </span>
-                        <span class="texto-interno">
-                            <p>Quantidade: 1<br>
-                                Preço: R$157,99
-                            </p>
-                            <form method="post" action="Mochila TPU Jojo Siwa Shine Pacific 1UN.html">
-                                <button class=" button btn btn-outline-menu-navbar" type="submit"
-                                    href="Mochila TPU Jojo Siwa Shine Pacific 1UN.html">Ver produto</button>
-                            </form>
-                        </span>
-                    </div>
 
+    <!-- ======================================================================= -->
+    <!--                           Menu Lateral                                  -->
+    <!-- ======================================================================= -->
+    <div class="container-fluid">
+        <div class="row g-0">
+            <div class="col-md-2">
+                <div class="list-group menu_areap d-none d-md-block">
+                    <a class="list-group-item list-group-item-action menu_areap_sec">
+                        Seções</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="Mochila TPU Jojo Siwa Shine Pacific 1UN.html">Mochila TPU JoJo Siwa</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="Cola em bastão 40g Henkel 5 UN.html">Cola em bastão 40g Henkel</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items" href="Estojo Escolar Coleção Mamíferos, Faber Castell 1 UN.html">Estojo Escolar Coleção Mamíferos, Faber Castell</a>
+                    <a href="Globo terrestre continente 16cm, Tecnodidattica - CX 1 UN.html" class="list-group-item list-group-item-action menu_areap_items"
+                        aria-current="true">Globo terrestre Tecnodidattica</a>
+                    <a class="list-group-item list-group-item-action menu_areap_items"
+                        href="Massa para modelar 90g c6 cores soft sortidas 7316 Acrilex CX 1 CJ.html">Massa p/ modelar Acrilex 90g</a>
+                    
                 </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed titulo-item" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <p class="container-fluid">Perfurador de papel 02 furos p/10 fls Easy Office</p>
-                    <p class="codigo">Código-678910</p>
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordion1">
-                <div class="accordion-body">
-                    <div class="container-fluid conteudo">
-                        <span class="imagem-produto">
-                            <img src="img/perfurador-de-papel.jpg" width="180" height="180" alt="imagem-do-produto">
-                        </span>
-                        <span class="texto-interno">
-                            <p>Quantidade: 1<br>
-                                Preço: R$36,90
-                            </p>
-                            <button class=" button btn btn-outline-menu-navbar" role="link" href="">Ver produto</button>
-                            <!--link da pagina do produto-->
-                        </span>
+
+                <!-- Menu Lateral tela pequena-->
+                <div class="list-group menu_areap d-md-none">
+                    <div class="accordion" id="collapse_menu_lateral">
+                            <div class="accordion-item menulat_item">
+                                <h2 class="accordion-header" id="menulat1">
+                                    <button class="menu_areap_sec accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse_menu_lat" aria-expanded="true"
+                                        aria-controls="collapse_menu_lat">Seções</button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="collapse_menu_lat"
+                                    aria-labelledby="menulat1" data-bs-parent="collapse_menu_lateral">
+                                    <a class="list-group-item list-group-item-action menu_areap_items"
+                                        href="Mochila TPU Jojo Siwa Shine Pacific 1UN.html">Mochila TPU JoJo Siwa</a>
+                                    <a class="list-group-item list-group-item-action menu_areap_items"
+                                        href="Cola em bastão 40g Henkel 5 UN.html">Cola em bastão 40g Henkel</a>
+                                    <a class="list-group-item list-group-item-action menu_areap_items"
+                                        href="Estojo Escolar Coleção Mamíferos, Faber Castell 1 UN.html">Estojo Escolar Coleção Mamíferos, Faber Castell</a>
+                                    <a href="Globo terrestre continente 16cm, Tecnodidattica - CX 1 UN.html"
+                                        class="list-group-item list-group-item-action menu_areap_items"
+                                        aria-current="true">Globo terrestre Tecnodidattica</a>
+                                    <a class="list-group-item list-group-item-action menu_areap_items"
+                                        href="Massa para modelar 90g c6 cores soft sortidas 7316 Acrilex CX 1 CJ.html">Massa p/ modelar Acrilex 90g</a>
+                                    
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+                <!--Sub menu pagina atual-->
 
-    </div>
-    <h4 class="titulo-central">Suas Listas</h4>
-    <div class="accordion" id="accordion2">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="heading3">
-                <button class="accordion-button titulo-item" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                    Lista 1
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordion2">
-                <div class="accordion-body">
+                <div class="col-md-10 area_prod_minus_menu">
                     <div class="container-fluid">
-                        <p>Exemplo</p>
+                        <div class="list-group list-group-horizontal lista_categ">
+                            <a class="categ_ativo" href="escolar.html">Escolar</a>
+                            <a class="categ_ativo_img"><img src="img/arrow.png"></a>
+
+                            <a class="categ_ativo" href="Mochila TPU Jojo Siwa Shine Pacific 1UN.html">Mochila TPU Jojo Siwa Shine Pacific 1UN</a>
+
+                            <a class="categ_ativo_img"><img src="img/arrow.png"></a>
+                            <a class="categ_ativo_final">Jojo Siwa</a>
+                        </div>
+                        <hr>
+                        <!--Titulo Produto-->
+                        <p class="titulo_prod">Mochila TPU Jojo Siwa Shine Pacific 1UN</p>
+                        <p class="cod_prod"> Código:00019</p>
+                        <!--Carrousel imagem produto-->
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="container-fluid justify-content-center">
+                                    <div id="carousel-pag-prod" class="carousel carousel-dark slide"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="container">
+                                                    <img src="img/mochila.webp" class="img_carousel_area_prod"
+                                                        alt="Mochila infantil rosa">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="container">
+                                                    <img src="img/mocila2.webp" class="img_carousel_area_prod"
+                                                        alt="Mochila infantil rosa">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="container">
+                                                    <img src="img/mochila3.webp" class="img_carousel_area_prod"
+                                                        alt="Mochila infantil rosa">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carousel-pag-prod" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carousel-pag-prod" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card frete e quantidade-->
+                            <div class="col-md-5">
+                                <div class="container-fluid">
+                                    <div class="card card_preço_compra">
+                                        <div class="card-body">
+                                            <br>
+                                            <h5 class="card-title" id="preco_prod">R$ 157,99</h5>
+                                            <br>
+                                            <form action="mochila-carrinho.html" method="post" enctype="multipart/form-data">
+                                                <label for="numero_prod">
+                                                    <p>Selecione a quantidade:</p>
+                                                </label>
+                                                <input type="number" id="numero_prod" name="numero_prod" step="1"
+                                                    value="1" autofocus>
+                                                <button class="btn_comprar" type="submit" >Comprar</button>
+                                            </form>
+                                            <br>
+                                            <br>
+                                            <hr>
+                                            <br>
+                                            <br>
+                                            <form action="enviar.php" method="post" enctype="multipart/form-data"
+                                                autocomplete="on">
+                                                <label for="frete_prod">
+                                                    <p>Calcular Frete e prazo de entrega</p>
+                                                </label> </br>
+                                                <input type="text" id="frete_prod" name="frete_prod"
+                                                    placeholder="digite seu CEP" maxlength="8" value="">
+                                                <button class="btn_frete" type="submit">Calcular</button>
+                                                <br>
+                                                <br>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Cards compre junto-->
+                        <div class="container-fluid">
+                            <p class="titulos_areaprod">Compre Junto</p>
+                            <hr>
+                            </br>
+                            <div class="row">
+                                <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="card card_prod">
+                                        <div class="card-body">
+                                            <img src="img/cola-em-bastão.webp" alt="Cola bastão" class="imagem-prod">
+                                            <h5 class="card-title mb-12">Cola em bastão 40g Henkel 5 UN</h5>
+                                            <p class="card-text">Cojunto de cola-bastão de uso escolar. Contém 5 unidades.</p>
+                                            <p class="card-text"><strong>R$ 120,99</strong> </p>
+                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="card card_prod">
+                                        <div class="card-body">
+                                            <img src="img/massa-modelar.webp" alt="Massa de modelar" class="imagem-prod">
+                                            <h5 class="card-title mb-12">Massa p/modelar 90g c/6 cores soft sortidas 7316 Acrilex CX 1 CJ</h5>
+                                            <p class="card-text">Massa de modelar escolar ou de etretenimento.</p>
+                                            <p class="card-text"><strong>R$ 3,00</strong> </p>
+                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="card card_prod">
+                                        <div class="card-body">
+                                            <img src="img/globo.webp" alt="Globo terrestre" class="imagem-prod">
+                                            <h5 class="card-title mb-12">Globo terrestre continente 16cm, Tecnodidattica - CX 1 UN</h5>
+                                            <p class="card-text">Globo terrestre didático, mapa político.</p>
+                                            <p class="card-text"><strong>R$ 80,99</strong> </p>
+                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="card card_prod">
+                                        <div class="card-body">
+                                            <img src="img/estojo1.webp" alt="Estojo escolar" class="imagem-prod">
+                                            <h5 class="card-title mb-12">Estojo Escolar Coleção Mamíferos, Faber Castell 1 UN</h5>
+                                            <p class="card-text"> Estojo esoclar com decoração de animais.</p>
+                                            <p class="card-text"><strong>R$ 49,99</strong> </p>
+                                            <a href="carrinho.html" class="btn btn-primary btn-buy">Comprar</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p class="titulos_areaprod">Descrição</p>
+                        <hr>
+                        <br>
+                        <div class="container-fluid">
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="subtitulo_prod">Caracteristicas do produto</p>
+                                    <ul class="descricao_prod">
+                                        <li><p>A Mochila TPU JoJo Siwa Shine Pacific é ideal para guardar seus materiais escolares. Com ela você pode ir
+                                            para a escola e se divertir com suas cores e desenhos.
+                                        </p></li>
+                                    </ul>
+                                    <p class="subtitulo_prod">Diferenciadores</p>
+                                    <ul class="descricao_prod">
+                                        <li>Tamanho portátil</li>
+                                        <li>Tecido resistente</li>
+                                        <li>Design estiloso</li>
+                                        <li>Ideal para quem está começando na escola</li>
+                                    </ul>
+
+                                    <p class="subtitulo_prod">Especificações</p>
+                                    <ul class="descricao_prod">
+                                        <li>Cor: Rosa</li>
+                                        <li>Indicações: Transporte de material escolar </li>
+                                        <li>Modo de Usar: Não se aplica</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <br>
+                        <!--Avaliação e comentario-->
+                        <hr>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p class="titulos_areaprod">Avaliação do produto</p>
+                                <div class="card card_bottom">
+                                    <div class="card-body">
+
+                                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                                            <img src="img/star0.png" id="s1" class="stars"></a>
+
+                                        <a href="javascript:void(0)" onclick="Avaliar(2)">
+                                            <img src="img/star0.png" id="s2" class="stars"></a>
+
+                                        <a href="javascript:void(0)" onclick="Avaliar(3)">
+                                            <img src="img/star0.png" id="s3" class="stars"></a>
+
+                                        <a href="javascript:void(0)" onclick="Avaliar(4)">
+                                            <img src="img/star0.png" id="s4" class="stars"></a>
+
+                                        <a href="javascript:void(0)" onclick="Avaliar(5)">
+                                            <img src="img/star0.png" id="s5" class="stars"></a>
+                                        <br>
+                                        <br>
+                                        <span class="titulos_areaprod" id="rating">0</span><span
+                                            class="titulos_areaprod">
+                                            de 5 estrelas</span>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <p class="titulos_areaprod">Confira as opiniões dos clientes sobre este produto.</p>
+                                <div class="card card_bottom">
+                                    <div class="card-body">
+                                        <p class="subtitulo_prod">Gostei</p>
+                                        <q class="descricao_prod">Muito boa a mochila, minha filha gostou</q>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="img/star1.png"><img src="img/star1.png"><img
+                                                    src="img/star1.png"><img src="img/star1.png"><img
+                                                    src="img/star1.png">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p class="subtitulo_prod">VictorGomes</p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p class="descricao_prod">21/06/2022</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -463,10 +684,15 @@
             </div>
         </div>
     </footer>
+
+
+
+
     <!-- =================================================================== -->
     <!--                           SCRIPTS DO SITE                           -->
     <!-- =================================================================== -->
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="js/funcoes.js"></script>
+</body >
 
-</html>
+</html >
