@@ -1,0 +1,15 @@
+.h1online {
+    font-family: times new roman;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+}
+
+.centeronline {
+    font-family: times new roman;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: darkgrey;
+}

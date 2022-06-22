@@ -1,0 +1,17 @@
+.div01 {
+    color: white;
+    background-color: #37475a;
+    text-align: center;
+}
+
+.img00 {
+    width: 50%;
+    height: 50%;
+    padding: auto;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}

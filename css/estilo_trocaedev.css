@@ -1,0 +1,31 @@
+.troca_dev_item {
+    color: #febd69;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.trocaed-title {
+    font-size: 1em;
+    text-align: justify;
+    background-color: 37475a;
+    border-radius: 0.3em;
+    border: 37475a solid;
+    margin: 0em;
+    padding: 0em;
+}
+
+.lista_troca {
+    list-style: none;
+    background-color: white;
+    color: 37475a;
+    font-size: 0.7em;
+    justify-content: justify;
+    border-radius: 0.3em;
+}
+
+.titulo_geral {
+    color: 37475a;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: justify;
+}
