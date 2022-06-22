@@ -1,0 +1,270 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.menuareap {
+  padding-left: 0em !important;
+  padding-right: 0em !important;
+  border-radius: 0em !important;
+  color: #232f3e;
+  background-color: #f2f2f2 !important;
+}
+
+.menu_areap_sec {
+  background-color: #232f3e;
+  color: white;
+  font-weight: bold;
+  border-radius: 0em !important;
+}
+
+.menu_areap_sec:hover {
+  color: #febd69;
+  font-weight: bold;
+  background-color: #232f3e;
+}
+
+.menu_areap_items:hover {
+  color: #febd69;
+  background-color: #37475a;
+}
+
+.menu_ativo {
+  color: #febd69 !important;
+  background-color: #37475a !important;
+}
+
+.categ_ativo {
+  border-radius: 0em !important;
+  font-weight: bold !important;
+  border-bottom: 0.2em;
+  padding: 0.5em !important;
+  text-align: center;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 0.8em !important;
+  color: #232f3e;
+}
+
+.categ_ativo_final {
+  border-radius: 0em !important;
+  font-weight: bold !important;
+  border-bottom: 0.2em;
+  padding: 0.5em !important;
+  text-align: center;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 0.8em !important;
+  color: #232f3e;
+}
+
+.categ_ativo:hover {
+  background-color: #f2f2f2;
+  color: #febd69;
+}
+
+.categ_ativo_final:hover {
+  background-color: #f2f2f2;
+  color: #232f3e;
+}
+
+.categ_ativo_img {
+  border-radius: 0em !important;
+  margin-bottom: 0.2em !important;
+  border-color: #232f3e !important;
+  padding: 0.2em !important;
+  text-align: center;
+  margin: 0px;
+}
+
+.categ_ativo_img>img {
+  width: 0.6em;
+  height: 0.6em;
+}
+
+.col-md-2 {
+  padding-right: 0em;
+}
+
+.col-md-10 {
+  padding-left: 0em !important;
+  padding-right: 0em;
+}
+
+hr {
+  margin: 0.2em !important;
+}
+
+.menulat_item {
+  border: none !important;
+  border-width: 0 !important;
+  box-shadow: none !important;
+}
+
+.titulo_prod {
+  font-weight: bold;
+  color: #232f3e;
+  font-size: 1.3em !important;
+  padding: 0.6em;
+  padding-bottom: 0;
+}
+
+.cod_prod {
+  font-weight: lighter;
+  color: grey;
+  font-size: 0.7em !important;
+  font-style: italic;
+  padding: 0.6em;
+  padding-top: 0;
+}
+
+.img_carousel_area_prod {
+  width: 100%;
+  height: 100%;
+  padding: 2em !important;
+  padding-left: 3em !important;
+}
+
+.imagem-prod {
+  width: 10.75em;
+  height: 7.5em;
+  display: flex;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.card_prod {
+  align-items: center !important;
+  border-radius: 10%;
+  padding: 0.0625em !important;
+  font-size: 0.75em !important;
+  margin-top: 1.5em;
+}
+
+.btn-buy {
+  position: absolute;
+  bottom: -1.25em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+
+.btn-buy:hover {
+  position: absolute;
+  display: block;
+  background-color: #febd69;
+  border: #febd69;
+}
+
+.subtituloprod {
+  margin-top: 1.5em;
+}
+
+.titulopagprod {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.btn-primary {
+  background-color: #37475a;
+  border: #37475a;
+}
+
+.area_prod_minus_menu {
+  padding: 1em !important;
+}
+
+.stars {
+  padding: 0.5em;
+}
+
+#preco_prod {
+  font-size: 1.7em !important;
+  text-align: center;
+}
+
+.btn_comprar {
+  background-color: #febd69 !important;
+  border-radius: 0.6em !important;
+  text-align: center !important;
+  color: white;
+  width: 12em;
+  height: 2em;
+  border: solid black 0.1em !important;
+  margin-left: 2.25em;
+}
+
+#numero_prod {
+  width: 3em;
+  border-radius: 0.6em;
+  margin: 0.1em;
+}
+
+.card_preço_compra {
+  border-radius: 0.5em;
+  background-color: white;
+  text-align: center;
+}
+
+#frete_prod {
+  border: #232f3e solid 0.1em;
+  border-radius: 0.5em;
+  text-align: center;
+  background-color: white;
+}
+
+.btn_frete {
+  background-color: #37475a !important;
+  border-radius: 0.6em !important;
+  text-align: center !important;
+  color: white;
+  width: 6em;
+  height: 2em;
+  border: solid black 0.1em !important;
+  margin-left: 1em;
+  margin: 1px;
+}
+
+.btn_frete:hover {
+  background-color: #febd69 !important;
+}
+
+.btn_comprar:hover {
+  background-color: #37475a !important;
+}
+
+.card-body>form>label>p {
+  color: #232f3e !important;
+  font-size: 1.15em;
+}
+
+.titulos_areaprod {
+  color: #37475a;
+  font-size: 1.3em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.descricao_prod {
+  list-style: none;
+  font-size: 1em;
+  color: #37475a;
+  text-align: justify;
+}
+
+.subtitulo_prod {
+  color: #37475a;
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.preco-card {
+  text-align: center !important;
+}
+
+.card_prod {
+  height: 23em !important;
+}
+
+@media (max-width: 688px) {}
