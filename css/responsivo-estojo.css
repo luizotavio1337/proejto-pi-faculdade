@@ -1,0 +1,7 @@
+@media(min-width:1525px){
+    .carousel-inner img{
+        width: 500px;
+        margin-left: 200px;
+    }
+}
+
