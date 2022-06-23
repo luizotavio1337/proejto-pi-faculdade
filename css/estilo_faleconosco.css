@@ -256,3 +256,9 @@ h5 {
         text-align: center;
     }
 }
+.image-duvidas {
+    max-width: 100% !important;
+    height: 100% !important;
+    max-height: 400px !important;
+    object-fit: contain !important;
+}
