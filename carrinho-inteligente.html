@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista Check">
+    <meta name="keywords" content="Papelaria, listas, vendas">
+    <meta name="author" content="grupo pi">
+    <title>Lista Check</title>
+    <link rel="icon" type="image/x-icon" href="img/fav-icon.png">
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilo-carrinho.css" />
+</head>
+
+<body>
+    <!-- =================================================================== -->
+    <!--                        Navbar do site                               -->
+    <!-- =================================================================== -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-header">
+                <a class="navbar-brand mt-10 mb-10" href="index.html">
+                    <div class="H_div">
+                        <span class="c_lista">Lista</span><br>
+                        <span class="c_check">Check</span>
+                        <img src="img/fav-icon.png" alt="Icone Lista Check" width="50" height="50" class="img_logo">
+                    </div>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse"
+                    aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarcollapse" style>
+
+                    <!-- ======================================================================= -->
+                    <!--                  Barra DE PESQUISA                                      -->
+                    <!-- ======================================================================= -->
+                    <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
+                        <div class="dropdown">
+                            <!------------------------->
+                            <!--Selecionar Categorias-->
+                            <!------------------------->
+                            <button class="d-inline btn-outline-menu-navbar btn_cor btn_border btn ms-0 me-0"
+                                type="button" aria-expanded="false">
+                                Escrita
+                            </button>
+                        </div>
+                        <input value="" class="btn-outline-menu-navbar form_border form-control" type="search"
+                            placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
+                        <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search"
+                            type="submit">
+                            <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
+                        </button>
+                    </form>
+                    <!-- ======================================================================= -->
+                    <!--                           LOGIN PEDIDOS CARRINHO                        -->
+                    <!-- ======================================================================= -->
+                    <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="Login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="pedidos.html">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="carrinho.html">Carrinho</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="carrinho.html"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- =============================================================== -->
+        <!--                    Barra de Categorias                          -->
+        <!-- =============================================================== -->
+        <div class="menucateg">
+            <ul class="nav nav-fill">
+                <li class="nav-item ">
+                    <p class="nav-link menu_categ_fix">Categorias</p>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="cadernos.html">Cadernos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escolar.html">Escolar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escritorio.html">Escritório</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="escrita.html">Escrita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="papeis.html">Papéis</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <br>
+    <div class="titulos">
+        <h1>Carrinho de compras:</h1>
+        <h1 class="titulo-preco" style="font-size: 25px;">Preços</h1>
+    </div>
+    <div class="carrinho-de-compras">
+        <div class="info-produto">
+            <img width="" height="160" src="img/caderno-inteligente-frente.jpg" alt="imagem">
+            <div class="conteudo-produto">
+                <h2>Caderno Inteligente, A5 (155x220mm), Black Ecológico, 80 Folhas</h2>
+                <div>
+                    <select name="quantidade">
+                        <option value="1" selected>Qtd: 1</option>
+                        <option value="2">Qtd: 2</option>
+                        <option value="3">Qtd: 3</option>
+                        <option value="4">Qtd: 4</option>
+                        <option value="5">Qtd: 5</option>
+                    </select>
+                </div>
+                <br>
+                <h3 style="color: green; font-size: 20px;">Item disponível</h3>
+                <button class="button-remover">Remover</button>
+            </div>
+        </div>
+        <div class="info-preco">
+            <h3>R$79,90</h3>
+            <h3>á vista ou em até 3x de</h3>
+            <h3>R$23,63 sem juros</h3>
+        </div>
+    </div>
+    <br> <br>
+
+    <div class="finalizar-pedido">
+        <p class="subtotal">Subtotal (1 item): R$79,90</p>
+        <a href="checkout.html" class="myButton">Fechar pedido</a>
+    </div>
+    </div>
+
+    <br> <br> <br> <br>
+
+    <!-- ======================================================================= -->
+    <!--                          RODAPE DO SITE                                 -->
+    <!-- ======================================================================= -->
+    <footer>
+        <div class="container-fluid">
+            <div class="bg-rodape d-none d-md-block">
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <p class="footer-title">Institucional</p>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.html">Sobre
+                                            nós</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a class="lista_footer"
+                                            href="trabalhe_conosco.html">Trabalhe
+                                            Conosco</a></li>
+                                    <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
+                                            Conosco</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a class="lista_footer"
+                                            href="servicos_check_lista.html">Serviços
+                                            Check Lista</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="footer-title">Dúvidas</p>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Como
+                                            funciona
+                                            a
+                                            loja</a></li>
+                                    <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Cadastro
+                                            e
+                                            contas</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Devolução
+                                            e
+                                            trocas</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a class="lista_footer"
+                                            href="fale_conosco.html">Segurança</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Política
+                                            de
+                                            Privacidade</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="footer-title">Redes Sociais</p>
+                                <ul class="nav flex-column">
+                                    <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                src="img/instagram.png">
+                                            Instagram</a></li>
+                                    <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                src="img/facebook.png">
+                                            Facebook</a>
+                                    </li>
+                                    <li class="ms-1"><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                src="img/twitter.png">
+                                            Twitter</a>
+                                    </li>
+                                    <li class="ms-1 "><a class="lista_footer mb-2" href="#"><img class="social_media"
+                                                src="img/youtube.png">
+                                            Youtube</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="footer-title">Formas de Pagamento</p>
+                                <ul class="mb-5 nav flex-column">
+                                    <li class="lista_footer mb-2">Cartões de crédito</li>
+                                    <li class="lista_footer mb-2">Boleto bancário</li>
+                                    <li class="lista_footer mb-2">PIX</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="Linha-rodape"></div>
+                <div class="footer_end">
+                    <br>
+                    <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
+                        Caiçaras, Patos de Minas - MG</p>
+                    <br>
+                    <p>Telefone de contato: (34) 3823-0300
+                        <img class="img_rodape" src="img/icon.png" alt="...">
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!--Rodape para telas menores-->
+    <footer>
+        <div class="container-fluid">
+            <div class="bg-rodape d-md-none">
+                <br>
+                <div class="d-flex justify-content-center">
+                    <footer>
+                        <div class="accordion" id="sanfona_rodape">
+                            <div class="footer_style">
+                                <div class="accordion-item sanfona_item">
+                                    <h2 class="accordion-header" id="sanfona-1">
+                                        <button class="footer-title accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse_rodape_1"
+                                            aria-expanded="true"
+                                            aria-controls="collapse_rodape_1">Institucional</button>
+                                        <ul id="collapse_rodape_1" class="accordion-collapse collapse"
+                                            aria-labelledby="sanfona-1" data-bs-parent="sanfona_rodape">
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="sobre_nos.html">Sobre
+                                                    nós</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="trabalhe_conosco.html">Trabalhe
+                                                    Conosco</a></li>
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="fale_conosco.html">Fale
+                                                    Conosco</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="servicos_check_lista.html">Serviços
+                                                    Check Lista</a></li>
+                                        </ul>
+                                    </h2>
+                                </div>
+                                <div class="accordion-item sanfona_item">
+                                    <h2 class="accordion-header" id="sanfona-2">
+                                        <button class="footer-title accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse_rodape_2"
+                                            aria-expanded="true" aria-controls="collapse_rodape_2">Dúvidas</button>
+                                        <ul id="collapse_rodape_2" class="accordion-collapse collapse"
+                                            aria-labelledby="sanfona-2" data-bs-parent="sanfona_rodape">
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="fale_conosco.html">Como
+                                                    funciona
+                                                    a
+                                                    loja</a></li>
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="fale_conosco.html">Cadastro e
+                                                    contas</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="fale_conosco.html">Devolução
+                                                    e
+                                                    trocas</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="fale_conosco.html">Segurança</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a class="lista_footer"
+                                                    href="fale_conosco.html">Política
+                                                    de
+                                                    Privacidade</a></li>
+                                        </ul>
+                                    </h2>
+                                </div>
+                                <div class="accordion-item sanfona_item">
+                                    <h2 class="accordion-header" id="sanfona-3">
+                                        <button class="footer-title accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse_rodape_3"
+                                            aria-expanded="true" aria-controls="collapse_rodape_3">Redes
+                                            Sociais</button>
+                                        <ul id="collapse_rodape_3" class="accordion-collapse collapse"
+                                            aria-labelledby="sanfona-3" data-bs-parent="sanfona_rodape">
+                                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                        class="social_media" src="img/instagram.png">
+                                                    Instagram</a></li>
+                                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                        class="social_media" src="img/facebook.png">
+                                                    Facebook</a>
+                                            </li>
+                                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                        class="social_media" src="img/twitter.png">
+                                                    Twitter</a>
+                                            </li>
+                                            <li class="ms-1"><a class="lista_footer mb-2" href="#"><img
+                                                        class="social_media" src="img/youtube.png">
+                                                    Youtube</a>
+                                            </li>
+                                        </ul>
+                                </div>
+                                <div class="accordion-item sanfona_item">
+                                    <h2 class="accordion-header" id="sanfona-4">
+                                        <button class="footer-title accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse_rodape_4"
+                                            aria-expanded="true" aria-controls="collapse_rodape_4">Formas de
+                                            Pagamento</button>
+                                        <ul id="collapse_rodape_4" class="accordion-collapse collapse"
+                                            aria-labelledby="sanfona-4" data-bs-parent="sanfona_rodape">
+                                            <li class="lista_footer mb-2">Cartões de crédito</li>
+                                            <li class="lista_footer mb-2">Boleto bancário</li>
+                                            <li class="lista_footer mb-2">PIX</li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="Linha-rodape"></div>
+                <div class="pt-3 mt-3 footer_end">
+                    <p>Lista Check - CNPJ: 23.354.848/0001-14 Endereço: Rua Major Gote, 808 -
+                        Caiçaras, Patos de Minas - MG</p>
+                    <br>
+                    <p>Telefone de contato: (34) 3823-0300
+                        <img class="img_rodape" src="img/icon.png" alt="...">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =================================================================== -->
+    <!--                           SCRIPTS DO SITE                           -->
+    <!-- =================================================================== -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/funcoes.js"></script>
+</body>
+
+</html>
