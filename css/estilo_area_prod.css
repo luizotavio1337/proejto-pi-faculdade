@@ -59,7 +59,6 @@ body {
 
 .categ_ativo:hover {
   background-color: #f2f2f2;
-  color: #febd69;
 }
 
 .categ_ativo_final:hover {
@@ -231,6 +230,8 @@ hr {
 
 .btn_comprar:hover {
   background-color: #37475a !important;
+  color: #febd69 !important;
+  text-decoration: none !important;
 }
 
 .card-body>form>label>p {
@@ -268,3 +269,13 @@ hr {
 }
 
 @media (max-width: 688px) {}
+
+.img_carousel_area_prod {
+  border: rgba(0, 0, 0, 0.175) 0.0625em solid;
+  padding: 0em !important;
+  border-radius: 0.375em;
+}
+
+*{
+  text-decoration: none !important;
+}

@@ -80,3 +80,20 @@ a:-webkit-any-link {
 .p {
     font-size: 13px;
 }
+* {
+    text-decoration: none !important;
+    color: #232f3e;
+}
+.row{
+    padding: 0 !important;
+}
+
+.corpo_card{
+    height: 50em !important;
+}
+.btn_hover:hover{
+    background-color: #febd69;
+}
+.corpo_card_2{
+    height: 30em !important;
+}
